@@ -18,18 +18,23 @@ ANSWER_KEYS = {
     'primary': ('posterior_h_a',),
     'table': ('posterior_h_a',),
     'extraction': ('likelihood_h_a', 'likelihood_h_b'),
+    'decision': ('direction',),
+    'control': ('direction',),
 }
+DIRECTIONS = ('UP', 'DOWN', 'SAME')
 
 
 def response_format(kind):
     keys = ANSWER_KEYS[kind]
+    categorical = keys == ('direction',)
     return {
         'type': 'json_schema',
         'json_schema': {
-            'name': 'likelihoods' if kind == 'extraction' else 'posterior',
+            'name': 'direction' if categorical else ('likelihoods' if kind == 'extraction' else 'posterior'),
             'schema': {
                 'type': 'object',
-                'properties': {key: {'type': 'number'} for key in keys},
+                'properties': {key: {'type': 'string', 'enum': list(DIRECTIONS)}
+                               if categorical else {'type': 'number'} for key in keys},
                 'required': list(keys),
                 'additionalProperties': False,
             },
@@ -72,7 +77,11 @@ def parse(raw, kind):
         value = json.loads(content, object_pairs_hook=unique, parse_constant=lambda _: (_ for _ in ()).throw(ValueError()))
     except (TypeError, ValueError):
         return 'malformed_json', None
-    if not isinstance(value,dict) or set(value) != set(ANSWER_KEYS[kind]) or any(type(v) not in (int,float) for v in value.values()):
+    if not isinstance(value,dict) or set(value) != set(ANSWER_KEYS[kind]):
+        return 'invalid_schema', None
+    if 'direction' in value:
+        return ('ok', value) if value['direction'] in DIRECTIONS else ('invalid_schema', None)
+    if any(type(v) not in (int,float) for v in value.values()):
         return 'invalid_schema', None
     if any(not 0 <= v <= 1 for v in value.values()):
         return 'out_of_range', None
@@ -140,7 +149,8 @@ def run(reqs, answers, config, directory, context, live=False, resume=False):
             if not live:
                 target = answers[req['id']]
                 keys = ANSWER_KEYS[req['kind']]
-                content = json.dumps({k:float(Fraction(target[k])) for k in keys})
+                content = json.dumps(target if keys == ('direction',) else
+                                     {k:float(Fraction(target[k])) for k in keys})
                 raw = dict(model='synthetic-oracle-mock',choices=[dict(finish_reason='stop',message=dict(content=content))])
                 error = None
             else:

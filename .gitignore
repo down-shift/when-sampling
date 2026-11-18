@@ -4,3 +4,5 @@ __pycache__/
 config.live.json
 .env
 .venv-vllm/
+
+/artifacts/stopping-local/
