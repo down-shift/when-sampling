@@ -1,0 +1,219 @@
+{
+  "answers_hash": "31b82c81f690e0ce011ae548a5597098d72ee4cd0f72cf90774a6a2f494aeff4",
+  "metrics": {
+    "extraction_correct_1e-6:F": {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "total_worlds": 2,
+      "worlds": 1
+    },
+    "extraction_correct_1e-6:R": {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "total_worlds": 2,
+      "worlds": 1
+    },
+    "extraction_max_abs_error:F": {
+      "ci95": [
+        0.5,
+        0.5
+      ],
+      "mean": 0.5,
+      "total_worlds": 2,
+      "worlds": 1
+    },
+    "extraction_max_abs_error:R": {
+      "ci95": [
+        0.1875,
+        0.1875
+      ],
+      "mean": 0.1875,
+      "total_worlds": 2,
+      "worlds": 1
+    },
+    "primary_posterior_mae:F": {
+      "ci95": [
+        0.5,
+        0.5
+      ],
+      "mean": 0.5,
+      "total_worlds": 2,
+      "worlds": 1
+    },
+    "primary_posterior_mae:R": {
+      "ci95": [
+        0.7125,
+        0.7125
+      ],
+      "mean": 0.7125,
+      "total_worlds": 2,
+      "worlds": 1
+    },
+    "repeated_call_absolute_difference": {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "total_worlds": 2,
+      "worlds": 1
+    },
+    "sensitivity_absolute_error": {
+      "ci95": [
+        0.21250000000000002,
+        0.21250000000000002
+      ],
+      "mean": 0.21250000000000002,
+      "total_worlds": 2,
+      "worlds": 1
+    },
+    "sensitivity_direction": {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "total_worlds": 2,
+      "worlds": 1
+    },
+    "sensitivity_signed_error": {
+      "ci95": [
+        -0.21250000000000002,
+        -0.21250000000000002
+      ],
+      "mean": -0.21250000000000002,
+      "total_worlds": 2,
+      "worlds": 1
+    },
+    "table_posterior_mae:F": {
+      "ci95": [
+        0.0,
+        0.07500000000000001
+      ],
+      "mean": 0.037500000000000006,
+      "total_worlds": 2,
+      "worlds": 2
+    },
+    "table_posterior_mae:R": {
+      "ci95": [
+        0.0,
+        0.04285714289999998
+      ],
+      "mean": 0.02142857144999999,
+      "total_worlds": 2,
+      "worlds": 2
+    },
+    "table_posterior_mae:S": {
+      "ci95": [
+        0.0,
+        0.07500000000000001
+      ],
+      "mean": 0.037500000000000006,
+      "total_worlds": 2,
+      "worlds": 2
+    }
+  },
+  "repeat_world_ranges": {
+    "development-001": 0.0
+  },
+  "settings": {
+    "bootstrap": 2000,
+    "extraction_tolerance": 1e-06,
+    "paraphrases_required": 2,
+    "seed": 4242
+  },
+  "status_counts": {
+    "extraction:F": {
+      "malformed_json": 2,
+      "ok": 2,
+      "total": 4
+    },
+    "extraction:R": {
+      "ok": 2,
+      "total": 4,
+      "truncation": 2
+    },
+    "extraction:S": {
+      "malformed_json": 1,
+      "total": 4,
+      "truncation": 3
+    },
+    "primary:F": {
+      "ok": 4,
+      "total": 8,
+      "truncation": 4
+    },
+    "primary:R": {
+      "ok": 4,
+      "total": 8,
+      "truncation": 4
+    },
+    "primary:S": {
+      "total": 8,
+      "truncation": 8
+    },
+    "table:F": {
+      "ok": 4,
+      "total": 4
+    },
+    "table:R": {
+      "ok": 4,
+      "total": 4
+    },
+    "table:S": {
+      "ok": 4,
+      "total": 4
+    }
+  },
+  "synthetic": false,
+  "world_values": {
+    "extraction_correct_1e-6:F": {
+      "development-001": 0.0
+    },
+    "extraction_correct_1e-6:R": {
+      "development-001": 0.0
+    },
+    "extraction_max_abs_error:F": {
+      "development-001": 0.5
+    },
+    "extraction_max_abs_error:R": {
+      "development-001": 0.1875
+    },
+    "primary_posterior_mae:F": {
+      "development-001": 0.5
+    },
+    "primary_posterior_mae:R": {
+      "development-001": 0.7125
+    },
+    "repeated_call_absolute_difference": {
+      "development-001": 0.0
+    },
+    "sensitivity_absolute_error": {
+      "development-001": 0.21250000000000002
+    },
+    "sensitivity_direction": {
+      "development-001": 0.0
+    },
+    "sensitivity_signed_error": {
+      "development-001": -0.21250000000000002
+    },
+    "table_posterior_mae:F": {
+      "development-000": 0.0,
+      "development-001": 0.07500000000000001
+    },
+    "table_posterior_mae:R": {
+      "development-000": 0.0,
+      "development-001": 0.04285714289999998
+    },
+    "table_posterior_mae:S": {
+      "development-000": 0.0,
+      "development-001": 0.07500000000000001
+    }
+  }
+}

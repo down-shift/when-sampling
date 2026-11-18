@@ -112,9 +112,30 @@ class LocalServingChecks(unittest.TestCase):
         def fake(request,timeout):
             self.assertNotIn('Authorization',request.headers)
             seen.append(json.loads(request.data))
-            return io.BytesIO(b'{"model":"Qwen/Qwen3-4B","choices":[{"finish_reason":"stop","message":{"content":"{\\"posterior_h_a\\":0.5}"}}]}')
+            answer = {'likelihood_h_a': 0.25, 'likelihood_h_b': 0.5} if len(seen) == 3 else {'posterior_h_a': 0.5}
+            raw = {'model': config['model'], 'choices': [
+                {'finish_reason': 'stop', 'message': {'content': json.dumps(answer)}},
+            ]}
+            return io.BytesIO(json.dumps(raw).encode())
+        sample = [next(req for req in reqs if req['kind'] == kind)
+                  for kind in ('primary', 'table', 'extraction')]
         with tempfile.TemporaryDirectory() as directory, patch('urllib.request.urlopen',side_effect=fake):
-            run(reqs[:1],answers,config,directory,{},True)
+            run(sample,answers,config,directory,{},True)
+            attempts = [json.loads(line) for line in (Path(directory)/'attempts.jsonl').read_text().splitlines()]
+            responses = [json.loads(line) for line in (Path(directory)/'responses.jsonl').read_text().splitlines()]
+        self.assertEqual([row['status'] for row in responses], ['ok'] * 3)
+        for payload, attempt, fields in zip(seen, attempts, [
+            ['posterior_h_a'], ['posterior_h_a'], ['likelihood_h_a', 'likelihood_h_b'],
+        ], strict=True):
+            fmt = payload['response_format']
+            self.assertEqual(fmt['type'], 'json_schema')
+            self.assertEqual(attempt['response_format'], fmt)
+            self.assertEqual(fmt['json_schema']['schema'], {
+                'type': 'object',
+                'properties': {field: {'type': 'number'} for field in fields},
+                'required': fields,
+                'additionalProperties': False,
+            })
         self.assertEqual(seen[0]['chat_template_kwargs'],{'enable_thinking':False})
         self.assertEqual(seen[0]['max_tokens'],512)
         self.assertEqual(seen[0]['temperature'],0)

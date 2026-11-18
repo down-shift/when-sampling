@@ -1,7 +1,6 @@
 import concurrent.futures
 import datetime
 import json
-import math
 import os
 import random
 import re
@@ -15,6 +14,29 @@ from fractions import Fraction
 from .project import digest, save
 
 
+ANSWER_KEYS = {
+    'primary': ('posterior_h_a',),
+    'table': ('posterior_h_a',),
+    'extraction': ('likelihood_h_a', 'likelihood_h_b'),
+}
+
+
+def response_format(kind):
+    keys = ANSWER_KEYS[kind]
+    return {
+        'type': 'json_schema',
+        'json_schema': {
+            'name': 'likelihoods' if kind == 'extraction' else 'posterior',
+            'schema': {
+                'type': 'object',
+                'properties': {key: {'type': 'number'} for key in keys},
+                'required': list(keys),
+                'additionalProperties': False,
+            },
+        },
+    }
+
+
 def now():
     return datetime.datetime.now(datetime.timezone.utc).isoformat()
 
@@ -23,10 +45,12 @@ def parse(raw, kind):
     if not isinstance(raw, dict):
         return 'malformed_response', None
     choices = raw.get('choices', [])
-    if not choices:
+    if not isinstance(choices, list) or not choices or not isinstance(choices[0], dict):
         return 'malformed_response', None
     choice = choices[0]
     message = choice.get('message', {})
+    if not isinstance(message, dict):
+        return 'malformed_response', None
     if message.get('refusal') or choice.get('finish_reason') == 'content_filter':
         return 'refusal', None
     if choice.get('finish_reason') == 'length':
@@ -48,10 +72,9 @@ def parse(raw, kind):
         value = json.loads(content, object_pairs_hook=unique, parse_constant=lambda _: (_ for _ in ()).throw(ValueError()))
     except (TypeError, ValueError):
         return 'malformed_json', None
-    keys = {'likelihood_h_a','likelihood_h_b'} if kind == 'extraction' else {'posterior_h_a'}
-    if not isinstance(value,dict) or set(value) != keys or any(type(v) not in (int,float) for v in value.values()):
+    if not isinstance(value,dict) or set(value) != set(ANSWER_KEYS[kind]) or any(type(v) not in (int,float) for v in value.values()):
         return 'invalid_schema', None
-    if any(not math.isfinite(v) or not 0 <= v <= 1 for v in value.values()):
+    if any(not 0 <= v <= 1 for v in value.values()):
         return 'out_of_range', None
     return 'ok', value
 
@@ -69,6 +92,9 @@ def run(reqs, answers, config, directory, context, live=False, resume=False):
     allowed = {'temperature', 'top_p', 'seed', 'frequency_penalty', 'presence_penalty', 'chat_template_kwargs'}
     if set(config['decoding']) - allowed:
         raise ValueError('unsupported decoding fields')
+    constrained = config.get('schema_constrained', False)
+    if type(constrained) is not bool or (constrained and not live):
+        raise ValueError('schema_constrained must be a boolean and requires live HTTP when enabled')
     source_hash = digest({str(p):p.read_text() for p in sorted(Path('sampling').glob('*.py'))})
     protocol_hash = digest(Path('protocol.md').read_text())
     identity = dict(context, config_hash=digest(config), requests_hash=digest(reqs), source_hash=source_hash, protocol_hash=protocol_hash, live=live)
@@ -103,6 +129,8 @@ def run(reqs, answers, config, directory, context, live=False, resume=False):
                 os.fsync(f.fileno())
     def execute(req):
         payload = dict(model=config['model'],messages=[dict(role='user',content=req['prompt'])],max_tokens=config['max_output_tokens'],**config['decoding'])
+        if constrained:
+            payload['response_format'] = response_format(req['kind'])
         # Only explicitly allowlisted request fields are sent; answers never enter payload.
         raw = None
         status = 'transport_failure'
@@ -111,7 +139,7 @@ def run(reqs, answers, config, directory, context, live=False, resume=False):
             retry = False
             if not live:
                 target = answers[req['id']]
-                keys = ('likelihood_h_a','likelihood_h_b') if req['kind']=='extraction' else ('posterior_h_a',)
+                keys = ANSWER_KEYS[req['kind']]
                 content = json.dumps({k:float(Fraction(target[k])) for k in keys})
                 raw = dict(model='synthetic-oracle-mock',choices=[dict(finish_reason='stop',message=dict(content=content))])
                 error = None
@@ -139,7 +167,10 @@ def run(reqs, answers, config, directory, context, live=False, resume=False):
                 except (urllib.error.URLError,TimeoutError,OSError):
                     error = dict(type='transport')
                     retry = True
-            append('attempts.jsonl',dict(id=req['id'],attempt=attempt,started=started,finished=now(),raw=raw,error=error,requested_model=config['model'],decoding=config['decoding'],max_output_tokens=config['max_output_tokens']))
+            attempt_row = dict(id=req['id'],attempt=attempt,started=started,finished=now(),raw=raw,error=error,requested_model=config['model'],decoding=config['decoding'],max_output_tokens=config['max_output_tokens'])
+            if constrained:
+                attempt_row['response_format'] = payload['response_format']
+            append('attempts.jsonl', attempt_row)
             if error is None:
                 status, parsed = parse(raw,req['kind'])
                 break

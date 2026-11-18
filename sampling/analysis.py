@@ -78,6 +78,13 @@ def analyze(directory, answers, seed=4242, bootstrap=2000):
     report=dict(synthetic=json.loads((out/'manifest.json').read_text())['synthetic'],settings=dict(seed=seed,bootstrap=bootstrap,extraction_tolerance=1e-6,paraphrases_required=2),repeat_world_ranges=variability,answers_hash=digest(answers),metrics=summary,status_counts={k:dict(v,total=sum(v.values())) for k,v in failures.items()},world_values=metrics)
     save(out/'analysis.json',report)
     lines=['# '+('SYNTHETIC implementation check' if report['synthetic'] else 'Evaluation report'),'','Mock outputs are not research findings.' if report['synthetic'] else 'Agreement with stipulated posteriors; no empirical calibration claim.','','Intervals resample worlds jointly; missing/invalid answers are excluded from numeric metrics and counted below. Each metric requires both paraphrases. Repeated calls are dependent.','']
+    stopping_pairs = len(metrics.get('invariance_signed', {}))
+    forwarding_pairs = len(metrics.get('sensitivity_signed_error', {}))
+    lines.extend([
+        f'Primary comparisons with both paraphrases: stopping vs fixed {stopping_pairs}/{len(worlds)} worlds, '
+        f'forwarding vs fixed {forwarding_pairs}/{len(worlds)} worlds.',
+        '',
+    ])
     for k,v in summary.items():
         lines.append(f"- {k}: {v['mean']:.6g}, 95% bootstrap interval {v['ci95']}, worlds {v['worlds']}/{v['total_worlds']}")
     lines += ['', 'Repeated-call mean ranges by world: '+json.dumps(variability), '', 'Statuses and denominators:', '', '```json',json.dumps(report['status_counts'],indent=2),'```']

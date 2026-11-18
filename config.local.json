@@ -3,6 +3,7 @@
   "endpoint": "http://127.0.0.1:8000/v1/chat/completions",
   "model": "Qwen/Qwen3-4B",
   "api_key_env": null,
+  "schema_constrained": true,
   "decoding": {
     "temperature": 0,
     "top_p": 1,
