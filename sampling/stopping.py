@@ -20,7 +20,7 @@ WORKED = dict(pa='3/4', pb='1/4', visible='H', ids='KLMN', order=[0, 1, 2, 3])
 LOCAL = Path('artifacts/stopping-local')
 PLAN = Path('stopping-plan.md')
 LIVE_CONFIG = Path('config.stopping.json')
-DEVELOPMENT_RUN = LOCAL / 'live-development-revised'
+DEVELOPMENT_RUN = LOCAL / 'live-development-thinking'
 
 
 def canonical(case):

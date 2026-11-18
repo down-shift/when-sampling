@@ -31,16 +31,18 @@ uv run --no-sync python -m sampling.stopping run --split evaluation --config con
 
 The mock run writes the existing runner's artifacts and the paired report under `artifacts/stopping-local/mock-revised`. The dry run performs the split audit, prints request counts and hashes, and makes no HTTP requests. Keep the generator and rendered evaluation material local before collection. Outputs are ignored by Git.
 
-Live evaluation requires explicit approval of this plan. After review, use the server command recorded in `config.stopping.json` on the GPU host, and record its actual vLLM, PyTorch and CUDA versions alongside the run. Check formatting and output budget on development cases before authorizing evaluation. For collection, use the dry-run command without `--dry-run` and supply `--reviewed-plan-hash` with the printed plan hash and a fresh `--output artifacts/stopping-local/live-evaluation`. Use a distinct output directory for any live development run.
+Live evaluation requires explicit approval of this plan. After review, use the server command recorded in `config.stopping.json` on the GPU host, and record its actual vLLM, PyTorch and CUDA versions alongside the run. Check formatting and output budget on development cases before authorizing evaluation. For collection, use the dry-run command without `--dry-run` and supply `--reviewed-plan-hash` with the printed plan hash and a fresh `--output artifacts/stopping-local/live-evaluation-thinking`. Use a distinct output directory for any live development run.
 
 ## Revised development run
 
 The first live batch used a 2,048-token completion cap. Reanalyze its saved responses with `uv run --no-sync python -m sampling.stopping reanalyze --output artifacts/stopping-local/mock`. This writes `analysis.corrected.json` and `report.corrected.md` beside the original files. The parser accepts a completed leading `<think>…</think>` block followed by valid final JSON and still counts truncations as invalid. The original collection remains subject to the validity criterion above.
 
-The revised setup keeps the pinned checkpoint, turns thinking off, constrains output to categorical JSON, and allows 512 completion tokens. Restart the GPU server with the command in the config, then run:
+The revised batch with thinking disabled returned 48 valid responses. Explicit controls scored 1/8 on UP, 8/8 on DOWN, and 0/8 on SAME. Every decision answer was DOWN.
+
+Run one more development batch with the same 48 prompts, pinned checkpoint, and categorical JSON schema. Enable thinking and allow 8,192 completion tokens within a 9,216-token server context. Restart the GPU server with the command recorded in the config, then run:
 
 ```sh
-uv run --no-sync python -m sampling.stopping run --split development --config config.stopping.json --live --output artifacts/stopping-local/live-development-revised
+uv run --no-sync python -m sampling.stopping run --split development --config config.stopping.json --live --output artifacts/stopping-local/live-development-thinking
 ```
 
-The live evaluation command requires a matching live development run with at most one invalid response in each format and at least 90% control accuracy in each class. With eight examples per class, that requires eight correct controls per class. The original live batch remains a failed pilot. The revised evaluation uses fresh case families and the reviewed settings above.
+The live evaluation command requires a matching live development run with at most one invalid response in each format and all eight controls correct in each class. If development passes, review this plan and use the hash printed by the evaluation dry run. If development fails, stop tuning this checkpoint for the pilot and test a stronger checkpoint on development only.

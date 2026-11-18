@@ -5,17 +5,17 @@
   "checkpoint": {
     "model_revision": "1cfa9a7208912126459214e8b04321603b3df60c",
     "tokenizer_revision": "1cfa9a7208912126459214e8b04321603b3df60c",
-    "server_command": "SAMPLING_MODEL=Qwen/Qwen3-4B bash scripts/serve-local.sh --revision 1cfa9a7208912126459214e8b04321603b3df60c --tokenizer-revision 1cfa9a7208912126459214e8b04321603b3df60c --reasoning-parser qwen3"
+    "server_command": "SAMPLING_MODEL=Qwen/Qwen3-4B SAMPLING_MAX_MODEL_LEN=9216 bash scripts/serve-local.sh --revision 1cfa9a7208912126459214e8b04321603b3df60c --tokenizer-revision 1cfa9a7208912126459214e8b04321603b3df60c --reasoning-parser qwen3"
   },
   "api_key_env": null,
   "schema_constrained": true,
   "decoding": {
     "temperature": 0,
-    "chat_template_kwargs": {"enable_thinking": false}
+    "chat_template_kwargs": {"enable_thinking": true}
   },
-  "timeout": 120,
+  "timeout": 600,
   "retry_limit": 2,
   "concurrency": 1,
-  "max_output_tokens": 512,
+  "max_output_tokens": 8192,
   "max_requests": 240
 }
