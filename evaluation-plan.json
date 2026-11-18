@@ -1,0 +1,13 @@
+{
+  "model_revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "server_command": "bash scripts/serve-local.sh --revision 1cfa9a7208912126459214e8b04321603b3df60c --tokenizer-revision 1cfa9a7208912126459214e8b04321603b3df60c",
+  "vllm_version": "0.20.1",
+  "torch_version": "2.11.0+cu129",
+  "cuda_version": "12.9",
+  "thresholds": {
+    "primary_posterior_mae:F": 0.1,
+    "invariance_absolute": 0.05,
+    "sensitivity_absolute_error": 0.1,
+    "sensitivity_direction": 0.75
+  }
+}

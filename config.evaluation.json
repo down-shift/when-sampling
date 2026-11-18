@@ -1,0 +1,19 @@
+{
+  "adapter": "http",
+  "endpoint": "http://127.0.0.1:8000/v1/chat/completions",
+  "model": "Qwen/Qwen3-4B",
+  "api_key_env": null,
+  "schema_constrained": true,
+  "decoding": {
+    "temperature": 0,
+    "top_p": 1,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "timeout": 120,
+  "retry_limit": 2,
+  "concurrency": 1,
+  "max_output_tokens": 512,
+  "max_requests": 1164
+}
