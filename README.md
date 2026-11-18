@@ -65,3 +65,28 @@ uv run --offline --no-project python -m sampling analyze --world-limit 2 --outpu
 ```
 
 The local config caps collection at 48 requests and needs no API key. Add `--resume` to the identical run command to skip completed requests. Qwen's [documented non-thinking mode](https://huggingface.co/Qwen/Qwen3-4B#switching-between-thinking-and-non-thinking-mode) is set explicitly through `chat_template_kwargs`; this is a pilot configuration to finalize before held-out evaluation. The local pilot allows 512 output tokens and uses vLLM [structured outputs](https://docs.vllm.ai/en/v0.20.1/features/structured_outputs/) to constrain each answer to its task-specific JSON schema. The parser independently checks that each probability is in [0, 1]. Constrained decoding changes the measurement setup. Check that both primary paired comparisons cover both development worlds before moving to held-out evaluation. The parser accepts bare JSON or a single Markdown code fence containing the JSON object. Prose and truncated responses still count as failures. After changing the configuration or parser, use a fresh output directory for collection. To use an existing different model, set `SAMPLING_MODEL` for the server and change `model` in a copied config to match. Keep model selection separate from evaluation results.
+
+## Held-out evaluation
+
+Copy `evaluation-plan.example.json` to `evaluation-plan.json` and fill in all fields before collecting held-out responses. Use the full model commit and restart the server with both `--revision` and `--tokenizer-revision` set to that commit. Record the actual launch command and the installed vLLM and PyTorch versions plus the PyTorch CUDA runtime version. The lock records these server details as supplied by the investigator.
+
+Choose maximum errors for fixed-condition posterior MAE, the absolute stopping-minus-fixed difference, and forwarding-effect error. Choose a minimum forwarding direction accuracy. Use probabilities on [0, 1], so 0.05 is five percentage points. The report compares point estimates with the frozen thresholds and marks a decision as insufficient coverage when a metric lacks any world.
+
+Copy `config.local.json` to `config.evaluation.json` and set `max_requests` to 1164 for the default dataset and repeat settings. Preserve the pilot decoding settings if evaluating the same setup. Freeze locally and check the request count before authorizing collection.
+
+```sh
+uv run --offline --no-project python -m sampling freeze --split evaluation \
+  --config config.evaluation.json --plan evaluation-plan.json --lock evaluation.lock.json
+uv run --offline --no-project python -m sampling run --split evaluation \
+  --config config.evaluation.json --lock evaluation.lock.json \
+  --output artifacts/local-evaluation --live --dry-run
+```
+
+Run the same command without `--dry-run` once the plan is approved, then analyze with the same selection settings.
+
+```sh
+uv run --offline --no-project python -m sampling analyze --split evaluation \
+  --output artifacts/local-evaluation
+```
+
+The lock binds the dataset, requests, configuration, source, and protocol. Preserve the lock with the run artifacts. The default held-out run plans 1164 requests and up to 3492 HTTP attempts including retries.

@@ -5,6 +5,7 @@ import statistics
 from fractions import Fraction
 from pathlib import Path
 from .project import save, digest
+from .evaluation import threshold_results
 
 
 def analyze(directory, answers, seed=4242, bootstrap=2000):
@@ -75,7 +76,11 @@ def analyze(directory, answers, seed=4242, bootstrap=2000):
         ranges = [max(v)-min(v) for (ww,c,t),v in repeats.items() if ww == w and len(v) == 2]
         if ranges:
             variability[w] = statistics.mean(ranges)
-    report=dict(synthetic=json.loads((out/'manifest.json').read_text())['synthetic'],settings=dict(seed=seed,bootstrap=bootstrap,extraction_tolerance=1e-6,paraphrases_required=2),repeat_world_ranges=variability,answers_hash=digest(answers),metrics=summary,status_counts={k:dict(v,total=sum(v.values())) for k,v in failures.items()},world_values=metrics)
+    manifest = json.loads((out/'manifest.json').read_text())
+    report=dict(synthetic=manifest['synthetic'],settings=dict(seed=seed,bootstrap=bootstrap,extraction_tolerance=1e-6,paraphrases_required=2),repeat_world_ranges=variability,answers_hash=digest(answers),metrics=summary,status_counts={k:dict(v,total=sum(v.values())) for k,v in failures.items()},world_values=metrics)
+    lock = manifest['identity'].get('evaluation_lock')
+    if lock:
+        report['threshold_results'] = threshold_results(summary, lock['plan'])
     save(out/'analysis.json',report)
     lines=['# '+('SYNTHETIC implementation check' if report['synthetic'] else 'Evaluation report'),'','Mock outputs are not research findings.' if report['synthetic'] else 'Agreement with stipulated posteriors; no empirical calibration claim.','','Intervals resample worlds jointly; missing/invalid answers are excluded from numeric metrics and counted below. Each metric requires both paraphrases. Repeated calls are dependent.','']
     stopping_pairs = len(metrics.get('invariance_signed', {}))
@@ -87,6 +92,11 @@ def analyze(directory, answers, seed=4242, bootstrap=2000):
     ])
     for k,v in summary.items():
         lines.append(f"- {k}: {v['mean']:.6g}, 95% bootstrap interval {v['ci95']}, worlds {v['worlds']}/{v['total_worlds']}")
+    if lock:
+        lines.extend(['', 'Frozen thresholds (point estimates, full world coverage required)', ''])
+        for name, result in report['threshold_results'].items():
+            outcome = {True: 'pass', False: 'fail', None: 'insufficient coverage'}[result['passed']]
+            lines.append(f"- {name} ({result['direction']} {result['threshold']}): {outcome}")
     lines += ['', 'Repeated-call mean ranges by world: '+json.dumps(variability), '', 'Statuses and denominators:', '', '```json',json.dumps(report['status_counts'],indent=2),'```']
     (out/'report.md').write_text('\n'.join(lines)+'\n')
     return report

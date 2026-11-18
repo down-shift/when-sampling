@@ -1,0 +1,13 @@
+{
+  "model_revision": null,
+  "server_command": null,
+  "vllm_version": null,
+  "torch_version": null,
+  "cuda_version": null,
+  "thresholds": {
+    "primary_posterior_mae:F": null,
+    "invariance_absolute": null,
+    "sensitivity_absolute_error": null,
+    "sensitivity_direction": null
+  }
+}

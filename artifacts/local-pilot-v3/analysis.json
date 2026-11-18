@@ -1,0 +1,290 @@
+{
+  "answers_hash": "31b82c81f690e0ce011ae548a5597098d72ee4cd0f72cf90774a6a2f494aeff4",
+  "metrics": {
+    "extraction_correct_1e-6:F": {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "total_worlds": 2,
+      "worlds": 2
+    },
+    "extraction_correct_1e-6:R": {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "total_worlds": 2,
+      "worlds": 2
+    },
+    "extraction_correct_1e-6:S": {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "total_worlds": 2,
+      "worlds": 2
+    },
+    "extraction_max_abs_error:F": {
+      "ci95": [
+        0.044000000000000004,
+        0.5
+      ],
+      "mean": 0.272,
+      "total_worlds": 2,
+      "worlds": 2
+    },
+    "extraction_max_abs_error:R": {
+      "ci95": [
+        0.28125,
+        0.2896125
+      ],
+      "mean": 0.28543125,
+      "total_worlds": 2,
+      "worlds": 2
+    },
+    "extraction_max_abs_error:S": {
+      "ci95": [
+        0.052599999999999994,
+        0.74609375
+      ],
+      "mean": 0.399346875,
+      "total_worlds": 2,
+      "worlds": 2
+    },
+    "invariance_absolute": {
+      "ci95": [
+        0.0,
+        0.125
+      ],
+      "mean": 0.0625,
+      "total_worlds": 2,
+      "worlds": 2
+    },
+    "invariance_signed": {
+      "ci95": [
+        -0.125,
+        0.0
+      ],
+      "mean": -0.0625,
+      "total_worlds": 2,
+      "worlds": 2
+    },
+    "primary_posterior_mae:F": {
+      "ci95": [
+        0.11904761906428574,
+        0.5
+      ],
+      "mean": 0.30952380953214287,
+      "total_worlds": 2,
+      "worlds": 2
+    },
+    "primary_posterior_mae:R": {
+      "ci95": [
+        0.0625,
+        0.65
+      ],
+      "mean": 0.35625,
+      "total_worlds": 2,
+      "worlds": 2
+    },
+    "primary_posterior_mae:S": {
+      "ci95": [
+        0.11904761906428574,
+        0.625
+      ],
+      "mean": 0.37202380953214287,
+      "total_worlds": 2,
+      "worlds": 2
+    },
+    "repeated_call_absolute_difference": {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "total_worlds": 2,
+      "worlds": 2
+    },
+    "sensitivity_absolute_error": {
+      "ci95": [
+        0.05654761906428574,
+        0.15000000000000002
+      ],
+      "mean": 0.10327380953214288,
+      "total_worlds": 2,
+      "worlds": 2
+    },
+    "sensitivity_direction": {
+      "ci95": [
+        0.0,
+        1.0
+      ],
+      "mean": 0.5,
+      "total_worlds": 2,
+      "worlds": 2
+    },
+    "sensitivity_signed_error": {
+      "ci95": [
+        -0.15000000000000002,
+        0.05654761906428574
+      ],
+      "mean": -0.04672619046785714,
+      "total_worlds": 2,
+      "worlds": 2
+    },
+    "table_posterior_mae:F": {
+      "ci95": [
+        0.0,
+        0.15000000000000002
+      ],
+      "mean": 0.07500000000000001,
+      "total_worlds": 2,
+      "worlds": 2
+    },
+    "table_posterior_mae:R": {
+      "ci95": [
+        0.0,
+        0.04290000000000005
+      ],
+      "mean": 0.021450000000000025,
+      "total_worlds": 2,
+      "worlds": 2
+    },
+    "table_posterior_mae:S": {
+      "ci95": [
+        0.0,
+        0.15000000000000002
+      ],
+      "mean": 0.07500000000000001,
+      "total_worlds": 2,
+      "worlds": 2
+    }
+  },
+  "repeat_world_ranges": {
+    "development-000": 0.0,
+    "development-001": 0.0
+  },
+  "settings": {
+    "bootstrap": 2000,
+    "extraction_tolerance": 1e-06,
+    "paraphrases_required": 2,
+    "seed": 4242
+  },
+  "status_counts": {
+    "extraction:F": {
+      "ok": 4,
+      "total": 4
+    },
+    "extraction:R": {
+      "ok": 4,
+      "total": 4
+    },
+    "extraction:S": {
+      "ok": 4,
+      "total": 4
+    },
+    "primary:F": {
+      "ok": 8,
+      "total": 8
+    },
+    "primary:R": {
+      "ok": 8,
+      "total": 8
+    },
+    "primary:S": {
+      "ok": 8,
+      "total": 8
+    },
+    "table:F": {
+      "ok": 4,
+      "total": 4
+    },
+    "table:R": {
+      "ok": 4,
+      "total": 4
+    },
+    "table:S": {
+      "ok": 4,
+      "total": 4
+    }
+  },
+  "synthetic": false,
+  "world_values": {
+    "extraction_correct_1e-6:F": {
+      "development-000": 0.0,
+      "development-001": 0.0
+    },
+    "extraction_correct_1e-6:R": {
+      "development-000": 0.0,
+      "development-001": 0.0
+    },
+    "extraction_correct_1e-6:S": {
+      "development-000": 0.0,
+      "development-001": 0.0
+    },
+    "extraction_max_abs_error:F": {
+      "development-000": 0.044000000000000004,
+      "development-001": 0.5
+    },
+    "extraction_max_abs_error:R": {
+      "development-000": 0.2896125,
+      "development-001": 0.28125
+    },
+    "extraction_max_abs_error:S": {
+      "development-000": 0.052599999999999994,
+      "development-001": 0.74609375
+    },
+    "invariance_absolute": {
+      "development-000": 0.0,
+      "development-001": 0.125
+    },
+    "invariance_signed": {
+      "development-000": 0.0,
+      "development-001": -0.125
+    },
+    "primary_posterior_mae:F": {
+      "development-000": 0.11904761906428574,
+      "development-001": 0.5
+    },
+    "primary_posterior_mae:R": {
+      "development-000": 0.0625,
+      "development-001": 0.65
+    },
+    "primary_posterior_mae:S": {
+      "development-000": 0.11904761906428574,
+      "development-001": 0.625
+    },
+    "repeated_call_absolute_difference": {
+      "development-000": 0.0,
+      "development-001": 0.0
+    },
+    "sensitivity_absolute_error": {
+      "development-000": 0.05654761906428574,
+      "development-001": 0.15000000000000002
+    },
+    "sensitivity_direction": {
+      "development-000": 1.0,
+      "development-001": 0.0
+    },
+    "sensitivity_signed_error": {
+      "development-000": 0.05654761906428574,
+      "development-001": -0.15000000000000002
+    },
+    "table_posterior_mae:F": {
+      "development-000": 0.0,
+      "development-001": 0.15000000000000002
+    },
+    "table_posterior_mae:R": {
+      "development-000": 0.0,
+      "development-001": 0.04290000000000005
+    },
+    "table_posterior_mae:S": {
+      "development-000": 0.0,
+      "development-001": 0.15000000000000002
+    }
+  }
+}
