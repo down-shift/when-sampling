@@ -5,12 +5,14 @@ import os
 import random
 import re
 import subprocess
+import sys
 import threading
 import time
 import urllib.error
 import urllib.request
 from pathlib import Path
 from fractions import Fraction
+from collections import Counter
 from .project import digest, save
 
 
@@ -62,6 +64,10 @@ def parse(raw, kind):
         return 'truncation', None
     content = message.get('content')
     if isinstance(content, str):
+        if ANSWER_KEYS[kind] == ('direction',):
+            reasoning = re.fullmatch(r'\s*<think>.*?</think>\s*(.*)', content, flags=re.DOTALL)
+            if reasoning:
+                content = reasoning.group(1)
         fenced = re.fullmatch(r'\s*```(?:json)?[ \t]*\r?\n(.*?)\r?\n[ \t]*```\s*',
                               content, flags=re.DOTALL)
         if fenced:
@@ -130,6 +136,16 @@ def run(reqs, answers, config, directory, context, live=False, resume=False):
                 raise ValueError('duplicate completed request')
             completed[row['id']] = row
     lock = threading.Lock()
+    statuses = Counter(row['status'] for row in completed.values())
+    finished = len(completed)
+    total = len(reqs)
+    started_at = time.monotonic()
+
+    def log(message):
+        print(f'{out}: {message}', file=sys.stderr, flush=True)
+
+    log(f'{finished}/{total} complete at start ({config["adapter"]})')
+
     def append(filename, row):
         with lock:
             with (out/filename).open('a') as f:
@@ -137,6 +153,9 @@ def run(reqs, answers, config, directory, context, live=False, resume=False):
                 f.flush()
                 os.fsync(f.fileno())
     def execute(req):
+        nonlocal finished
+        with lock:
+            log(f'Starting {req["id"]}')
         payload = dict(model=config['model'],messages=[dict(role='user',content=req['prompt'])],max_tokens=config['max_output_tokens'],**config['decoding'])
         if constrained:
             payload['response_format'] = response_format(req['kind'])
@@ -188,9 +207,20 @@ def run(reqs, answers, config, directory, context, live=False, resume=False):
             status = 'rate_limit_failure' if error.get('code')==429 else 'transport_failure'
             if not retry or attempt == config['retry_limit']:
                 break
-            time.sleep(min(2**attempt,16))
+            delay = min(2**attempt,16)
+            reason = f'HTTP {error["code"]}' if 'code' in error else error['type']
+            with lock:
+                log(f'{req["id"]}: {reason}, retrying in {delay}s '
+                    f'(attempt {attempt + 2}/{config["retry_limit"] + 1})')
+            time.sleep(delay)
         row = dict(id=req['id'],status=status,parsed=parsed,raw=raw,finished=now(),requested_model=config['model'],returned_model=raw.get('model') if isinstance(raw,dict) else None)
         append('responses.jsonl',row)
+        with lock:
+            finished += 1
+            statuses[status] += 1
+            log(f'{finished}/{total} complete, {req["id"]}: {status}')
     with concurrent.futures.ThreadPoolExecutor(max_workers=config['concurrency']) as pool:
         list(pool.map(execute,[r for r in reqs if r['id'] not in completed]))
     save(out/'completion.json',dict(finished=now(),requests=len(reqs)))
+    summary = ', '.join(f'{status}={count}' for status, count in sorted(statuses.items()))
+    log(f'Finished {finished}/{total} in {time.monotonic() - started_at:.1f}s ({summary or "no responses"})')

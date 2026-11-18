@@ -40,3 +40,20 @@ def test_split_audit_checks_rendered_controls(monkeypatch):
     monkeypatch.setattr(stopping, 'render', duplicate_control)
     with pytest.raises(ValueError, match='duplicate exact rendered prompt'):
         stopping.verify(splits)
+
+
+@pytest.mark.parametrize(
+    ('content', 'finish', 'status'),
+    [
+        ('<think>my guess is UP</think>\n{"direction":"DOWN"}', 'stop', 'ok'),
+        ('{"direction":"DOWN"}', 'stop', 'ok'),
+        ('<think>{"direction":"DOWN"}', 'stop', 'malformed_json'),
+        ('<think>reason</think>\n{"direction":"DOWN"}', 'length', 'truncation'),
+        ('<think>reason</think>\nAnswer: {"direction":"DOWN"}', 'stop', 'malformed_json'),
+    ],
+)
+def test_parse_final_answer_after_reasoning(content, finish, status):
+    from sampling.runner import parse
+
+    raw = {'choices': [{'finish_reason': finish, 'message': {'content': content}}]}
+    assert parse(raw, 'decision') == (status, {'direction': 'DOWN'} if status == 'ok' else None)

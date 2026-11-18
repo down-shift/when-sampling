@@ -8,14 +8,14 @@
     "server_command": "SAMPLING_MODEL=Qwen/Qwen3-4B bash scripts/serve-local.sh --revision 1cfa9a7208912126459214e8b04321603b3df60c --tokenizer-revision 1cfa9a7208912126459214e8b04321603b3df60c --reasoning-parser qwen3"
   },
   "api_key_env": null,
-  "schema_constrained": false,
+  "schema_constrained": true,
   "decoding": {
     "temperature": 0,
-    "chat_template_kwargs": {"enable_thinking": true}
+    "chat_template_kwargs": {"enable_thinking": false}
   },
   "timeout": 120,
   "retry_limit": 2,
   "concurrency": 1,
-  "max_output_tokens": 2048,
+  "max_output_tokens": 512,
   "max_requests": 240
 }
