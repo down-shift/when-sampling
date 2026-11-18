@@ -1,0 +1,29 @@
+{
+  "config": {
+    "adapter": "mock",
+    "api_key_env": "SAMPLING_API_KEY",
+    "concurrency": 2,
+    "decoding": {
+      "temperature": 0
+    },
+    "endpoint": "https://YOUR-ENDPOINT/v1/chat/completions",
+    "max_output_tokens": 128,
+    "max_requests": 2000,
+    "model": "YOUR-MODEL-ID",
+    "retry_limit": 2,
+    "timeout": 60
+  },
+  "identity": {
+    "config_hash": "6c97e28ea556df12660a2e47b5d541e427c1deba52ec912cb8f9d619d5b1e777",
+    "dataset_hash": "dc3ea97e1efbc4e5ac11aafc0c8a82bccbdecb1789a0353f254035411187d407",
+    "live": false,
+    "order_seed": 31415,
+    "repeat_worlds": 2,
+    "requests_hash": "f9eacff2e92e30af762734a2949b89723086a8641e7791baae122087cc9ed610",
+    "split": "development",
+    "world_limit": null
+  },
+  "revision": "HEAD",
+  "started": "2026-11-17T14:26:27.631076+00:00",
+  "synthetic": true
+}

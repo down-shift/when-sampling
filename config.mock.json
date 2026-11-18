@@ -1,0 +1,1 @@
+{"adapter":"mock","endpoint":"https://YOUR-ENDPOINT/v1/chat/completions","model":"YOUR-MODEL-ID","api_key_env":"SAMPLING_API_KEY","decoding":{"temperature":0},"timeout":60,"retry_limit":2,"concurrency":2,"max_output_tokens":128,"max_requests":2000}

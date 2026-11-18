@@ -1,0 +1,519 @@
+{
+  "answers_hash": "5be9d608d6a70fedd0ec650b209f06f06b5908fac99d9b30d0b51d287af18261",
+  "metrics": {
+    "extraction_correct_1e-6:F": {
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "mean": 1.0,
+      "total_worlds": 16,
+      "worlds": 16
+    },
+    "extraction_correct_1e-6:R": {
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "mean": 1.0,
+      "total_worlds": 16,
+      "worlds": 16
+    },
+    "extraction_correct_1e-6:S": {
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "mean": 1.0,
+      "total_worlds": 16,
+      "worlds": 16
+    },
+    "extraction_max_abs_error:F": {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "total_worlds": 16,
+      "worlds": 16
+    },
+    "extraction_max_abs_error:R": {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "total_worlds": 16,
+      "worlds": 16
+    },
+    "extraction_max_abs_error:S": {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "total_worlds": 16,
+      "worlds": 16
+    },
+    "invariance_absolute": {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "total_worlds": 16,
+      "worlds": 16
+    },
+    "invariance_signed": {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "total_worlds": 16,
+      "worlds": 16
+    },
+    "primary_posterior_mae:F": {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "total_worlds": 16,
+      "worlds": 16
+    },
+    "primary_posterior_mae:R": {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "total_worlds": 16,
+      "worlds": 16
+    },
+    "primary_posterior_mae:S": {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "total_worlds": 16,
+      "worlds": 16
+    },
+    "repeated_call_absolute_difference": {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "total_worlds": 16,
+      "worlds": 2
+    },
+    "sensitivity_absolute_error": {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "total_worlds": 16,
+      "worlds": 16
+    },
+    "sensitivity_direction": {
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "mean": 1.0,
+      "total_worlds": 16,
+      "worlds": 11
+    },
+    "sensitivity_signed_error": {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "total_worlds": 16,
+      "worlds": 16
+    },
+    "table_posterior_mae:F": {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "total_worlds": 16,
+      "worlds": 16
+    },
+    "table_posterior_mae:R": {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "total_worlds": 16,
+      "worlds": 16
+    },
+    "table_posterior_mae:S": {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "total_worlds": 16,
+      "worlds": 16
+    }
+  },
+  "settings": {
+    "bootstrap": 2000,
+    "extraction_tolerance": 1e-06,
+    "paraphrases_required": 2,
+    "seed": 4242
+  },
+  "status_counts": {
+    "extraction:F": {
+      "ok": 32,
+      "total": 32
+    },
+    "extraction:R": {
+      "ok": 32,
+      "total": 32
+    },
+    "extraction:S": {
+      "ok": 32,
+      "total": 32
+    },
+    "primary:F": {
+      "ok": 36,
+      "total": 36
+    },
+    "primary:R": {
+      "ok": 36,
+      "total": 36
+    },
+    "primary:S": {
+      "ok": 36,
+      "total": 36
+    },
+    "table:F": {
+      "ok": 32,
+      "total": 32
+    },
+    "table:R": {
+      "ok": 32,
+      "total": 32
+    },
+    "table:S": {
+      "ok": 32,
+      "total": 32
+    }
+  },
+  "synthetic": true,
+  "world_values": {
+    "extraction_correct_1e-6:F": {
+      "development-000": 1.0,
+      "development-001": 1.0,
+      "development-002": 1.0,
+      "development-003": 1.0,
+      "development-004": 1.0,
+      "development-005": 1.0,
+      "development-006": 1.0,
+      "development-007": 1.0,
+      "development-008": 1.0,
+      "development-009": 1.0,
+      "development-010": 1.0,
+      "development-011": 1.0,
+      "development-012": 1.0,
+      "development-013": 1.0,
+      "development-014": 1.0,
+      "development-015": 1.0
+    },
+    "extraction_correct_1e-6:R": {
+      "development-000": 1.0,
+      "development-001": 1.0,
+      "development-002": 1.0,
+      "development-003": 1.0,
+      "development-004": 1.0,
+      "development-005": 1.0,
+      "development-006": 1.0,
+      "development-007": 1.0,
+      "development-008": 1.0,
+      "development-009": 1.0,
+      "development-010": 1.0,
+      "development-011": 1.0,
+      "development-012": 1.0,
+      "development-013": 1.0,
+      "development-014": 1.0,
+      "development-015": 1.0
+    },
+    "extraction_correct_1e-6:S": {
+      "development-000": 1.0,
+      "development-001": 1.0,
+      "development-002": 1.0,
+      "development-003": 1.0,
+      "development-004": 1.0,
+      "development-005": 1.0,
+      "development-006": 1.0,
+      "development-007": 1.0,
+      "development-008": 1.0,
+      "development-009": 1.0,
+      "development-010": 1.0,
+      "development-011": 1.0,
+      "development-012": 1.0,
+      "development-013": 1.0,
+      "development-014": 1.0,
+      "development-015": 1.0
+    },
+    "extraction_max_abs_error:F": {
+      "development-000": 0.0,
+      "development-001": 0.0,
+      "development-002": 0.0,
+      "development-003": 0.0,
+      "development-004": 0.0,
+      "development-005": 0.0,
+      "development-006": 0.0,
+      "development-007": 0.0,
+      "development-008": 0.0,
+      "development-009": 0.0,
+      "development-010": 0.0,
+      "development-011": 0.0,
+      "development-012": 0.0,
+      "development-013": 0.0,
+      "development-014": 0.0,
+      "development-015": 0.0
+    },
+    "extraction_max_abs_error:R": {
+      "development-000": 0.0,
+      "development-001": 0.0,
+      "development-002": 0.0,
+      "development-003": 0.0,
+      "development-004": 0.0,
+      "development-005": 0.0,
+      "development-006": 0.0,
+      "development-007": 0.0,
+      "development-008": 0.0,
+      "development-009": 0.0,
+      "development-010": 0.0,
+      "development-011": 0.0,
+      "development-012": 0.0,
+      "development-013": 0.0,
+      "development-014": 0.0,
+      "development-015": 0.0
+    },
+    "extraction_max_abs_error:S": {
+      "development-000": 0.0,
+      "development-001": 0.0,
+      "development-002": 0.0,
+      "development-003": 0.0,
+      "development-004": 0.0,
+      "development-005": 0.0,
+      "development-006": 0.0,
+      "development-007": 0.0,
+      "development-008": 0.0,
+      "development-009": 0.0,
+      "development-010": 0.0,
+      "development-011": 0.0,
+      "development-012": 0.0,
+      "development-013": 0.0,
+      "development-014": 0.0,
+      "development-015": 0.0
+    },
+    "invariance_absolute": {
+      "development-000": 0.0,
+      "development-001": 0.0,
+      "development-002": 0.0,
+      "development-003": 0.0,
+      "development-004": 0.0,
+      "development-005": 0.0,
+      "development-006": 0.0,
+      "development-007": 0.0,
+      "development-008": 0.0,
+      "development-009": 0.0,
+      "development-010": 0.0,
+      "development-011": 0.0,
+      "development-012": 0.0,
+      "development-013": 0.0,
+      "development-014": 0.0,
+      "development-015": 0.0
+    },
+    "invariance_signed": {
+      "development-000": 0.0,
+      "development-001": 0.0,
+      "development-002": 0.0,
+      "development-003": 0.0,
+      "development-004": 0.0,
+      "development-005": 0.0,
+      "development-006": 0.0,
+      "development-007": 0.0,
+      "development-008": 0.0,
+      "development-009": 0.0,
+      "development-010": 0.0,
+      "development-011": 0.0,
+      "development-012": 0.0,
+      "development-013": 0.0,
+      "development-014": 0.0,
+      "development-015": 0.0
+    },
+    "primary_posterior_mae:F": {
+      "development-000": 0.0,
+      "development-001": 0.0,
+      "development-002": 0.0,
+      "development-003": 0.0,
+      "development-004": 0.0,
+      "development-005": 0.0,
+      "development-006": 0.0,
+      "development-007": 0.0,
+      "development-008": 0.0,
+      "development-009": 0.0,
+      "development-010": 0.0,
+      "development-011": 0.0,
+      "development-012": 0.0,
+      "development-013": 0.0,
+      "development-014": 0.0,
+      "development-015": 0.0
+    },
+    "primary_posterior_mae:R": {
+      "development-000": 0.0,
+      "development-001": 0.0,
+      "development-002": 0.0,
+      "development-003": 0.0,
+      "development-004": 0.0,
+      "development-005": 0.0,
+      "development-006": 0.0,
+      "development-007": 0.0,
+      "development-008": 0.0,
+      "development-009": 0.0,
+      "development-010": 0.0,
+      "development-011": 0.0,
+      "development-012": 0.0,
+      "development-013": 0.0,
+      "development-014": 0.0,
+      "development-015": 0.0
+    },
+    "primary_posterior_mae:S": {
+      "development-000": 0.0,
+      "development-001": 0.0,
+      "development-002": 0.0,
+      "development-003": 0.0,
+      "development-004": 0.0,
+      "development-005": 0.0,
+      "development-006": 0.0,
+      "development-007": 0.0,
+      "development-008": 0.0,
+      "development-009": 0.0,
+      "development-010": 0.0,
+      "development-011": 0.0,
+      "development-012": 0.0,
+      "development-013": 0.0,
+      "development-014": 0.0,
+      "development-015": 0.0
+    },
+    "repeated_call_absolute_difference": {
+      "development-000": 0.0,
+      "development-001": 0.0
+    },
+    "sensitivity_absolute_error": {
+      "development-000": 0.0,
+      "development-001": 0.0,
+      "development-002": 0.0,
+      "development-003": 0.0,
+      "development-004": 0.0,
+      "development-005": 0.0,
+      "development-006": 0.0,
+      "development-007": 0.0,
+      "development-008": 0.0,
+      "development-009": 0.0,
+      "development-010": 0.0,
+      "development-011": 0.0,
+      "development-012": 0.0,
+      "development-013": 0.0,
+      "development-014": 0.0,
+      "development-015": 0.0
+    },
+    "sensitivity_direction": {
+      "development-000": 1.0,
+      "development-001": 1.0,
+      "development-003": 1.0,
+      "development-004": 1.0,
+      "development-006": 1.0,
+      "development-007": 1.0,
+      "development-009": 1.0,
+      "development-010": 1.0,
+      "development-012": 1.0,
+      "development-013": 1.0,
+      "development-015": 1.0
+    },
+    "sensitivity_signed_error": {
+      "development-000": 0.0,
+      "development-001": 0.0,
+      "development-002": 0.0,
+      "development-003": 0.0,
+      "development-004": 0.0,
+      "development-005": 0.0,
+      "development-006": 0.0,
+      "development-007": 0.0,
+      "development-008": 0.0,
+      "development-009": 0.0,
+      "development-010": 0.0,
+      "development-011": 0.0,
+      "development-012": 0.0,
+      "development-013": 0.0,
+      "development-014": 0.0,
+      "development-015": 0.0
+    },
+    "table_posterior_mae:F": {
+      "development-000": 0.0,
+      "development-001": 0.0,
+      "development-002": 0.0,
+      "development-003": 0.0,
+      "development-004": 0.0,
+      "development-005": 0.0,
+      "development-006": 0.0,
+      "development-007": 0.0,
+      "development-008": 0.0,
+      "development-009": 0.0,
+      "development-010": 0.0,
+      "development-011": 0.0,
+      "development-012": 0.0,
+      "development-013": 0.0,
+      "development-014": 0.0,
+      "development-015": 0.0
+    },
+    "table_posterior_mae:R": {
+      "development-000": 0.0,
+      "development-001": 0.0,
+      "development-002": 0.0,
+      "development-003": 0.0,
+      "development-004": 0.0,
+      "development-005": 0.0,
+      "development-006": 0.0,
+      "development-007": 0.0,
+      "development-008": 0.0,
+      "development-009": 0.0,
+      "development-010": 0.0,
+      "development-011": 0.0,
+      "development-012": 0.0,
+      "development-013": 0.0,
+      "development-014": 0.0,
+      "development-015": 0.0
+    },
+    "table_posterior_mae:S": {
+      "development-000": 0.0,
+      "development-001": 0.0,
+      "development-002": 0.0,
+      "development-003": 0.0,
+      "development-004": 0.0,
+      "development-005": 0.0,
+      "development-006": 0.0,
+      "development-007": 0.0,
+      "development-008": 0.0,
+      "development-009": 0.0,
+      "development-010": 0.0,
+      "development-011": 0.0,
+      "development-012": 0.0,
+      "development-013": 0.0,
+      "development-014": 0.0,
+      "development-015": 0.0
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "F": {
+    "likelihood_h_a": "9/64",
+    "likelihood_h_b": "3/64",
+    "posterior_h_a": "3/4"
+  },
+  "R": {
+    "likelihood_h_a": "9/256",
+    "likelihood_h_b": "9/256",
+    "posterior_h_a": "1/2"
+  },
+  "S": {
+    "likelihood_h_a": "9/64",
+    "likelihood_h_b": "3/64",
+    "posterior_h_a": "3/4"
+  }
+}
