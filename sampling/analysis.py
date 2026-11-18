@@ -47,15 +47,21 @@ def analyze(directory, answers, seed=4242, bootstrap=2000):
             means[w,k,c] = statistics.mean(v[0] for v in vals)
             metrics[f'{k}_posterior_mae:{c}'][w]=statistics.mean(abs(v[0]-v[1]) for v in vals)
     worlds = sorted({r['world'] for r in reqs})
-    targets = {(r['world'],r['condition']):float(Fraction(answers[r['id']]['posterior_h_a'])) for r in reqs}
+    targets = {(r['world'],r['condition']):Fraction(answers[r['id']]['posterior_h_a']) for r in reqs}
+    direction_worlds = sum(targets[w,'R'] != targets[w,'F'] for w in worlds)
     for w in worlds:
         if all((w,'primary',c) in means for c in ('F','S')):
             d=means[w,'primary','S']-means[w,'primary','F']
             metrics['invariance_signed'][w]=d
             metrics['invariance_absolute'][w]=abs(d)
+            paraphrase_gap = statistics.mean(
+                abs(v[0][0] - v[1][0]) for v in (buckets[w,'primary','F'], buckets[w,'primary','S'])
+            )
+            metrics['exploratory_paraphrase_gap'][w] = paraphrase_gap
+            metrics['exploratory_stopping_gap_minus_paraphrase_gap'][w] = abs(d) - paraphrase_gap
         if all((w,'primary',c) in means for c in ('F','R')):
             pred=means[w,'primary','R']-means[w,'primary','F']
-            effect=targets[w,'R']-targets[w,'F']
+            effect=float(targets[w,'R']-targets[w,'F'])
             metrics['sensitivity_signed_error'][w]=pred-effect
             metrics['sensitivity_absolute_error'][w]=abs(pred-effect)
             if effect:
@@ -70,7 +76,8 @@ def analyze(directory, answers, seed=4242, bootstrap=2000):
     for name,values in metrics.items():
         estimates=[statistics.mean(values[w] for w in sample if w in values) for sample in samples if any(w in values for w in sample)]
         estimates.sort()
-        summary[name]=dict(mean=statistics.mean(values.values()),worlds=len(values),total_worlds=len(worlds),ci95=[estimates[int(.025*(len(estimates)-1))],estimates[int(.975*(len(estimates)-1))]])
+        eligible = direction_worlds if name == 'sensitivity_direction' else len(worlds)
+        summary[name]=dict(mean=statistics.mean(values.values()),worlds=len(values),total_worlds=eligible,ci95=[estimates[int(.025*(len(estimates)-1))],estimates[int(.975*(len(estimates)-1))]])
     variability = {}
     for w in worlds:
         ranges = [max(v)-min(v) for (ww,c,t),v in repeats.items() if ww == w and len(v) == 2]
@@ -88,6 +95,7 @@ def analyze(directory, answers, seed=4242, bootstrap=2000):
     lines.extend([
         f'Primary comparisons with both paraphrases: stopping vs fixed {stopping_pairs}/{len(worlds)} worlds, '
         f'forwarding vs fixed {forwarding_pairs}/{len(worlds)} worlds.',
+        f'Forwarding direction is defined in {direction_worlds}/{len(worlds)} worlds with a nonzero oracle effect.',
         '',
     ])
     for k,v in summary.items():

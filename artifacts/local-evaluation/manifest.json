@@ -1,0 +1,62 @@
+{
+  "config": {
+    "adapter": "http",
+    "api_key_env": null,
+    "concurrency": 1,
+    "decoding": {
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "temperature": 0,
+      "top_p": 1
+    },
+    "endpoint": "http://127.0.0.1:8000/v1/chat/completions",
+    "max_output_tokens": 512,
+    "max_requests": 1164,
+    "model": "Qwen/Qwen3-4B",
+    "retry_limit": 2,
+    "schema_constrained": true,
+    "timeout": 120
+  },
+  "identity": {
+    "config_hash": "c90f7b9aa6e1927af9a7e630f4c20d0ff8d15f008d4ea47069c65fd45e390fcf",
+    "dataset_hash": "dc3ea97e1efbc4e5ac11aafc0c8a82bccbdecb1789a0353f254035411187d407",
+    "evaluation_lock": {
+      "config_hash": "c90f7b9aa6e1927af9a7e630f4c20d0ff8d15f008d4ea47069c65fd45e390fcf",
+      "context": {
+        "dataset_hash": "dc3ea97e1efbc4e5ac11aafc0c8a82bccbdecb1789a0353f254035411187d407",
+        "order_seed": 31415,
+        "repeat_worlds": 2,
+        "split": "evaluation",
+        "world_limit": null
+      },
+      "plan": {
+        "cuda_version": "12.9",
+        "model_revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+        "server_command": "bash scripts/serve-local.sh --revision 1cfa9a7208912126459214e8b04321603b3df60c --tokenizer-revision 1cfa9a7208912126459214e8b04321603b3df60c",
+        "thresholds": {
+          "invariance_absolute": 0.05,
+          "primary_posterior_mae:F": 0.1,
+          "sensitivity_absolute_error": 0.1,
+          "sensitivity_direction": 0.75
+        },
+        "torch_version": "2.11.0+cu129",
+        "vllm_version": "0.20.1"
+      },
+      "protocol_hash": "e67f4ea7b422d621a5d4da606fd297824fd4e00784025f02e8f558de7cccfb1f",
+      "requests_hash": "c32cf3d6e7ccda3fbfff49451117786e5a433918f87d3f2525315069246c2237",
+      "source_hash": "ca17f82edec693d8a53c5b2177bb956198ba7e7291432a85bc9b8934570dcf0e"
+    },
+    "live": true,
+    "order_seed": 31415,
+    "protocol_hash": "e67f4ea7b422d621a5d4da606fd297824fd4e00784025f02e8f558de7cccfb1f",
+    "repeat_worlds": 2,
+    "requests_hash": "c32cf3d6e7ccda3fbfff49451117786e5a433918f87d3f2525315069246c2237",
+    "source_hash": "ca17f82edec693d8a53c5b2177bb956198ba7e7291432a85bc9b8934570dcf0e",
+    "split": "evaluation",
+    "world_limit": null
+  },
+  "revision": "ce082746c9ea1b4d1b0849e508a8ed1ba762c460",
+  "started": "2026-11-18T15:24:43.720573+00:00",
+  "synthetic": false
+}

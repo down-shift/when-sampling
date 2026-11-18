@@ -1,0 +1,5822 @@
+{
+  "evaluation-000:F:0:extraction:0": {
+    "likelihood_h_a": "27/256",
+    "likelihood_h_b": "3/256",
+    "posterior_h_a": "18/19"
+  },
+  "evaluation-000:F:0:primary:0": {
+    "likelihood_h_a": "27/256",
+    "likelihood_h_b": "3/256",
+    "posterior_h_a": "18/19"
+  },
+  "evaluation-000:F:0:primary:1": {
+    "likelihood_h_a": "27/256",
+    "likelihood_h_b": "3/256",
+    "posterior_h_a": "18/19"
+  },
+  "evaluation-000:F:0:table:0": {
+    "likelihood_h_a": "27/256",
+    "likelihood_h_b": "3/256",
+    "posterior_h_a": "18/19"
+  },
+  "evaluation-000:F:1:extraction:0": {
+    "likelihood_h_a": "27/256",
+    "likelihood_h_b": "3/256",
+    "posterior_h_a": "18/19"
+  },
+  "evaluation-000:F:1:primary:0": {
+    "likelihood_h_a": "27/256",
+    "likelihood_h_b": "3/256",
+    "posterior_h_a": "18/19"
+  },
+  "evaluation-000:F:1:primary:1": {
+    "likelihood_h_a": "27/256",
+    "likelihood_h_b": "3/256",
+    "posterior_h_a": "18/19"
+  },
+  "evaluation-000:F:1:table:0": {
+    "likelihood_h_a": "27/256",
+    "likelihood_h_b": "3/256",
+    "posterior_h_a": "18/19"
+  },
+  "evaluation-000:R:0:extraction:0": {
+    "likelihood_h_a": "27/1024",
+    "likelihood_h_b": "9/1024",
+    "posterior_h_a": "6/7"
+  },
+  "evaluation-000:R:0:primary:0": {
+    "likelihood_h_a": "27/1024",
+    "likelihood_h_b": "9/1024",
+    "posterior_h_a": "6/7"
+  },
+  "evaluation-000:R:0:primary:1": {
+    "likelihood_h_a": "27/1024",
+    "likelihood_h_b": "9/1024",
+    "posterior_h_a": "6/7"
+  },
+  "evaluation-000:R:0:table:0": {
+    "likelihood_h_a": "27/1024",
+    "likelihood_h_b": "9/1024",
+    "posterior_h_a": "6/7"
+  },
+  "evaluation-000:R:1:extraction:0": {
+    "likelihood_h_a": "27/1024",
+    "likelihood_h_b": "9/1024",
+    "posterior_h_a": "6/7"
+  },
+  "evaluation-000:R:1:primary:0": {
+    "likelihood_h_a": "27/1024",
+    "likelihood_h_b": "9/1024",
+    "posterior_h_a": "6/7"
+  },
+  "evaluation-000:R:1:primary:1": {
+    "likelihood_h_a": "27/1024",
+    "likelihood_h_b": "9/1024",
+    "posterior_h_a": "6/7"
+  },
+  "evaluation-000:R:1:table:0": {
+    "likelihood_h_a": "27/1024",
+    "likelihood_h_b": "9/1024",
+    "posterior_h_a": "6/7"
+  },
+  "evaluation-000:S:0:extraction:0": {
+    "likelihood_h_a": "27/256",
+    "likelihood_h_b": "3/256",
+    "posterior_h_a": "18/19"
+  },
+  "evaluation-000:S:0:primary:0": {
+    "likelihood_h_a": "27/256",
+    "likelihood_h_b": "3/256",
+    "posterior_h_a": "18/19"
+  },
+  "evaluation-000:S:0:primary:1": {
+    "likelihood_h_a": "27/256",
+    "likelihood_h_b": "3/256",
+    "posterior_h_a": "18/19"
+  },
+  "evaluation-000:S:0:table:0": {
+    "likelihood_h_a": "27/256",
+    "likelihood_h_b": "3/256",
+    "posterior_h_a": "18/19"
+  },
+  "evaluation-000:S:1:extraction:0": {
+    "likelihood_h_a": "27/256",
+    "likelihood_h_b": "3/256",
+    "posterior_h_a": "18/19"
+  },
+  "evaluation-000:S:1:primary:0": {
+    "likelihood_h_a": "27/256",
+    "likelihood_h_b": "3/256",
+    "posterior_h_a": "18/19"
+  },
+  "evaluation-000:S:1:primary:1": {
+    "likelihood_h_a": "27/256",
+    "likelihood_h_b": "3/256",
+    "posterior_h_a": "18/19"
+  },
+  "evaluation-000:S:1:table:0": {
+    "likelihood_h_a": "27/256",
+    "likelihood_h_b": "3/256",
+    "posterior_h_a": "18/19"
+  },
+  "evaluation-001:F:0:extraction:0": {
+    "likelihood_h_a": "1/64",
+    "likelihood_h_b": "27/64",
+    "posterior_h_a": "2/29"
+  },
+  "evaluation-001:F:0:primary:0": {
+    "likelihood_h_a": "1/64",
+    "likelihood_h_b": "27/64",
+    "posterior_h_a": "2/29"
+  },
+  "evaluation-001:F:0:primary:1": {
+    "likelihood_h_a": "1/64",
+    "likelihood_h_b": "27/64",
+    "posterior_h_a": "2/29"
+  },
+  "evaluation-001:F:0:table:0": {
+    "likelihood_h_a": "1/64",
+    "likelihood_h_b": "27/64",
+    "posterior_h_a": "2/29"
+  },
+  "evaluation-001:F:1:extraction:0": {
+    "likelihood_h_a": "1/64",
+    "likelihood_h_b": "27/64",
+    "posterior_h_a": "2/29"
+  },
+  "evaluation-001:F:1:primary:0": {
+    "likelihood_h_a": "1/64",
+    "likelihood_h_b": "27/64",
+    "posterior_h_a": "2/29"
+  },
+  "evaluation-001:F:1:primary:1": {
+    "likelihood_h_a": "1/64",
+    "likelihood_h_b": "27/64",
+    "posterior_h_a": "2/29"
+  },
+  "evaluation-001:F:1:table:0": {
+    "likelihood_h_a": "1/64",
+    "likelihood_h_b": "27/64",
+    "posterior_h_a": "2/29"
+  },
+  "evaluation-001:R:0:extraction:0": {
+    "likelihood_h_a": "3/256",
+    "likelihood_h_b": "27/256",
+    "posterior_h_a": "2/11"
+  },
+  "evaluation-001:R:0:primary:0": {
+    "likelihood_h_a": "3/256",
+    "likelihood_h_b": "27/256",
+    "posterior_h_a": "2/11"
+  },
+  "evaluation-001:R:0:primary:1": {
+    "likelihood_h_a": "3/256",
+    "likelihood_h_b": "27/256",
+    "posterior_h_a": "2/11"
+  },
+  "evaluation-001:R:0:table:0": {
+    "likelihood_h_a": "3/256",
+    "likelihood_h_b": "27/256",
+    "posterior_h_a": "2/11"
+  },
+  "evaluation-001:R:1:extraction:0": {
+    "likelihood_h_a": "3/256",
+    "likelihood_h_b": "27/256",
+    "posterior_h_a": "2/11"
+  },
+  "evaluation-001:R:1:primary:0": {
+    "likelihood_h_a": "3/256",
+    "likelihood_h_b": "27/256",
+    "posterior_h_a": "2/11"
+  },
+  "evaluation-001:R:1:primary:1": {
+    "likelihood_h_a": "3/256",
+    "likelihood_h_b": "27/256",
+    "posterior_h_a": "2/11"
+  },
+  "evaluation-001:R:1:table:0": {
+    "likelihood_h_a": "3/256",
+    "likelihood_h_b": "27/256",
+    "posterior_h_a": "2/11"
+  },
+  "evaluation-001:S:0:extraction:0": {
+    "likelihood_h_a": "1/64",
+    "likelihood_h_b": "27/64",
+    "posterior_h_a": "2/29"
+  },
+  "evaluation-001:S:0:primary:0": {
+    "likelihood_h_a": "1/64",
+    "likelihood_h_b": "27/64",
+    "posterior_h_a": "2/29"
+  },
+  "evaluation-001:S:0:primary:1": {
+    "likelihood_h_a": "1/64",
+    "likelihood_h_b": "27/64",
+    "posterior_h_a": "2/29"
+  },
+  "evaluation-001:S:0:table:0": {
+    "likelihood_h_a": "1/64",
+    "likelihood_h_b": "27/64",
+    "posterior_h_a": "2/29"
+  },
+  "evaluation-001:S:1:extraction:0": {
+    "likelihood_h_a": "1/64",
+    "likelihood_h_b": "27/64",
+    "posterior_h_a": "2/29"
+  },
+  "evaluation-001:S:1:primary:0": {
+    "likelihood_h_a": "1/64",
+    "likelihood_h_b": "27/64",
+    "posterior_h_a": "2/29"
+  },
+  "evaluation-001:S:1:primary:1": {
+    "likelihood_h_a": "1/64",
+    "likelihood_h_b": "27/64",
+    "posterior_h_a": "2/29"
+  },
+  "evaluation-001:S:1:table:0": {
+    "likelihood_h_a": "1/64",
+    "likelihood_h_b": "27/64",
+    "posterior_h_a": "2/29"
+  },
+  "evaluation-002:F:0:extraction:0": {
+    "likelihood_h_a": "1/4",
+    "likelihood_h_b": "3/4",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-002:F:0:primary:0": {
+    "likelihood_h_a": "1/4",
+    "likelihood_h_b": "3/4",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-002:F:0:table:0": {
+    "likelihood_h_a": "1/4",
+    "likelihood_h_b": "3/4",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-002:F:1:extraction:0": {
+    "likelihood_h_a": "1/4",
+    "likelihood_h_b": "3/4",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-002:F:1:primary:0": {
+    "likelihood_h_a": "1/4",
+    "likelihood_h_b": "3/4",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-002:F:1:table:0": {
+    "likelihood_h_a": "1/4",
+    "likelihood_h_b": "3/4",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-002:R:0:extraction:0": {
+    "likelihood_h_a": "1/10",
+    "likelihood_h_b": "3/10",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-002:R:0:primary:0": {
+    "likelihood_h_a": "1/10",
+    "likelihood_h_b": "3/10",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-002:R:0:table:0": {
+    "likelihood_h_a": "1/10",
+    "likelihood_h_b": "3/10",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-002:R:1:extraction:0": {
+    "likelihood_h_a": "1/10",
+    "likelihood_h_b": "3/10",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-002:R:1:primary:0": {
+    "likelihood_h_a": "1/10",
+    "likelihood_h_b": "3/10",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-002:R:1:table:0": {
+    "likelihood_h_a": "1/10",
+    "likelihood_h_b": "3/10",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-002:S:0:extraction:0": {
+    "likelihood_h_a": "1/4",
+    "likelihood_h_b": "3/4",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-002:S:0:primary:0": {
+    "likelihood_h_a": "1/4",
+    "likelihood_h_b": "3/4",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-002:S:0:table:0": {
+    "likelihood_h_a": "1/4",
+    "likelihood_h_b": "3/4",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-002:S:1:extraction:0": {
+    "likelihood_h_a": "1/4",
+    "likelihood_h_b": "3/4",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-002:S:1:primary:0": {
+    "likelihood_h_a": "1/4",
+    "likelihood_h_b": "3/4",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-002:S:1:table:0": {
+    "likelihood_h_a": "1/4",
+    "likelihood_h_b": "3/4",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-003:F:0:extraction:0": {
+    "likelihood_h_a": "27/64",
+    "likelihood_h_b": "1/64",
+    "posterior_h_a": "27/29"
+  },
+  "evaluation-003:F:0:primary:0": {
+    "likelihood_h_a": "27/64",
+    "likelihood_h_b": "1/64",
+    "posterior_h_a": "27/29"
+  },
+  "evaluation-003:F:0:table:0": {
+    "likelihood_h_a": "27/64",
+    "likelihood_h_b": "1/64",
+    "posterior_h_a": "27/29"
+  },
+  "evaluation-003:F:1:extraction:0": {
+    "likelihood_h_a": "27/64",
+    "likelihood_h_b": "1/64",
+    "posterior_h_a": "27/29"
+  },
+  "evaluation-003:F:1:primary:0": {
+    "likelihood_h_a": "27/64",
+    "likelihood_h_b": "1/64",
+    "posterior_h_a": "27/29"
+  },
+  "evaluation-003:F:1:table:0": {
+    "likelihood_h_a": "27/64",
+    "likelihood_h_b": "1/64",
+    "posterior_h_a": "27/29"
+  },
+  "evaluation-003:R:0:extraction:0": {
+    "likelihood_h_a": "9/64",
+    "likelihood_h_b": "1/96",
+    "posterior_h_a": "27/31"
+  },
+  "evaluation-003:R:0:primary:0": {
+    "likelihood_h_a": "9/64",
+    "likelihood_h_b": "1/96",
+    "posterior_h_a": "27/31"
+  },
+  "evaluation-003:R:0:table:0": {
+    "likelihood_h_a": "9/64",
+    "likelihood_h_b": "1/96",
+    "posterior_h_a": "27/31"
+  },
+  "evaluation-003:R:1:extraction:0": {
+    "likelihood_h_a": "9/64",
+    "likelihood_h_b": "1/96",
+    "posterior_h_a": "27/31"
+  },
+  "evaluation-003:R:1:primary:0": {
+    "likelihood_h_a": "9/64",
+    "likelihood_h_b": "1/96",
+    "posterior_h_a": "27/31"
+  },
+  "evaluation-003:R:1:table:0": {
+    "likelihood_h_a": "9/64",
+    "likelihood_h_b": "1/96",
+    "posterior_h_a": "27/31"
+  },
+  "evaluation-003:S:0:extraction:0": {
+    "likelihood_h_a": "27/64",
+    "likelihood_h_b": "1/64",
+    "posterior_h_a": "27/29"
+  },
+  "evaluation-003:S:0:primary:0": {
+    "likelihood_h_a": "27/64",
+    "likelihood_h_b": "1/64",
+    "posterior_h_a": "27/29"
+  },
+  "evaluation-003:S:0:table:0": {
+    "likelihood_h_a": "27/64",
+    "likelihood_h_b": "1/64",
+    "posterior_h_a": "27/29"
+  },
+  "evaluation-003:S:1:extraction:0": {
+    "likelihood_h_a": "27/64",
+    "likelihood_h_b": "1/64",
+    "posterior_h_a": "27/29"
+  },
+  "evaluation-003:S:1:primary:0": {
+    "likelihood_h_a": "27/64",
+    "likelihood_h_b": "1/64",
+    "posterior_h_a": "27/29"
+  },
+  "evaluation-003:S:1:table:0": {
+    "likelihood_h_a": "27/64",
+    "likelihood_h_b": "1/64",
+    "posterior_h_a": "27/29"
+  },
+  "evaluation-004:F:0:extraction:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-004:F:0:primary:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-004:F:0:table:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-004:F:1:extraction:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-004:F:1:primary:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-004:F:1:table:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-004:R:0:extraction:0": {
+    "likelihood_h_a": "3/5",
+    "likelihood_h_b": "1/10",
+    "posterior_h_a": "6/7"
+  },
+  "evaluation-004:R:0:primary:0": {
+    "likelihood_h_a": "3/5",
+    "likelihood_h_b": "1/10",
+    "posterior_h_a": "6/7"
+  },
+  "evaluation-004:R:0:table:0": {
+    "likelihood_h_a": "3/5",
+    "likelihood_h_b": "1/10",
+    "posterior_h_a": "6/7"
+  },
+  "evaluation-004:R:1:extraction:0": {
+    "likelihood_h_a": "3/5",
+    "likelihood_h_b": "1/10",
+    "posterior_h_a": "6/7"
+  },
+  "evaluation-004:R:1:primary:0": {
+    "likelihood_h_a": "3/5",
+    "likelihood_h_b": "1/10",
+    "posterior_h_a": "6/7"
+  },
+  "evaluation-004:R:1:table:0": {
+    "likelihood_h_a": "3/5",
+    "likelihood_h_b": "1/10",
+    "posterior_h_a": "6/7"
+  },
+  "evaluation-004:S:0:extraction:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-004:S:0:primary:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-004:S:0:table:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-004:S:1:extraction:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-004:S:1:primary:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-004:S:1:table:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-005:F:0:extraction:0": {
+    "likelihood_h_a": "18/125",
+    "likelihood_h_b": "12/125",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-005:F:0:primary:0": {
+    "likelihood_h_a": "18/125",
+    "likelihood_h_b": "12/125",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-005:F:0:table:0": {
+    "likelihood_h_a": "18/125",
+    "likelihood_h_b": "12/125",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-005:F:1:extraction:0": {
+    "likelihood_h_a": "18/125",
+    "likelihood_h_b": "12/125",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-005:F:1:primary:0": {
+    "likelihood_h_a": "18/125",
+    "likelihood_h_b": "12/125",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-005:F:1:table:0": {
+    "likelihood_h_a": "18/125",
+    "likelihood_h_b": "12/125",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-005:R:0:extraction:0": {
+    "likelihood_h_a": "36/625",
+    "likelihood_h_b": "24/625",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-005:R:0:primary:0": {
+    "likelihood_h_a": "36/625",
+    "likelihood_h_b": "24/625",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-005:R:0:table:0": {
+    "likelihood_h_a": "36/625",
+    "likelihood_h_b": "24/625",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-005:R:1:extraction:0": {
+    "likelihood_h_a": "36/625",
+    "likelihood_h_b": "24/625",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-005:R:1:primary:0": {
+    "likelihood_h_a": "36/625",
+    "likelihood_h_b": "24/625",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-005:R:1:table:0": {
+    "likelihood_h_a": "36/625",
+    "likelihood_h_b": "24/625",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-005:S:0:extraction:0": {
+    "likelihood_h_a": "18/125",
+    "likelihood_h_b": "12/125",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-005:S:0:primary:0": {
+    "likelihood_h_a": "18/125",
+    "likelihood_h_b": "12/125",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-005:S:0:table:0": {
+    "likelihood_h_a": "18/125",
+    "likelihood_h_b": "12/125",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-005:S:1:extraction:0": {
+    "likelihood_h_a": "18/125",
+    "likelihood_h_b": "12/125",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-005:S:1:primary:0": {
+    "likelihood_h_a": "18/125",
+    "likelihood_h_b": "12/125",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-005:S:1:table:0": {
+    "likelihood_h_a": "18/125",
+    "likelihood_h_b": "12/125",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-006:F:0:extraction:0": {
+    "likelihood_h_a": "8/27",
+    "likelihood_h_b": "1/27",
+    "posterior_h_a": "8/9"
+  },
+  "evaluation-006:F:0:primary:0": {
+    "likelihood_h_a": "8/27",
+    "likelihood_h_b": "1/27",
+    "posterior_h_a": "8/9"
+  },
+  "evaluation-006:F:0:table:0": {
+    "likelihood_h_a": "8/27",
+    "likelihood_h_b": "1/27",
+    "posterior_h_a": "8/9"
+  },
+  "evaluation-006:F:1:extraction:0": {
+    "likelihood_h_a": "8/27",
+    "likelihood_h_b": "1/27",
+    "posterior_h_a": "8/9"
+  },
+  "evaluation-006:F:1:primary:0": {
+    "likelihood_h_a": "8/27",
+    "likelihood_h_b": "1/27",
+    "posterior_h_a": "8/9"
+  },
+  "evaluation-006:F:1:table:0": {
+    "likelihood_h_a": "8/27",
+    "likelihood_h_b": "1/27",
+    "posterior_h_a": "8/9"
+  },
+  "evaluation-006:R:0:extraction:0": {
+    "likelihood_h_a": "8/81",
+    "likelihood_h_b": "2/81",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-006:R:0:primary:0": {
+    "likelihood_h_a": "8/81",
+    "likelihood_h_b": "2/81",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-006:R:0:table:0": {
+    "likelihood_h_a": "8/81",
+    "likelihood_h_b": "2/81",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-006:R:1:extraction:0": {
+    "likelihood_h_a": "8/81",
+    "likelihood_h_b": "2/81",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-006:R:1:primary:0": {
+    "likelihood_h_a": "8/81",
+    "likelihood_h_b": "2/81",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-006:R:1:table:0": {
+    "likelihood_h_a": "8/81",
+    "likelihood_h_b": "2/81",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-006:S:0:extraction:0": {
+    "likelihood_h_a": "8/27",
+    "likelihood_h_b": "1/27",
+    "posterior_h_a": "8/9"
+  },
+  "evaluation-006:S:0:primary:0": {
+    "likelihood_h_a": "8/27",
+    "likelihood_h_b": "1/27",
+    "posterior_h_a": "8/9"
+  },
+  "evaluation-006:S:0:table:0": {
+    "likelihood_h_a": "8/27",
+    "likelihood_h_b": "1/27",
+    "posterior_h_a": "8/9"
+  },
+  "evaluation-006:S:1:extraction:0": {
+    "likelihood_h_a": "8/27",
+    "likelihood_h_b": "1/27",
+    "posterior_h_a": "8/9"
+  },
+  "evaluation-006:S:1:primary:0": {
+    "likelihood_h_a": "8/27",
+    "likelihood_h_b": "1/27",
+    "posterior_h_a": "8/9"
+  },
+  "evaluation-006:S:1:table:0": {
+    "likelihood_h_a": "8/27",
+    "likelihood_h_b": "1/27",
+    "posterior_h_a": "8/9"
+  },
+  "evaluation-007:F:0:extraction:0": {
+    "likelihood_h_a": "2/81",
+    "likelihood_h_b": "8/81",
+    "posterior_h_a": "1/9"
+  },
+  "evaluation-007:F:0:primary:0": {
+    "likelihood_h_a": "2/81",
+    "likelihood_h_b": "8/81",
+    "posterior_h_a": "1/9"
+  },
+  "evaluation-007:F:0:table:0": {
+    "likelihood_h_a": "2/81",
+    "likelihood_h_b": "8/81",
+    "posterior_h_a": "1/9"
+  },
+  "evaluation-007:F:1:extraction:0": {
+    "likelihood_h_a": "2/81",
+    "likelihood_h_b": "8/81",
+    "posterior_h_a": "1/9"
+  },
+  "evaluation-007:F:1:primary:0": {
+    "likelihood_h_a": "2/81",
+    "likelihood_h_b": "8/81",
+    "posterior_h_a": "1/9"
+  },
+  "evaluation-007:F:1:table:0": {
+    "likelihood_h_a": "2/81",
+    "likelihood_h_b": "8/81",
+    "posterior_h_a": "1/9"
+  },
+  "evaluation-007:R:0:extraction:0": {
+    "likelihood_h_a": "8/405",
+    "likelihood_h_b": "16/405",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-007:R:0:primary:0": {
+    "likelihood_h_a": "8/405",
+    "likelihood_h_b": "16/405",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-007:R:0:table:0": {
+    "likelihood_h_a": "8/405",
+    "likelihood_h_b": "16/405",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-007:R:1:extraction:0": {
+    "likelihood_h_a": "8/405",
+    "likelihood_h_b": "16/405",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-007:R:1:primary:0": {
+    "likelihood_h_a": "8/405",
+    "likelihood_h_b": "16/405",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-007:R:1:table:0": {
+    "likelihood_h_a": "8/405",
+    "likelihood_h_b": "16/405",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-007:S:0:extraction:0": {
+    "likelihood_h_a": "2/81",
+    "likelihood_h_b": "8/81",
+    "posterior_h_a": "1/9"
+  },
+  "evaluation-007:S:0:primary:0": {
+    "likelihood_h_a": "2/81",
+    "likelihood_h_b": "8/81",
+    "posterior_h_a": "1/9"
+  },
+  "evaluation-007:S:0:table:0": {
+    "likelihood_h_a": "2/81",
+    "likelihood_h_b": "8/81",
+    "posterior_h_a": "1/9"
+  },
+  "evaluation-007:S:1:extraction:0": {
+    "likelihood_h_a": "2/81",
+    "likelihood_h_b": "8/81",
+    "posterior_h_a": "1/9"
+  },
+  "evaluation-007:S:1:primary:0": {
+    "likelihood_h_a": "2/81",
+    "likelihood_h_b": "8/81",
+    "posterior_h_a": "1/9"
+  },
+  "evaluation-007:S:1:table:0": {
+    "likelihood_h_a": "2/81",
+    "likelihood_h_b": "8/81",
+    "posterior_h_a": "1/9"
+  },
+  "evaluation-008:F:0:extraction:0": {
+    "likelihood_h_a": "72/3125",
+    "likelihood_h_b": "108/3125",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-008:F:0:primary:0": {
+    "likelihood_h_a": "72/3125",
+    "likelihood_h_b": "108/3125",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-008:F:0:table:0": {
+    "likelihood_h_a": "72/3125",
+    "likelihood_h_b": "108/3125",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-008:F:1:extraction:0": {
+    "likelihood_h_a": "72/3125",
+    "likelihood_h_b": "108/3125",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-008:F:1:primary:0": {
+    "likelihood_h_a": "72/3125",
+    "likelihood_h_b": "108/3125",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-008:F:1:table:0": {
+    "likelihood_h_a": "72/3125",
+    "likelihood_h_b": "108/3125",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-008:R:0:extraction:0": {
+    "likelihood_h_a": "18/3125",
+    "likelihood_h_b": "27/3125",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-008:R:0:primary:0": {
+    "likelihood_h_a": "18/3125",
+    "likelihood_h_b": "27/3125",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-008:R:0:table:0": {
+    "likelihood_h_a": "18/3125",
+    "likelihood_h_b": "27/3125",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-008:R:1:extraction:0": {
+    "likelihood_h_a": "18/3125",
+    "likelihood_h_b": "27/3125",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-008:R:1:primary:0": {
+    "likelihood_h_a": "18/3125",
+    "likelihood_h_b": "27/3125",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-008:R:1:table:0": {
+    "likelihood_h_a": "18/3125",
+    "likelihood_h_b": "27/3125",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-008:S:0:extraction:0": {
+    "likelihood_h_a": "72/3125",
+    "likelihood_h_b": "108/3125",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-008:S:0:primary:0": {
+    "likelihood_h_a": "72/3125",
+    "likelihood_h_b": "108/3125",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-008:S:0:table:0": {
+    "likelihood_h_a": "72/3125",
+    "likelihood_h_b": "108/3125",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-008:S:1:extraction:0": {
+    "likelihood_h_a": "72/3125",
+    "likelihood_h_b": "108/3125",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-008:S:1:primary:0": {
+    "likelihood_h_a": "72/3125",
+    "likelihood_h_b": "108/3125",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-008:S:1:table:0": {
+    "likelihood_h_a": "72/3125",
+    "likelihood_h_b": "108/3125",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-009:F:0:extraction:0": {
+    "likelihood_h_a": "4/81",
+    "likelihood_h_b": "4/81",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-009:F:0:primary:0": {
+    "likelihood_h_a": "4/81",
+    "likelihood_h_b": "4/81",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-009:F:0:table:0": {
+    "likelihood_h_a": "4/81",
+    "likelihood_h_b": "4/81",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-009:F:1:extraction:0": {
+    "likelihood_h_a": "4/81",
+    "likelihood_h_b": "4/81",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-009:F:1:primary:0": {
+    "likelihood_h_a": "4/81",
+    "likelihood_h_b": "4/81",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-009:F:1:table:0": {
+    "likelihood_h_a": "4/81",
+    "likelihood_h_b": "4/81",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-009:R:0:extraction:0": {
+    "likelihood_h_a": "4/243",
+    "likelihood_h_b": "8/243",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-009:R:0:primary:0": {
+    "likelihood_h_a": "4/243",
+    "likelihood_h_b": "8/243",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-009:R:0:table:0": {
+    "likelihood_h_a": "4/243",
+    "likelihood_h_b": "8/243",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-009:R:1:extraction:0": {
+    "likelihood_h_a": "4/243",
+    "likelihood_h_b": "8/243",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-009:R:1:primary:0": {
+    "likelihood_h_a": "4/243",
+    "likelihood_h_b": "8/243",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-009:R:1:table:0": {
+    "likelihood_h_a": "4/243",
+    "likelihood_h_b": "8/243",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-009:S:0:extraction:0": {
+    "likelihood_h_a": "4/81",
+    "likelihood_h_b": "4/81",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-009:S:0:primary:0": {
+    "likelihood_h_a": "4/81",
+    "likelihood_h_b": "4/81",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-009:S:0:table:0": {
+    "likelihood_h_a": "4/81",
+    "likelihood_h_b": "4/81",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-009:S:1:extraction:0": {
+    "likelihood_h_a": "4/81",
+    "likelihood_h_b": "4/81",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-009:S:1:primary:0": {
+    "likelihood_h_a": "4/81",
+    "likelihood_h_b": "4/81",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-009:S:1:table:0": {
+    "likelihood_h_a": "4/81",
+    "likelihood_h_b": "4/81",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-010:F:0:extraction:0": {
+    "likelihood_h_a": "9/64",
+    "likelihood_h_b": "3/64",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-010:F:0:primary:0": {
+    "likelihood_h_a": "9/64",
+    "likelihood_h_b": "3/64",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-010:F:0:table:0": {
+    "likelihood_h_a": "9/64",
+    "likelihood_h_b": "3/64",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-010:F:1:extraction:0": {
+    "likelihood_h_a": "9/64",
+    "likelihood_h_b": "3/64",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-010:F:1:primary:0": {
+    "likelihood_h_a": "9/64",
+    "likelihood_h_b": "3/64",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-010:F:1:table:0": {
+    "likelihood_h_a": "9/64",
+    "likelihood_h_b": "3/64",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-010:R:0:extraction:0": {
+    "likelihood_h_a": "27/256",
+    "likelihood_h_b": "3/256",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-010:R:0:primary:0": {
+    "likelihood_h_a": "27/256",
+    "likelihood_h_b": "3/256",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-010:R:0:table:0": {
+    "likelihood_h_a": "27/256",
+    "likelihood_h_b": "3/256",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-010:R:1:extraction:0": {
+    "likelihood_h_a": "27/256",
+    "likelihood_h_b": "3/256",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-010:R:1:primary:0": {
+    "likelihood_h_a": "27/256",
+    "likelihood_h_b": "3/256",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-010:R:1:table:0": {
+    "likelihood_h_a": "27/256",
+    "likelihood_h_b": "3/256",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-010:S:0:extraction:0": {
+    "likelihood_h_a": "9/64",
+    "likelihood_h_b": "3/64",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-010:S:0:primary:0": {
+    "likelihood_h_a": "9/64",
+    "likelihood_h_b": "3/64",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-010:S:0:table:0": {
+    "likelihood_h_a": "9/64",
+    "likelihood_h_b": "3/64",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-010:S:1:extraction:0": {
+    "likelihood_h_a": "9/64",
+    "likelihood_h_b": "3/64",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-010:S:1:primary:0": {
+    "likelihood_h_a": "9/64",
+    "likelihood_h_b": "3/64",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-010:S:1:table:0": {
+    "likelihood_h_a": "9/64",
+    "likelihood_h_b": "3/64",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-011:F:0:extraction:0": {
+    "likelihood_h_a": "54/625",
+    "likelihood_h_b": "24/625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-011:F:0:primary:0": {
+    "likelihood_h_a": "54/625",
+    "likelihood_h_b": "24/625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-011:F:0:table:0": {
+    "likelihood_h_a": "54/625",
+    "likelihood_h_b": "24/625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-011:F:1:extraction:0": {
+    "likelihood_h_a": "54/625",
+    "likelihood_h_b": "24/625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-011:F:1:primary:0": {
+    "likelihood_h_a": "54/625",
+    "likelihood_h_b": "24/625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-011:F:1:table:0": {
+    "likelihood_h_a": "54/625",
+    "likelihood_h_b": "24/625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-011:R:0:extraction:0": {
+    "likelihood_h_a": "18/625",
+    "likelihood_h_b": "8/625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-011:R:0:primary:0": {
+    "likelihood_h_a": "18/625",
+    "likelihood_h_b": "8/625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-011:R:0:table:0": {
+    "likelihood_h_a": "18/625",
+    "likelihood_h_b": "8/625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-011:R:1:extraction:0": {
+    "likelihood_h_a": "18/625",
+    "likelihood_h_b": "8/625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-011:R:1:primary:0": {
+    "likelihood_h_a": "18/625",
+    "likelihood_h_b": "8/625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-011:R:1:table:0": {
+    "likelihood_h_a": "18/625",
+    "likelihood_h_b": "8/625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-011:S:0:extraction:0": {
+    "likelihood_h_a": "54/625",
+    "likelihood_h_b": "24/625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-011:S:0:primary:0": {
+    "likelihood_h_a": "54/625",
+    "likelihood_h_b": "24/625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-011:S:0:table:0": {
+    "likelihood_h_a": "54/625",
+    "likelihood_h_b": "24/625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-011:S:1:extraction:0": {
+    "likelihood_h_a": "54/625",
+    "likelihood_h_b": "24/625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-011:S:1:primary:0": {
+    "likelihood_h_a": "54/625",
+    "likelihood_h_b": "24/625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-011:S:1:table:0": {
+    "likelihood_h_a": "54/625",
+    "likelihood_h_b": "24/625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-012:F:0:extraction:0": {
+    "likelihood_h_a": "9/16",
+    "likelihood_h_b": "1/16",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-012:F:0:primary:0": {
+    "likelihood_h_a": "9/16",
+    "likelihood_h_b": "1/16",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-012:F:0:table:0": {
+    "likelihood_h_a": "9/16",
+    "likelihood_h_b": "1/16",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-012:F:1:extraction:0": {
+    "likelihood_h_a": "9/16",
+    "likelihood_h_b": "1/16",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-012:F:1:primary:0": {
+    "likelihood_h_a": "9/16",
+    "likelihood_h_b": "1/16",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-012:F:1:table:0": {
+    "likelihood_h_a": "9/16",
+    "likelihood_h_b": "1/16",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-012:R:0:extraction:0": {
+    "likelihood_h_a": "3/16",
+    "likelihood_h_b": "1/24",
+    "posterior_h_a": "9/13"
+  },
+  "evaluation-012:R:0:primary:0": {
+    "likelihood_h_a": "3/16",
+    "likelihood_h_b": "1/24",
+    "posterior_h_a": "9/13"
+  },
+  "evaluation-012:R:0:table:0": {
+    "likelihood_h_a": "3/16",
+    "likelihood_h_b": "1/24",
+    "posterior_h_a": "9/13"
+  },
+  "evaluation-012:R:1:extraction:0": {
+    "likelihood_h_a": "3/16",
+    "likelihood_h_b": "1/24",
+    "posterior_h_a": "9/13"
+  },
+  "evaluation-012:R:1:primary:0": {
+    "likelihood_h_a": "3/16",
+    "likelihood_h_b": "1/24",
+    "posterior_h_a": "9/13"
+  },
+  "evaluation-012:R:1:table:0": {
+    "likelihood_h_a": "3/16",
+    "likelihood_h_b": "1/24",
+    "posterior_h_a": "9/13"
+  },
+  "evaluation-012:S:0:extraction:0": {
+    "likelihood_h_a": "9/16",
+    "likelihood_h_b": "1/16",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-012:S:0:primary:0": {
+    "likelihood_h_a": "9/16",
+    "likelihood_h_b": "1/16",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-012:S:0:table:0": {
+    "likelihood_h_a": "9/16",
+    "likelihood_h_b": "1/16",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-012:S:1:extraction:0": {
+    "likelihood_h_a": "9/16",
+    "likelihood_h_b": "1/16",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-012:S:1:primary:0": {
+    "likelihood_h_a": "9/16",
+    "likelihood_h_b": "1/16",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-012:S:1:table:0": {
+    "likelihood_h_a": "9/16",
+    "likelihood_h_b": "1/16",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-013:F:0:extraction:0": {
+    "likelihood_h_a": "4/81",
+    "likelihood_h_b": "4/81",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-013:F:0:primary:0": {
+    "likelihood_h_a": "4/81",
+    "likelihood_h_b": "4/81",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-013:F:0:table:0": {
+    "likelihood_h_a": "4/81",
+    "likelihood_h_b": "4/81",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-013:F:1:extraction:0": {
+    "likelihood_h_a": "4/81",
+    "likelihood_h_b": "4/81",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-013:F:1:primary:0": {
+    "likelihood_h_a": "4/81",
+    "likelihood_h_b": "4/81",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-013:F:1:table:0": {
+    "likelihood_h_a": "4/81",
+    "likelihood_h_b": "4/81",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-013:R:0:extraction:0": {
+    "likelihood_h_a": "8/243",
+    "likelihood_h_b": "4/243",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-013:R:0:primary:0": {
+    "likelihood_h_a": "8/243",
+    "likelihood_h_b": "4/243",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-013:R:0:table:0": {
+    "likelihood_h_a": "8/243",
+    "likelihood_h_b": "4/243",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-013:R:1:extraction:0": {
+    "likelihood_h_a": "8/243",
+    "likelihood_h_b": "4/243",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-013:R:1:primary:0": {
+    "likelihood_h_a": "8/243",
+    "likelihood_h_b": "4/243",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-013:R:1:table:0": {
+    "likelihood_h_a": "8/243",
+    "likelihood_h_b": "4/243",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-013:S:0:extraction:0": {
+    "likelihood_h_a": "4/81",
+    "likelihood_h_b": "4/81",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-013:S:0:primary:0": {
+    "likelihood_h_a": "4/81",
+    "likelihood_h_b": "4/81",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-013:S:0:table:0": {
+    "likelihood_h_a": "4/81",
+    "likelihood_h_b": "4/81",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-013:S:1:extraction:0": {
+    "likelihood_h_a": "4/81",
+    "likelihood_h_b": "4/81",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-013:S:1:primary:0": {
+    "likelihood_h_a": "4/81",
+    "likelihood_h_b": "4/81",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-013:S:1:table:0": {
+    "likelihood_h_a": "4/81",
+    "likelihood_h_b": "4/81",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-014:F:0:extraction:0": {
+    "likelihood_h_a": "9/64",
+    "likelihood_h_b": "3/64",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-014:F:0:primary:0": {
+    "likelihood_h_a": "9/64",
+    "likelihood_h_b": "3/64",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-014:F:0:table:0": {
+    "likelihood_h_a": "9/64",
+    "likelihood_h_b": "3/64",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-014:F:1:extraction:0": {
+    "likelihood_h_a": "9/64",
+    "likelihood_h_b": "3/64",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-014:F:1:primary:0": {
+    "likelihood_h_a": "9/64",
+    "likelihood_h_b": "3/64",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-014:F:1:table:0": {
+    "likelihood_h_a": "9/64",
+    "likelihood_h_b": "3/64",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-014:R:0:extraction:0": {
+    "likelihood_h_a": "9/256",
+    "likelihood_h_b": "3/256",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-014:R:0:primary:0": {
+    "likelihood_h_a": "9/256",
+    "likelihood_h_b": "3/256",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-014:R:0:table:0": {
+    "likelihood_h_a": "9/256",
+    "likelihood_h_b": "3/256",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-014:R:1:extraction:0": {
+    "likelihood_h_a": "9/256",
+    "likelihood_h_b": "3/256",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-014:R:1:primary:0": {
+    "likelihood_h_a": "9/256",
+    "likelihood_h_b": "3/256",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-014:R:1:table:0": {
+    "likelihood_h_a": "9/256",
+    "likelihood_h_b": "3/256",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-014:S:0:extraction:0": {
+    "likelihood_h_a": "9/64",
+    "likelihood_h_b": "3/64",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-014:S:0:primary:0": {
+    "likelihood_h_a": "9/64",
+    "likelihood_h_b": "3/64",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-014:S:0:table:0": {
+    "likelihood_h_a": "9/64",
+    "likelihood_h_b": "3/64",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-014:S:1:extraction:0": {
+    "likelihood_h_a": "9/64",
+    "likelihood_h_b": "3/64",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-014:S:1:primary:0": {
+    "likelihood_h_a": "9/64",
+    "likelihood_h_b": "3/64",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-014:S:1:table:0": {
+    "likelihood_h_a": "9/64",
+    "likelihood_h_b": "3/64",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-015:F:0:extraction:0": {
+    "likelihood_h_a": "1/16",
+    "likelihood_h_b": "9/16",
+    "posterior_h_a": "1/10"
+  },
+  "evaluation-015:F:0:primary:0": {
+    "likelihood_h_a": "1/16",
+    "likelihood_h_b": "9/16",
+    "posterior_h_a": "1/10"
+  },
+  "evaluation-015:F:0:table:0": {
+    "likelihood_h_a": "1/16",
+    "likelihood_h_b": "9/16",
+    "posterior_h_a": "1/10"
+  },
+  "evaluation-015:F:1:extraction:0": {
+    "likelihood_h_a": "1/16",
+    "likelihood_h_b": "9/16",
+    "posterior_h_a": "1/10"
+  },
+  "evaluation-015:F:1:primary:0": {
+    "likelihood_h_a": "1/16",
+    "likelihood_h_b": "9/16",
+    "posterior_h_a": "1/10"
+  },
+  "evaluation-015:F:1:table:0": {
+    "likelihood_h_a": "1/16",
+    "likelihood_h_b": "9/16",
+    "posterior_h_a": "1/10"
+  },
+  "evaluation-015:R:0:extraction:0": {
+    "likelihood_h_a": "1/48",
+    "likelihood_h_b": "3/8",
+    "posterior_h_a": "1/19"
+  },
+  "evaluation-015:R:0:primary:0": {
+    "likelihood_h_a": "1/48",
+    "likelihood_h_b": "3/8",
+    "posterior_h_a": "1/19"
+  },
+  "evaluation-015:R:0:table:0": {
+    "likelihood_h_a": "1/48",
+    "likelihood_h_b": "3/8",
+    "posterior_h_a": "1/19"
+  },
+  "evaluation-015:R:1:extraction:0": {
+    "likelihood_h_a": "1/48",
+    "likelihood_h_b": "3/8",
+    "posterior_h_a": "1/19"
+  },
+  "evaluation-015:R:1:primary:0": {
+    "likelihood_h_a": "1/48",
+    "likelihood_h_b": "3/8",
+    "posterior_h_a": "1/19"
+  },
+  "evaluation-015:R:1:table:0": {
+    "likelihood_h_a": "1/48",
+    "likelihood_h_b": "3/8",
+    "posterior_h_a": "1/19"
+  },
+  "evaluation-015:S:0:extraction:0": {
+    "likelihood_h_a": "1/16",
+    "likelihood_h_b": "9/16",
+    "posterior_h_a": "1/10"
+  },
+  "evaluation-015:S:0:primary:0": {
+    "likelihood_h_a": "1/16",
+    "likelihood_h_b": "9/16",
+    "posterior_h_a": "1/10"
+  },
+  "evaluation-015:S:0:table:0": {
+    "likelihood_h_a": "1/16",
+    "likelihood_h_b": "9/16",
+    "posterior_h_a": "1/10"
+  },
+  "evaluation-015:S:1:extraction:0": {
+    "likelihood_h_a": "1/16",
+    "likelihood_h_b": "9/16",
+    "posterior_h_a": "1/10"
+  },
+  "evaluation-015:S:1:primary:0": {
+    "likelihood_h_a": "1/16",
+    "likelihood_h_b": "9/16",
+    "posterior_h_a": "1/10"
+  },
+  "evaluation-015:S:1:table:0": {
+    "likelihood_h_a": "1/16",
+    "likelihood_h_b": "9/16",
+    "posterior_h_a": "1/10"
+  },
+  "evaluation-016:F:0:extraction:0": {
+    "likelihood_h_a": "4/729",
+    "likelihood_h_b": "16/729",
+    "posterior_h_a": "1/9"
+  },
+  "evaluation-016:F:0:primary:0": {
+    "likelihood_h_a": "4/729",
+    "likelihood_h_b": "16/729",
+    "posterior_h_a": "1/9"
+  },
+  "evaluation-016:F:0:table:0": {
+    "likelihood_h_a": "4/729",
+    "likelihood_h_b": "16/729",
+    "posterior_h_a": "1/9"
+  },
+  "evaluation-016:F:1:extraction:0": {
+    "likelihood_h_a": "4/729",
+    "likelihood_h_b": "16/729",
+    "posterior_h_a": "1/9"
+  },
+  "evaluation-016:F:1:primary:0": {
+    "likelihood_h_a": "4/729",
+    "likelihood_h_b": "16/729",
+    "posterior_h_a": "1/9"
+  },
+  "evaluation-016:F:1:table:0": {
+    "likelihood_h_a": "4/729",
+    "likelihood_h_b": "16/729",
+    "posterior_h_a": "1/9"
+  },
+  "evaluation-016:R:0:extraction:0": {
+    "likelihood_h_a": "1/243",
+    "likelihood_h_b": "4/729",
+    "posterior_h_a": "3/11"
+  },
+  "evaluation-016:R:0:primary:0": {
+    "likelihood_h_a": "1/243",
+    "likelihood_h_b": "4/729",
+    "posterior_h_a": "3/11"
+  },
+  "evaluation-016:R:0:table:0": {
+    "likelihood_h_a": "1/243",
+    "likelihood_h_b": "4/729",
+    "posterior_h_a": "3/11"
+  },
+  "evaluation-016:R:1:extraction:0": {
+    "likelihood_h_a": "1/243",
+    "likelihood_h_b": "4/729",
+    "posterior_h_a": "3/11"
+  },
+  "evaluation-016:R:1:primary:0": {
+    "likelihood_h_a": "1/243",
+    "likelihood_h_b": "4/729",
+    "posterior_h_a": "3/11"
+  },
+  "evaluation-016:R:1:table:0": {
+    "likelihood_h_a": "1/243",
+    "likelihood_h_b": "4/729",
+    "posterior_h_a": "3/11"
+  },
+  "evaluation-016:S:0:extraction:0": {
+    "likelihood_h_a": "4/729",
+    "likelihood_h_b": "16/729",
+    "posterior_h_a": "1/9"
+  },
+  "evaluation-016:S:0:primary:0": {
+    "likelihood_h_a": "4/729",
+    "likelihood_h_b": "16/729",
+    "posterior_h_a": "1/9"
+  },
+  "evaluation-016:S:0:table:0": {
+    "likelihood_h_a": "4/729",
+    "likelihood_h_b": "16/729",
+    "posterior_h_a": "1/9"
+  },
+  "evaluation-016:S:1:extraction:0": {
+    "likelihood_h_a": "4/729",
+    "likelihood_h_b": "16/729",
+    "posterior_h_a": "1/9"
+  },
+  "evaluation-016:S:1:primary:0": {
+    "likelihood_h_a": "4/729",
+    "likelihood_h_b": "16/729",
+    "posterior_h_a": "1/9"
+  },
+  "evaluation-016:S:1:table:0": {
+    "likelihood_h_a": "4/729",
+    "likelihood_h_b": "16/729",
+    "posterior_h_a": "1/9"
+  },
+  "evaluation-017:F:0:extraction:0": {
+    "likelihood_h_a": "4/9",
+    "likelihood_h_b": "1/9",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-017:F:0:primary:0": {
+    "likelihood_h_a": "4/9",
+    "likelihood_h_b": "1/9",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-017:F:0:table:0": {
+    "likelihood_h_a": "4/9",
+    "likelihood_h_b": "1/9",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-017:F:1:extraction:0": {
+    "likelihood_h_a": "4/9",
+    "likelihood_h_b": "1/9",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-017:F:1:primary:0": {
+    "likelihood_h_a": "4/9",
+    "likelihood_h_b": "1/9",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-017:F:1:table:0": {
+    "likelihood_h_a": "4/9",
+    "likelihood_h_b": "1/9",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-017:R:0:extraction:0": {
+    "likelihood_h_a": "1/9",
+    "likelihood_h_b": "1/36",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-017:R:0:primary:0": {
+    "likelihood_h_a": "1/9",
+    "likelihood_h_b": "1/36",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-017:R:0:table:0": {
+    "likelihood_h_a": "1/9",
+    "likelihood_h_b": "1/36",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-017:R:1:extraction:0": {
+    "likelihood_h_a": "1/9",
+    "likelihood_h_b": "1/36",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-017:R:1:primary:0": {
+    "likelihood_h_a": "1/9",
+    "likelihood_h_b": "1/36",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-017:R:1:table:0": {
+    "likelihood_h_a": "1/9",
+    "likelihood_h_b": "1/36",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-017:S:0:extraction:0": {
+    "likelihood_h_a": "4/9",
+    "likelihood_h_b": "1/9",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-017:S:0:primary:0": {
+    "likelihood_h_a": "4/9",
+    "likelihood_h_b": "1/9",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-017:S:0:table:0": {
+    "likelihood_h_a": "4/9",
+    "likelihood_h_b": "1/9",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-017:S:1:extraction:0": {
+    "likelihood_h_a": "4/9",
+    "likelihood_h_b": "1/9",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-017:S:1:primary:0": {
+    "likelihood_h_a": "4/9",
+    "likelihood_h_b": "1/9",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-017:S:1:table:0": {
+    "likelihood_h_a": "4/9",
+    "likelihood_h_b": "1/9",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-018:F:0:extraction:0": {
+    "likelihood_h_a": "54/625",
+    "likelihood_h_b": "24/625",
+    "posterior_h_a": "9/13"
+  },
+  "evaluation-018:F:0:primary:0": {
+    "likelihood_h_a": "54/625",
+    "likelihood_h_b": "24/625",
+    "posterior_h_a": "9/13"
+  },
+  "evaluation-018:F:0:table:0": {
+    "likelihood_h_a": "54/625",
+    "likelihood_h_b": "24/625",
+    "posterior_h_a": "9/13"
+  },
+  "evaluation-018:F:1:extraction:0": {
+    "likelihood_h_a": "54/625",
+    "likelihood_h_b": "24/625",
+    "posterior_h_a": "9/13"
+  },
+  "evaluation-018:F:1:primary:0": {
+    "likelihood_h_a": "54/625",
+    "likelihood_h_b": "24/625",
+    "posterior_h_a": "9/13"
+  },
+  "evaluation-018:F:1:table:0": {
+    "likelihood_h_a": "54/625",
+    "likelihood_h_b": "24/625",
+    "posterior_h_a": "9/13"
+  },
+  "evaluation-018:R:0:extraction:0": {
+    "likelihood_h_a": "18/625",
+    "likelihood_h_b": "16/625",
+    "posterior_h_a": "9/17"
+  },
+  "evaluation-018:R:0:primary:0": {
+    "likelihood_h_a": "18/625",
+    "likelihood_h_b": "16/625",
+    "posterior_h_a": "9/17"
+  },
+  "evaluation-018:R:0:table:0": {
+    "likelihood_h_a": "18/625",
+    "likelihood_h_b": "16/625",
+    "posterior_h_a": "9/17"
+  },
+  "evaluation-018:R:1:extraction:0": {
+    "likelihood_h_a": "18/625",
+    "likelihood_h_b": "16/625",
+    "posterior_h_a": "9/17"
+  },
+  "evaluation-018:R:1:primary:0": {
+    "likelihood_h_a": "18/625",
+    "likelihood_h_b": "16/625",
+    "posterior_h_a": "9/17"
+  },
+  "evaluation-018:R:1:table:0": {
+    "likelihood_h_a": "18/625",
+    "likelihood_h_b": "16/625",
+    "posterior_h_a": "9/17"
+  },
+  "evaluation-018:S:0:extraction:0": {
+    "likelihood_h_a": "54/625",
+    "likelihood_h_b": "24/625",
+    "posterior_h_a": "9/13"
+  },
+  "evaluation-018:S:0:primary:0": {
+    "likelihood_h_a": "54/625",
+    "likelihood_h_b": "24/625",
+    "posterior_h_a": "9/13"
+  },
+  "evaluation-018:S:0:table:0": {
+    "likelihood_h_a": "54/625",
+    "likelihood_h_b": "24/625",
+    "posterior_h_a": "9/13"
+  },
+  "evaluation-018:S:1:extraction:0": {
+    "likelihood_h_a": "54/625",
+    "likelihood_h_b": "24/625",
+    "posterior_h_a": "9/13"
+  },
+  "evaluation-018:S:1:primary:0": {
+    "likelihood_h_a": "54/625",
+    "likelihood_h_b": "24/625",
+    "posterior_h_a": "9/13"
+  },
+  "evaluation-018:S:1:table:0": {
+    "likelihood_h_a": "54/625",
+    "likelihood_h_b": "24/625",
+    "posterior_h_a": "9/13"
+  },
+  "evaluation-019:F:0:extraction:0": {
+    "likelihood_h_a": "72/3125",
+    "likelihood_h_b": "108/3125",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-019:F:0:primary:0": {
+    "likelihood_h_a": "72/3125",
+    "likelihood_h_b": "108/3125",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-019:F:0:table:0": {
+    "likelihood_h_a": "72/3125",
+    "likelihood_h_b": "108/3125",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-019:F:1:extraction:0": {
+    "likelihood_h_a": "72/3125",
+    "likelihood_h_b": "108/3125",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-019:F:1:primary:0": {
+    "likelihood_h_a": "72/3125",
+    "likelihood_h_b": "108/3125",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-019:F:1:table:0": {
+    "likelihood_h_a": "72/3125",
+    "likelihood_h_b": "108/3125",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-019:R:0:extraction:0": {
+    "likelihood_h_a": "54/3125",
+    "likelihood_h_b": "27/3125",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-019:R:0:primary:0": {
+    "likelihood_h_a": "54/3125",
+    "likelihood_h_b": "27/3125",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-019:R:0:table:0": {
+    "likelihood_h_a": "54/3125",
+    "likelihood_h_b": "27/3125",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-019:R:1:extraction:0": {
+    "likelihood_h_a": "54/3125",
+    "likelihood_h_b": "27/3125",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-019:R:1:primary:0": {
+    "likelihood_h_a": "54/3125",
+    "likelihood_h_b": "27/3125",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-019:R:1:table:0": {
+    "likelihood_h_a": "54/3125",
+    "likelihood_h_b": "27/3125",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-019:S:0:extraction:0": {
+    "likelihood_h_a": "72/3125",
+    "likelihood_h_b": "108/3125",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-019:S:0:primary:0": {
+    "likelihood_h_a": "72/3125",
+    "likelihood_h_b": "108/3125",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-019:S:0:table:0": {
+    "likelihood_h_a": "72/3125",
+    "likelihood_h_b": "108/3125",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-019:S:1:extraction:0": {
+    "likelihood_h_a": "72/3125",
+    "likelihood_h_b": "108/3125",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-019:S:1:primary:0": {
+    "likelihood_h_a": "72/3125",
+    "likelihood_h_b": "108/3125",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-019:S:1:table:0": {
+    "likelihood_h_a": "72/3125",
+    "likelihood_h_b": "108/3125",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-020:F:0:extraction:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-020:F:0:primary:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-020:F:0:table:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-020:F:1:extraction:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-020:F:1:primary:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-020:F:1:table:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-020:R:0:extraction:0": {
+    "likelihood_h_a": "3/10",
+    "likelihood_h_b": "1/10",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-020:R:0:primary:0": {
+    "likelihood_h_a": "3/10",
+    "likelihood_h_b": "1/10",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-020:R:0:table:0": {
+    "likelihood_h_a": "3/10",
+    "likelihood_h_b": "1/10",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-020:R:1:extraction:0": {
+    "likelihood_h_a": "3/10",
+    "likelihood_h_b": "1/10",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-020:R:1:primary:0": {
+    "likelihood_h_a": "3/10",
+    "likelihood_h_b": "1/10",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-020:R:1:table:0": {
+    "likelihood_h_a": "3/10",
+    "likelihood_h_b": "1/10",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-020:S:0:extraction:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-020:S:0:primary:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-020:S:0:table:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-020:S:1:extraction:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-020:S:1:primary:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-020:S:1:table:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-021:F:0:extraction:0": {
+    "likelihood_h_a": "1/27",
+    "likelihood_h_b": "8/27",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-021:F:0:primary:0": {
+    "likelihood_h_a": "1/27",
+    "likelihood_h_b": "8/27",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-021:F:0:table:0": {
+    "likelihood_h_a": "1/27",
+    "likelihood_h_b": "8/27",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-021:F:1:extraction:0": {
+    "likelihood_h_a": "1/27",
+    "likelihood_h_b": "8/27",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-021:F:1:primary:0": {
+    "likelihood_h_a": "1/27",
+    "likelihood_h_b": "8/27",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-021:F:1:table:0": {
+    "likelihood_h_a": "1/27",
+    "likelihood_h_b": "8/27",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-021:R:0:extraction:0": {
+    "likelihood_h_a": "1/81",
+    "likelihood_h_b": "16/81",
+    "posterior_h_a": "1/9"
+  },
+  "evaluation-021:R:0:primary:0": {
+    "likelihood_h_a": "1/81",
+    "likelihood_h_b": "16/81",
+    "posterior_h_a": "1/9"
+  },
+  "evaluation-021:R:0:table:0": {
+    "likelihood_h_a": "1/81",
+    "likelihood_h_b": "16/81",
+    "posterior_h_a": "1/9"
+  },
+  "evaluation-021:R:1:extraction:0": {
+    "likelihood_h_a": "1/81",
+    "likelihood_h_b": "16/81",
+    "posterior_h_a": "1/9"
+  },
+  "evaluation-021:R:1:primary:0": {
+    "likelihood_h_a": "1/81",
+    "likelihood_h_b": "16/81",
+    "posterior_h_a": "1/9"
+  },
+  "evaluation-021:R:1:table:0": {
+    "likelihood_h_a": "1/81",
+    "likelihood_h_b": "16/81",
+    "posterior_h_a": "1/9"
+  },
+  "evaluation-021:S:0:extraction:0": {
+    "likelihood_h_a": "1/27",
+    "likelihood_h_b": "8/27",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-021:S:0:primary:0": {
+    "likelihood_h_a": "1/27",
+    "likelihood_h_b": "8/27",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-021:S:0:table:0": {
+    "likelihood_h_a": "1/27",
+    "likelihood_h_b": "8/27",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-021:S:1:extraction:0": {
+    "likelihood_h_a": "1/27",
+    "likelihood_h_b": "8/27",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-021:S:1:primary:0": {
+    "likelihood_h_a": "1/27",
+    "likelihood_h_b": "8/27",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-021:S:1:table:0": {
+    "likelihood_h_a": "1/27",
+    "likelihood_h_b": "8/27",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-022:F:0:extraction:0": {
+    "likelihood_h_a": "8/27",
+    "likelihood_h_b": "1/27",
+    "posterior_h_a": "8/9"
+  },
+  "evaluation-022:F:0:primary:0": {
+    "likelihood_h_a": "8/27",
+    "likelihood_h_b": "1/27",
+    "posterior_h_a": "8/9"
+  },
+  "evaluation-022:F:0:table:0": {
+    "likelihood_h_a": "8/27",
+    "likelihood_h_b": "1/27",
+    "posterior_h_a": "8/9"
+  },
+  "evaluation-022:F:1:extraction:0": {
+    "likelihood_h_a": "8/27",
+    "likelihood_h_b": "1/27",
+    "posterior_h_a": "8/9"
+  },
+  "evaluation-022:F:1:primary:0": {
+    "likelihood_h_a": "8/27",
+    "likelihood_h_b": "1/27",
+    "posterior_h_a": "8/9"
+  },
+  "evaluation-022:F:1:table:0": {
+    "likelihood_h_a": "8/27",
+    "likelihood_h_b": "1/27",
+    "posterior_h_a": "8/9"
+  },
+  "evaluation-022:R:0:extraction:0": {
+    "likelihood_h_a": "16/81",
+    "likelihood_h_b": "1/81",
+    "posterior_h_a": "16/17"
+  },
+  "evaluation-022:R:0:primary:0": {
+    "likelihood_h_a": "16/81",
+    "likelihood_h_b": "1/81",
+    "posterior_h_a": "16/17"
+  },
+  "evaluation-022:R:0:table:0": {
+    "likelihood_h_a": "16/81",
+    "likelihood_h_b": "1/81",
+    "posterior_h_a": "16/17"
+  },
+  "evaluation-022:R:1:extraction:0": {
+    "likelihood_h_a": "16/81",
+    "likelihood_h_b": "1/81",
+    "posterior_h_a": "16/17"
+  },
+  "evaluation-022:R:1:primary:0": {
+    "likelihood_h_a": "16/81",
+    "likelihood_h_b": "1/81",
+    "posterior_h_a": "16/17"
+  },
+  "evaluation-022:R:1:table:0": {
+    "likelihood_h_a": "16/81",
+    "likelihood_h_b": "1/81",
+    "posterior_h_a": "16/17"
+  },
+  "evaluation-022:S:0:extraction:0": {
+    "likelihood_h_a": "8/27",
+    "likelihood_h_b": "1/27",
+    "posterior_h_a": "8/9"
+  },
+  "evaluation-022:S:0:primary:0": {
+    "likelihood_h_a": "8/27",
+    "likelihood_h_b": "1/27",
+    "posterior_h_a": "8/9"
+  },
+  "evaluation-022:S:0:table:0": {
+    "likelihood_h_a": "8/27",
+    "likelihood_h_b": "1/27",
+    "posterior_h_a": "8/9"
+  },
+  "evaluation-022:S:1:extraction:0": {
+    "likelihood_h_a": "8/27",
+    "likelihood_h_b": "1/27",
+    "posterior_h_a": "8/9"
+  },
+  "evaluation-022:S:1:primary:0": {
+    "likelihood_h_a": "8/27",
+    "likelihood_h_b": "1/27",
+    "posterior_h_a": "8/9"
+  },
+  "evaluation-022:S:1:table:0": {
+    "likelihood_h_a": "8/27",
+    "likelihood_h_b": "1/27",
+    "posterior_h_a": "8/9"
+  },
+  "evaluation-023:F:0:extraction:0": {
+    "likelihood_h_a": "9/16",
+    "likelihood_h_b": "1/16",
+    "posterior_h_a": "9/10"
+  },
+  "evaluation-023:F:0:primary:0": {
+    "likelihood_h_a": "9/16",
+    "likelihood_h_b": "1/16",
+    "posterior_h_a": "9/10"
+  },
+  "evaluation-023:F:0:table:0": {
+    "likelihood_h_a": "9/16",
+    "likelihood_h_b": "1/16",
+    "posterior_h_a": "9/10"
+  },
+  "evaluation-023:F:1:extraction:0": {
+    "likelihood_h_a": "9/16",
+    "likelihood_h_b": "1/16",
+    "posterior_h_a": "9/10"
+  },
+  "evaluation-023:F:1:primary:0": {
+    "likelihood_h_a": "9/16",
+    "likelihood_h_b": "1/16",
+    "posterior_h_a": "9/10"
+  },
+  "evaluation-023:F:1:table:0": {
+    "likelihood_h_a": "9/16",
+    "likelihood_h_b": "1/16",
+    "posterior_h_a": "9/10"
+  },
+  "evaluation-023:R:0:extraction:0": {
+    "likelihood_h_a": "9/40",
+    "likelihood_h_b": "1/40",
+    "posterior_h_a": "9/10"
+  },
+  "evaluation-023:R:0:primary:0": {
+    "likelihood_h_a": "9/40",
+    "likelihood_h_b": "1/40",
+    "posterior_h_a": "9/10"
+  },
+  "evaluation-023:R:0:table:0": {
+    "likelihood_h_a": "9/40",
+    "likelihood_h_b": "1/40",
+    "posterior_h_a": "9/10"
+  },
+  "evaluation-023:R:1:extraction:0": {
+    "likelihood_h_a": "9/40",
+    "likelihood_h_b": "1/40",
+    "posterior_h_a": "9/10"
+  },
+  "evaluation-023:R:1:primary:0": {
+    "likelihood_h_a": "9/40",
+    "likelihood_h_b": "1/40",
+    "posterior_h_a": "9/10"
+  },
+  "evaluation-023:R:1:table:0": {
+    "likelihood_h_a": "9/40",
+    "likelihood_h_b": "1/40",
+    "posterior_h_a": "9/10"
+  },
+  "evaluation-023:S:0:extraction:0": {
+    "likelihood_h_a": "9/16",
+    "likelihood_h_b": "1/16",
+    "posterior_h_a": "9/10"
+  },
+  "evaluation-023:S:0:primary:0": {
+    "likelihood_h_a": "9/16",
+    "likelihood_h_b": "1/16",
+    "posterior_h_a": "9/10"
+  },
+  "evaluation-023:S:0:table:0": {
+    "likelihood_h_a": "9/16",
+    "likelihood_h_b": "1/16",
+    "posterior_h_a": "9/10"
+  },
+  "evaluation-023:S:1:extraction:0": {
+    "likelihood_h_a": "9/16",
+    "likelihood_h_b": "1/16",
+    "posterior_h_a": "9/10"
+  },
+  "evaluation-023:S:1:primary:0": {
+    "likelihood_h_a": "9/16",
+    "likelihood_h_b": "1/16",
+    "posterior_h_a": "9/10"
+  },
+  "evaluation-023:S:1:table:0": {
+    "likelihood_h_a": "9/16",
+    "likelihood_h_b": "1/16",
+    "posterior_h_a": "9/10"
+  },
+  "evaluation-024:F:0:extraction:0": {
+    "likelihood_h_a": "8/81",
+    "likelihood_h_b": "2/81",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-024:F:0:primary:0": {
+    "likelihood_h_a": "8/81",
+    "likelihood_h_b": "2/81",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-024:F:0:table:0": {
+    "likelihood_h_a": "8/81",
+    "likelihood_h_b": "2/81",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-024:F:1:extraction:0": {
+    "likelihood_h_a": "8/81",
+    "likelihood_h_b": "2/81",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-024:F:1:primary:0": {
+    "likelihood_h_a": "8/81",
+    "likelihood_h_b": "2/81",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-024:F:1:table:0": {
+    "likelihood_h_a": "8/81",
+    "likelihood_h_b": "2/81",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-024:R:0:extraction:0": {
+    "likelihood_h_a": "16/405",
+    "likelihood_h_b": "8/405",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-024:R:0:primary:0": {
+    "likelihood_h_a": "16/405",
+    "likelihood_h_b": "8/405",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-024:R:0:table:0": {
+    "likelihood_h_a": "16/405",
+    "likelihood_h_b": "8/405",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-024:R:1:extraction:0": {
+    "likelihood_h_a": "16/405",
+    "likelihood_h_b": "8/405",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-024:R:1:primary:0": {
+    "likelihood_h_a": "16/405",
+    "likelihood_h_b": "8/405",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-024:R:1:table:0": {
+    "likelihood_h_a": "16/405",
+    "likelihood_h_b": "8/405",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-024:S:0:extraction:0": {
+    "likelihood_h_a": "8/81",
+    "likelihood_h_b": "2/81",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-024:S:0:primary:0": {
+    "likelihood_h_a": "8/81",
+    "likelihood_h_b": "2/81",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-024:S:0:table:0": {
+    "likelihood_h_a": "8/81",
+    "likelihood_h_b": "2/81",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-024:S:1:extraction:0": {
+    "likelihood_h_a": "8/81",
+    "likelihood_h_b": "2/81",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-024:S:1:primary:0": {
+    "likelihood_h_a": "8/81",
+    "likelihood_h_b": "2/81",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-024:S:1:table:0": {
+    "likelihood_h_a": "8/81",
+    "likelihood_h_b": "2/81",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-025:F:0:extraction:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-025:F:0:primary:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-025:F:0:table:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-025:F:1:extraction:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-025:F:1:primary:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-025:F:1:table:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-025:R:0:extraction:0": {
+    "likelihood_h_a": "1/2",
+    "likelihood_h_b": "1/12",
+    "posterior_h_a": "6/7"
+  },
+  "evaluation-025:R:0:primary:0": {
+    "likelihood_h_a": "1/2",
+    "likelihood_h_b": "1/12",
+    "posterior_h_a": "6/7"
+  },
+  "evaluation-025:R:0:table:0": {
+    "likelihood_h_a": "1/2",
+    "likelihood_h_b": "1/12",
+    "posterior_h_a": "6/7"
+  },
+  "evaluation-025:R:1:extraction:0": {
+    "likelihood_h_a": "1/2",
+    "likelihood_h_b": "1/12",
+    "posterior_h_a": "6/7"
+  },
+  "evaluation-025:R:1:primary:0": {
+    "likelihood_h_a": "1/2",
+    "likelihood_h_b": "1/12",
+    "posterior_h_a": "6/7"
+  },
+  "evaluation-025:R:1:table:0": {
+    "likelihood_h_a": "1/2",
+    "likelihood_h_b": "1/12",
+    "posterior_h_a": "6/7"
+  },
+  "evaluation-025:S:0:extraction:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-025:S:0:primary:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-025:S:0:table:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-025:S:1:extraction:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-025:S:1:primary:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-025:S:1:table:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-026:F:0:extraction:0": {
+    "likelihood_h_a": "3/5",
+    "likelihood_h_b": "2/5",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-026:F:0:primary:0": {
+    "likelihood_h_a": "3/5",
+    "likelihood_h_b": "2/5",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-026:F:0:table:0": {
+    "likelihood_h_a": "3/5",
+    "likelihood_h_b": "2/5",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-026:F:1:extraction:0": {
+    "likelihood_h_a": "3/5",
+    "likelihood_h_b": "2/5",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-026:F:1:primary:0": {
+    "likelihood_h_a": "3/5",
+    "likelihood_h_b": "2/5",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-026:F:1:table:0": {
+    "likelihood_h_a": "3/5",
+    "likelihood_h_b": "2/5",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-026:R:0:extraction:0": {
+    "likelihood_h_a": "6/25",
+    "likelihood_h_b": "4/25",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-026:R:0:primary:0": {
+    "likelihood_h_a": "6/25",
+    "likelihood_h_b": "4/25",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-026:R:0:table:0": {
+    "likelihood_h_a": "6/25",
+    "likelihood_h_b": "4/25",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-026:R:1:extraction:0": {
+    "likelihood_h_a": "6/25",
+    "likelihood_h_b": "4/25",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-026:R:1:primary:0": {
+    "likelihood_h_a": "6/25",
+    "likelihood_h_b": "4/25",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-026:R:1:table:0": {
+    "likelihood_h_a": "6/25",
+    "likelihood_h_b": "4/25",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-026:S:0:extraction:0": {
+    "likelihood_h_a": "3/5",
+    "likelihood_h_b": "2/5",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-026:S:0:primary:0": {
+    "likelihood_h_a": "3/5",
+    "likelihood_h_b": "2/5",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-026:S:0:table:0": {
+    "likelihood_h_a": "3/5",
+    "likelihood_h_b": "2/5",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-026:S:1:extraction:0": {
+    "likelihood_h_a": "3/5",
+    "likelihood_h_b": "2/5",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-026:S:1:primary:0": {
+    "likelihood_h_a": "3/5",
+    "likelihood_h_b": "2/5",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-026:S:1:table:0": {
+    "likelihood_h_a": "3/5",
+    "likelihood_h_b": "2/5",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-027:F:0:extraction:0": {
+    "likelihood_h_a": "8/27",
+    "likelihood_h_b": "1/27",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-027:F:0:primary:0": {
+    "likelihood_h_a": "8/27",
+    "likelihood_h_b": "1/27",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-027:F:0:table:0": {
+    "likelihood_h_a": "8/27",
+    "likelihood_h_b": "1/27",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-027:F:1:extraction:0": {
+    "likelihood_h_a": "8/27",
+    "likelihood_h_b": "1/27",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-027:F:1:primary:0": {
+    "likelihood_h_a": "8/27",
+    "likelihood_h_b": "1/27",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-027:F:1:table:0": {
+    "likelihood_h_a": "8/27",
+    "likelihood_h_b": "1/27",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-027:R:0:extraction:0": {
+    "likelihood_h_a": "16/135",
+    "likelihood_h_b": "4/135",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-027:R:0:primary:0": {
+    "likelihood_h_a": "16/135",
+    "likelihood_h_b": "4/135",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-027:R:0:table:0": {
+    "likelihood_h_a": "16/135",
+    "likelihood_h_b": "4/135",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-027:R:1:extraction:0": {
+    "likelihood_h_a": "16/135",
+    "likelihood_h_b": "4/135",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-027:R:1:primary:0": {
+    "likelihood_h_a": "16/135",
+    "likelihood_h_b": "4/135",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-027:R:1:table:0": {
+    "likelihood_h_a": "16/135",
+    "likelihood_h_b": "4/135",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-027:S:0:extraction:0": {
+    "likelihood_h_a": "8/27",
+    "likelihood_h_b": "1/27",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-027:S:0:primary:0": {
+    "likelihood_h_a": "8/27",
+    "likelihood_h_b": "1/27",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-027:S:0:table:0": {
+    "likelihood_h_a": "8/27",
+    "likelihood_h_b": "1/27",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-027:S:1:extraction:0": {
+    "likelihood_h_a": "8/27",
+    "likelihood_h_b": "1/27",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-027:S:1:primary:0": {
+    "likelihood_h_a": "8/27",
+    "likelihood_h_b": "1/27",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-027:S:1:table:0": {
+    "likelihood_h_a": "8/27",
+    "likelihood_h_b": "1/27",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-028:F:0:extraction:0": {
+    "likelihood_h_a": "4/27",
+    "likelihood_h_b": "2/27",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-028:F:0:primary:0": {
+    "likelihood_h_a": "4/27",
+    "likelihood_h_b": "2/27",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-028:F:0:table:0": {
+    "likelihood_h_a": "4/27",
+    "likelihood_h_b": "2/27",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-028:F:1:extraction:0": {
+    "likelihood_h_a": "4/27",
+    "likelihood_h_b": "2/27",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-028:F:1:primary:0": {
+    "likelihood_h_a": "4/27",
+    "likelihood_h_b": "2/27",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-028:F:1:table:0": {
+    "likelihood_h_a": "4/27",
+    "likelihood_h_b": "2/27",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-028:R:0:extraction:0": {
+    "likelihood_h_a": "16/135",
+    "likelihood_h_b": "4/135",
+    "posterior_h_a": "8/9"
+  },
+  "evaluation-028:R:0:primary:0": {
+    "likelihood_h_a": "16/135",
+    "likelihood_h_b": "4/135",
+    "posterior_h_a": "8/9"
+  },
+  "evaluation-028:R:0:table:0": {
+    "likelihood_h_a": "16/135",
+    "likelihood_h_b": "4/135",
+    "posterior_h_a": "8/9"
+  },
+  "evaluation-028:R:1:extraction:0": {
+    "likelihood_h_a": "16/135",
+    "likelihood_h_b": "4/135",
+    "posterior_h_a": "8/9"
+  },
+  "evaluation-028:R:1:primary:0": {
+    "likelihood_h_a": "16/135",
+    "likelihood_h_b": "4/135",
+    "posterior_h_a": "8/9"
+  },
+  "evaluation-028:R:1:table:0": {
+    "likelihood_h_a": "16/135",
+    "likelihood_h_b": "4/135",
+    "posterior_h_a": "8/9"
+  },
+  "evaluation-028:S:0:extraction:0": {
+    "likelihood_h_a": "4/27",
+    "likelihood_h_b": "2/27",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-028:S:0:primary:0": {
+    "likelihood_h_a": "4/27",
+    "likelihood_h_b": "2/27",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-028:S:0:table:0": {
+    "likelihood_h_a": "4/27",
+    "likelihood_h_b": "2/27",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-028:S:1:extraction:0": {
+    "likelihood_h_a": "4/27",
+    "likelihood_h_b": "2/27",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-028:S:1:primary:0": {
+    "likelihood_h_a": "4/27",
+    "likelihood_h_b": "2/27",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-028:S:1:table:0": {
+    "likelihood_h_a": "4/27",
+    "likelihood_h_b": "2/27",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-029:F:0:extraction:0": {
+    "likelihood_h_a": "2/5",
+    "likelihood_h_b": "3/5",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-029:F:0:primary:0": {
+    "likelihood_h_a": "2/5",
+    "likelihood_h_b": "3/5",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-029:F:0:table:0": {
+    "likelihood_h_a": "2/5",
+    "likelihood_h_b": "3/5",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-029:F:1:extraction:0": {
+    "likelihood_h_a": "2/5",
+    "likelihood_h_b": "3/5",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-029:F:1:primary:0": {
+    "likelihood_h_a": "2/5",
+    "likelihood_h_b": "3/5",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-029:F:1:table:0": {
+    "likelihood_h_a": "2/5",
+    "likelihood_h_b": "3/5",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-029:R:0:extraction:0": {
+    "likelihood_h_a": "2/15",
+    "likelihood_h_b": "1/5",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-029:R:0:primary:0": {
+    "likelihood_h_a": "2/15",
+    "likelihood_h_b": "1/5",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-029:R:0:table:0": {
+    "likelihood_h_a": "2/15",
+    "likelihood_h_b": "1/5",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-029:R:1:extraction:0": {
+    "likelihood_h_a": "2/15",
+    "likelihood_h_b": "1/5",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-029:R:1:primary:0": {
+    "likelihood_h_a": "2/15",
+    "likelihood_h_b": "1/5",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-029:R:1:table:0": {
+    "likelihood_h_a": "2/15",
+    "likelihood_h_b": "1/5",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-029:S:0:extraction:0": {
+    "likelihood_h_a": "2/5",
+    "likelihood_h_b": "3/5",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-029:S:0:primary:0": {
+    "likelihood_h_a": "2/5",
+    "likelihood_h_b": "3/5",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-029:S:0:table:0": {
+    "likelihood_h_a": "2/5",
+    "likelihood_h_b": "3/5",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-029:S:1:extraction:0": {
+    "likelihood_h_a": "2/5",
+    "likelihood_h_b": "3/5",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-029:S:1:primary:0": {
+    "likelihood_h_a": "2/5",
+    "likelihood_h_b": "3/5",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-029:S:1:table:0": {
+    "likelihood_h_a": "2/5",
+    "likelihood_h_b": "3/5",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-030:F:0:extraction:0": {
+    "likelihood_h_a": "4/81",
+    "likelihood_h_b": "4/81",
+    "posterior_h_a": "1/3"
+  },
+  "evaluation-030:F:0:primary:0": {
+    "likelihood_h_a": "4/81",
+    "likelihood_h_b": "4/81",
+    "posterior_h_a": "1/3"
+  },
+  "evaluation-030:F:0:table:0": {
+    "likelihood_h_a": "4/81",
+    "likelihood_h_b": "4/81",
+    "posterior_h_a": "1/3"
+  },
+  "evaluation-030:F:1:extraction:0": {
+    "likelihood_h_a": "4/81",
+    "likelihood_h_b": "4/81",
+    "posterior_h_a": "1/3"
+  },
+  "evaluation-030:F:1:primary:0": {
+    "likelihood_h_a": "4/81",
+    "likelihood_h_b": "4/81",
+    "posterior_h_a": "1/3"
+  },
+  "evaluation-030:F:1:table:0": {
+    "likelihood_h_a": "4/81",
+    "likelihood_h_b": "4/81",
+    "posterior_h_a": "1/3"
+  },
+  "evaluation-030:R:0:extraction:0": {
+    "likelihood_h_a": "1/81",
+    "likelihood_h_b": "1/27",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-030:R:0:primary:0": {
+    "likelihood_h_a": "1/81",
+    "likelihood_h_b": "1/27",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-030:R:0:table:0": {
+    "likelihood_h_a": "1/81",
+    "likelihood_h_b": "1/27",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-030:R:1:extraction:0": {
+    "likelihood_h_a": "1/81",
+    "likelihood_h_b": "1/27",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-030:R:1:primary:0": {
+    "likelihood_h_a": "1/81",
+    "likelihood_h_b": "1/27",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-030:R:1:table:0": {
+    "likelihood_h_a": "1/81",
+    "likelihood_h_b": "1/27",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-030:S:0:extraction:0": {
+    "likelihood_h_a": "4/81",
+    "likelihood_h_b": "4/81",
+    "posterior_h_a": "1/3"
+  },
+  "evaluation-030:S:0:primary:0": {
+    "likelihood_h_a": "4/81",
+    "likelihood_h_b": "4/81",
+    "posterior_h_a": "1/3"
+  },
+  "evaluation-030:S:0:table:0": {
+    "likelihood_h_a": "4/81",
+    "likelihood_h_b": "4/81",
+    "posterior_h_a": "1/3"
+  },
+  "evaluation-030:S:1:extraction:0": {
+    "likelihood_h_a": "4/81",
+    "likelihood_h_b": "4/81",
+    "posterior_h_a": "1/3"
+  },
+  "evaluation-030:S:1:primary:0": {
+    "likelihood_h_a": "4/81",
+    "likelihood_h_b": "4/81",
+    "posterior_h_a": "1/3"
+  },
+  "evaluation-030:S:1:table:0": {
+    "likelihood_h_a": "4/81",
+    "likelihood_h_b": "4/81",
+    "posterior_h_a": "1/3"
+  },
+  "evaluation-031:F:0:extraction:0": {
+    "likelihood_h_a": "9/1024",
+    "likelihood_h_b": "27/1024",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-031:F:0:primary:0": {
+    "likelihood_h_a": "9/1024",
+    "likelihood_h_b": "27/1024",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-031:F:0:table:0": {
+    "likelihood_h_a": "9/1024",
+    "likelihood_h_b": "27/1024",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-031:F:1:extraction:0": {
+    "likelihood_h_a": "9/1024",
+    "likelihood_h_b": "27/1024",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-031:F:1:primary:0": {
+    "likelihood_h_a": "9/1024",
+    "likelihood_h_b": "27/1024",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-031:F:1:table:0": {
+    "likelihood_h_a": "9/1024",
+    "likelihood_h_b": "27/1024",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-031:R:0:extraction:0": {
+    "likelihood_h_a": "27/4096",
+    "likelihood_h_b": "27/4096",
+    "posterior_h_a": "1/3"
+  },
+  "evaluation-031:R:0:primary:0": {
+    "likelihood_h_a": "27/4096",
+    "likelihood_h_b": "27/4096",
+    "posterior_h_a": "1/3"
+  },
+  "evaluation-031:R:0:table:0": {
+    "likelihood_h_a": "27/4096",
+    "likelihood_h_b": "27/4096",
+    "posterior_h_a": "1/3"
+  },
+  "evaluation-031:R:1:extraction:0": {
+    "likelihood_h_a": "27/4096",
+    "likelihood_h_b": "27/4096",
+    "posterior_h_a": "1/3"
+  },
+  "evaluation-031:R:1:primary:0": {
+    "likelihood_h_a": "27/4096",
+    "likelihood_h_b": "27/4096",
+    "posterior_h_a": "1/3"
+  },
+  "evaluation-031:R:1:table:0": {
+    "likelihood_h_a": "27/4096",
+    "likelihood_h_b": "27/4096",
+    "posterior_h_a": "1/3"
+  },
+  "evaluation-031:S:0:extraction:0": {
+    "likelihood_h_a": "9/1024",
+    "likelihood_h_b": "27/1024",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-031:S:0:primary:0": {
+    "likelihood_h_a": "9/1024",
+    "likelihood_h_b": "27/1024",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-031:S:0:table:0": {
+    "likelihood_h_a": "9/1024",
+    "likelihood_h_b": "27/1024",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-031:S:1:extraction:0": {
+    "likelihood_h_a": "9/1024",
+    "likelihood_h_b": "27/1024",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-031:S:1:primary:0": {
+    "likelihood_h_a": "9/1024",
+    "likelihood_h_b": "27/1024",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-031:S:1:table:0": {
+    "likelihood_h_a": "9/1024",
+    "likelihood_h_b": "27/1024",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-032:F:0:extraction:0": {
+    "likelihood_h_a": "1/3",
+    "likelihood_h_b": "2/3",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-032:F:0:primary:0": {
+    "likelihood_h_a": "1/3",
+    "likelihood_h_b": "2/3",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-032:F:0:table:0": {
+    "likelihood_h_a": "1/3",
+    "likelihood_h_b": "2/3",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-032:F:1:extraction:0": {
+    "likelihood_h_a": "1/3",
+    "likelihood_h_b": "2/3",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-032:F:1:primary:0": {
+    "likelihood_h_a": "1/3",
+    "likelihood_h_b": "2/3",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-032:F:1:table:0": {
+    "likelihood_h_a": "1/3",
+    "likelihood_h_b": "2/3",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-032:R:0:extraction:0": {
+    "likelihood_h_a": "2/15",
+    "likelihood_h_b": "4/15",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-032:R:0:primary:0": {
+    "likelihood_h_a": "2/15",
+    "likelihood_h_b": "4/15",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-032:R:0:table:0": {
+    "likelihood_h_a": "2/15",
+    "likelihood_h_b": "4/15",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-032:R:1:extraction:0": {
+    "likelihood_h_a": "2/15",
+    "likelihood_h_b": "4/15",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-032:R:1:primary:0": {
+    "likelihood_h_a": "2/15",
+    "likelihood_h_b": "4/15",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-032:R:1:table:0": {
+    "likelihood_h_a": "2/15",
+    "likelihood_h_b": "4/15",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-032:S:0:extraction:0": {
+    "likelihood_h_a": "1/3",
+    "likelihood_h_b": "2/3",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-032:S:0:primary:0": {
+    "likelihood_h_a": "1/3",
+    "likelihood_h_b": "2/3",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-032:S:0:table:0": {
+    "likelihood_h_a": "1/3",
+    "likelihood_h_b": "2/3",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-032:S:1:extraction:0": {
+    "likelihood_h_a": "1/3",
+    "likelihood_h_b": "2/3",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-032:S:1:primary:0": {
+    "likelihood_h_a": "1/3",
+    "likelihood_h_b": "2/3",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-032:S:1:table:0": {
+    "likelihood_h_a": "1/3",
+    "likelihood_h_b": "2/3",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-033:F:0:extraction:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-033:F:0:primary:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-033:F:0:table:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-033:F:1:extraction:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-033:F:1:primary:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-033:F:1:table:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-033:R:0:extraction:0": {
+    "likelihood_h_a": "1/6",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-033:R:0:primary:0": {
+    "likelihood_h_a": "1/6",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-033:R:0:table:0": {
+    "likelihood_h_a": "1/6",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-033:R:1:extraction:0": {
+    "likelihood_h_a": "1/6",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-033:R:1:primary:0": {
+    "likelihood_h_a": "1/6",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-033:R:1:table:0": {
+    "likelihood_h_a": "1/6",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-033:S:0:extraction:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-033:S:0:primary:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-033:S:0:table:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-033:S:1:extraction:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-033:S:1:primary:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-033:S:1:table:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-034:F:0:extraction:0": {
+    "likelihood_h_a": "12/125",
+    "likelihood_h_b": "18/125",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-034:F:0:primary:0": {
+    "likelihood_h_a": "12/125",
+    "likelihood_h_b": "18/125",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-034:F:0:table:0": {
+    "likelihood_h_a": "12/125",
+    "likelihood_h_b": "18/125",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-034:F:1:extraction:0": {
+    "likelihood_h_a": "12/125",
+    "likelihood_h_b": "18/125",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-034:F:1:primary:0": {
+    "likelihood_h_a": "12/125",
+    "likelihood_h_b": "18/125",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-034:F:1:table:0": {
+    "likelihood_h_a": "12/125",
+    "likelihood_h_b": "18/125",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-034:R:0:extraction:0": {
+    "likelihood_h_a": "9/125",
+    "likelihood_h_b": "9/250",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-034:R:0:primary:0": {
+    "likelihood_h_a": "9/125",
+    "likelihood_h_b": "9/250",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-034:R:0:table:0": {
+    "likelihood_h_a": "9/125",
+    "likelihood_h_b": "9/250",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-034:R:1:extraction:0": {
+    "likelihood_h_a": "9/125",
+    "likelihood_h_b": "9/250",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-034:R:1:primary:0": {
+    "likelihood_h_a": "9/125",
+    "likelihood_h_b": "9/250",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-034:R:1:table:0": {
+    "likelihood_h_a": "9/125",
+    "likelihood_h_b": "9/250",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-034:S:0:extraction:0": {
+    "likelihood_h_a": "12/125",
+    "likelihood_h_b": "18/125",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-034:S:0:primary:0": {
+    "likelihood_h_a": "12/125",
+    "likelihood_h_b": "18/125",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-034:S:0:table:0": {
+    "likelihood_h_a": "12/125",
+    "likelihood_h_b": "18/125",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-034:S:1:extraction:0": {
+    "likelihood_h_a": "12/125",
+    "likelihood_h_b": "18/125",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-034:S:1:primary:0": {
+    "likelihood_h_a": "12/125",
+    "likelihood_h_b": "18/125",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-034:S:1:table:0": {
+    "likelihood_h_a": "12/125",
+    "likelihood_h_b": "18/125",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-035:F:0:extraction:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-035:F:0:primary:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-035:F:0:table:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-035:F:1:extraction:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-035:F:1:primary:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-035:F:1:table:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-035:R:0:extraction:0": {
+    "likelihood_h_a": "3/16",
+    "likelihood_h_b": "1/16",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-035:R:0:primary:0": {
+    "likelihood_h_a": "3/16",
+    "likelihood_h_b": "1/16",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-035:R:0:table:0": {
+    "likelihood_h_a": "3/16",
+    "likelihood_h_b": "1/16",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-035:R:1:extraction:0": {
+    "likelihood_h_a": "3/16",
+    "likelihood_h_b": "1/16",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-035:R:1:primary:0": {
+    "likelihood_h_a": "3/16",
+    "likelihood_h_b": "1/16",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-035:R:1:table:0": {
+    "likelihood_h_a": "3/16",
+    "likelihood_h_b": "1/16",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-035:S:0:extraction:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-035:S:0:primary:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-035:S:0:table:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-035:S:1:extraction:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-035:S:1:primary:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-035:S:1:table:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-036:F:0:extraction:0": {
+    "likelihood_h_a": "12/125",
+    "likelihood_h_b": "18/125",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-036:F:0:primary:0": {
+    "likelihood_h_a": "12/125",
+    "likelihood_h_b": "18/125",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-036:F:0:table:0": {
+    "likelihood_h_a": "12/125",
+    "likelihood_h_b": "18/125",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-036:F:1:extraction:0": {
+    "likelihood_h_a": "12/125",
+    "likelihood_h_b": "18/125",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-036:F:1:primary:0": {
+    "likelihood_h_a": "12/125",
+    "likelihood_h_b": "18/125",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-036:F:1:table:0": {
+    "likelihood_h_a": "12/125",
+    "likelihood_h_b": "18/125",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-036:R:0:extraction:0": {
+    "likelihood_h_a": "24/625",
+    "likelihood_h_b": "72/625",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-036:R:0:primary:0": {
+    "likelihood_h_a": "24/625",
+    "likelihood_h_b": "72/625",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-036:R:0:table:0": {
+    "likelihood_h_a": "24/625",
+    "likelihood_h_b": "72/625",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-036:R:1:extraction:0": {
+    "likelihood_h_a": "24/625",
+    "likelihood_h_b": "72/625",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-036:R:1:primary:0": {
+    "likelihood_h_a": "24/625",
+    "likelihood_h_b": "72/625",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-036:R:1:table:0": {
+    "likelihood_h_a": "24/625",
+    "likelihood_h_b": "72/625",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-036:S:0:extraction:0": {
+    "likelihood_h_a": "12/125",
+    "likelihood_h_b": "18/125",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-036:S:0:primary:0": {
+    "likelihood_h_a": "12/125",
+    "likelihood_h_b": "18/125",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-036:S:0:table:0": {
+    "likelihood_h_a": "12/125",
+    "likelihood_h_b": "18/125",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-036:S:1:extraction:0": {
+    "likelihood_h_a": "12/125",
+    "likelihood_h_b": "18/125",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-036:S:1:primary:0": {
+    "likelihood_h_a": "12/125",
+    "likelihood_h_b": "18/125",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-036:S:1:table:0": {
+    "likelihood_h_a": "12/125",
+    "likelihood_h_b": "18/125",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-037:F:0:extraction:0": {
+    "likelihood_h_a": "144/15625",
+    "likelihood_h_b": "324/15625",
+    "posterior_h_a": "2/11"
+  },
+  "evaluation-037:F:0:primary:0": {
+    "likelihood_h_a": "144/15625",
+    "likelihood_h_b": "324/15625",
+    "posterior_h_a": "2/11"
+  },
+  "evaluation-037:F:0:table:0": {
+    "likelihood_h_a": "144/15625",
+    "likelihood_h_b": "324/15625",
+    "posterior_h_a": "2/11"
+  },
+  "evaluation-037:F:1:extraction:0": {
+    "likelihood_h_a": "144/15625",
+    "likelihood_h_b": "324/15625",
+    "posterior_h_a": "2/11"
+  },
+  "evaluation-037:F:1:primary:0": {
+    "likelihood_h_a": "144/15625",
+    "likelihood_h_b": "324/15625",
+    "posterior_h_a": "2/11"
+  },
+  "evaluation-037:F:1:table:0": {
+    "likelihood_h_a": "144/15625",
+    "likelihood_h_b": "324/15625",
+    "posterior_h_a": "2/11"
+  },
+  "evaluation-037:R:0:extraction:0": {
+    "likelihood_h_a": "576/78125",
+    "likelihood_h_b": "648/78125",
+    "posterior_h_a": "4/13"
+  },
+  "evaluation-037:R:0:primary:0": {
+    "likelihood_h_a": "576/78125",
+    "likelihood_h_b": "648/78125",
+    "posterior_h_a": "4/13"
+  },
+  "evaluation-037:R:0:table:0": {
+    "likelihood_h_a": "576/78125",
+    "likelihood_h_b": "648/78125",
+    "posterior_h_a": "4/13"
+  },
+  "evaluation-037:R:1:extraction:0": {
+    "likelihood_h_a": "576/78125",
+    "likelihood_h_b": "648/78125",
+    "posterior_h_a": "4/13"
+  },
+  "evaluation-037:R:1:primary:0": {
+    "likelihood_h_a": "576/78125",
+    "likelihood_h_b": "648/78125",
+    "posterior_h_a": "4/13"
+  },
+  "evaluation-037:R:1:table:0": {
+    "likelihood_h_a": "576/78125",
+    "likelihood_h_b": "648/78125",
+    "posterior_h_a": "4/13"
+  },
+  "evaluation-037:S:0:extraction:0": {
+    "likelihood_h_a": "144/15625",
+    "likelihood_h_b": "324/15625",
+    "posterior_h_a": "2/11"
+  },
+  "evaluation-037:S:0:primary:0": {
+    "likelihood_h_a": "144/15625",
+    "likelihood_h_b": "324/15625",
+    "posterior_h_a": "2/11"
+  },
+  "evaluation-037:S:0:table:0": {
+    "likelihood_h_a": "144/15625",
+    "likelihood_h_b": "324/15625",
+    "posterior_h_a": "2/11"
+  },
+  "evaluation-037:S:1:extraction:0": {
+    "likelihood_h_a": "144/15625",
+    "likelihood_h_b": "324/15625",
+    "posterior_h_a": "2/11"
+  },
+  "evaluation-037:S:1:primary:0": {
+    "likelihood_h_a": "144/15625",
+    "likelihood_h_b": "324/15625",
+    "posterior_h_a": "2/11"
+  },
+  "evaluation-037:S:1:table:0": {
+    "likelihood_h_a": "144/15625",
+    "likelihood_h_b": "324/15625",
+    "posterior_h_a": "2/11"
+  },
+  "evaluation-038:F:0:extraction:0": {
+    "likelihood_h_a": "1/3",
+    "likelihood_h_b": "2/3",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-038:F:0:primary:0": {
+    "likelihood_h_a": "1/3",
+    "likelihood_h_b": "2/3",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-038:F:0:table:0": {
+    "likelihood_h_a": "1/3",
+    "likelihood_h_b": "2/3",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-038:F:1:extraction:0": {
+    "likelihood_h_a": "1/3",
+    "likelihood_h_b": "2/3",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-038:F:1:primary:0": {
+    "likelihood_h_a": "1/3",
+    "likelihood_h_b": "2/3",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-038:F:1:table:0": {
+    "likelihood_h_a": "1/3",
+    "likelihood_h_b": "2/3",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-038:R:0:extraction:0": {
+    "likelihood_h_a": "1/9",
+    "likelihood_h_b": "2/9",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-038:R:0:primary:0": {
+    "likelihood_h_a": "1/9",
+    "likelihood_h_b": "2/9",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-038:R:0:table:0": {
+    "likelihood_h_a": "1/9",
+    "likelihood_h_b": "2/9",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-038:R:1:extraction:0": {
+    "likelihood_h_a": "1/9",
+    "likelihood_h_b": "2/9",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-038:R:1:primary:0": {
+    "likelihood_h_a": "1/9",
+    "likelihood_h_b": "2/9",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-038:R:1:table:0": {
+    "likelihood_h_a": "1/9",
+    "likelihood_h_b": "2/9",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-038:S:0:extraction:0": {
+    "likelihood_h_a": "1/3",
+    "likelihood_h_b": "2/3",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-038:S:0:primary:0": {
+    "likelihood_h_a": "1/3",
+    "likelihood_h_b": "2/3",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-038:S:0:table:0": {
+    "likelihood_h_a": "1/3",
+    "likelihood_h_b": "2/3",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-038:S:1:extraction:0": {
+    "likelihood_h_a": "1/3",
+    "likelihood_h_b": "2/3",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-038:S:1:primary:0": {
+    "likelihood_h_a": "1/3",
+    "likelihood_h_b": "2/3",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-038:S:1:table:0": {
+    "likelihood_h_a": "1/3",
+    "likelihood_h_b": "2/3",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-039:F:0:extraction:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-039:F:0:primary:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-039:F:0:table:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-039:F:1:extraction:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-039:F:1:primary:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-039:F:1:table:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-039:R:0:extraction:0": {
+    "likelihood_h_a": "4/15",
+    "likelihood_h_b": "4/15",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-039:R:0:primary:0": {
+    "likelihood_h_a": "4/15",
+    "likelihood_h_b": "4/15",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-039:R:0:table:0": {
+    "likelihood_h_a": "4/15",
+    "likelihood_h_b": "4/15",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-039:R:1:extraction:0": {
+    "likelihood_h_a": "4/15",
+    "likelihood_h_b": "4/15",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-039:R:1:primary:0": {
+    "likelihood_h_a": "4/15",
+    "likelihood_h_b": "4/15",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-039:R:1:table:0": {
+    "likelihood_h_a": "4/15",
+    "likelihood_h_b": "4/15",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-039:S:0:extraction:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-039:S:0:primary:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-039:S:0:table:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-039:S:1:extraction:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-039:S:1:primary:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-039:S:1:table:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-040:F:0:extraction:0": {
+    "likelihood_h_a": "16/243",
+    "likelihood_h_b": "2/243",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-040:F:0:primary:0": {
+    "likelihood_h_a": "16/243",
+    "likelihood_h_b": "2/243",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-040:F:0:table:0": {
+    "likelihood_h_a": "16/243",
+    "likelihood_h_b": "2/243",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-040:F:1:extraction:0": {
+    "likelihood_h_a": "16/243",
+    "likelihood_h_b": "2/243",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-040:F:1:primary:0": {
+    "likelihood_h_a": "16/243",
+    "likelihood_h_b": "2/243",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-040:F:1:table:0": {
+    "likelihood_h_a": "16/243",
+    "likelihood_h_b": "2/243",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-040:R:0:extraction:0": {
+    "likelihood_h_a": "64/1215",
+    "likelihood_h_b": "4/1215",
+    "posterior_h_a": "8/9"
+  },
+  "evaluation-040:R:0:primary:0": {
+    "likelihood_h_a": "64/1215",
+    "likelihood_h_b": "4/1215",
+    "posterior_h_a": "8/9"
+  },
+  "evaluation-040:R:0:table:0": {
+    "likelihood_h_a": "64/1215",
+    "likelihood_h_b": "4/1215",
+    "posterior_h_a": "8/9"
+  },
+  "evaluation-040:R:1:extraction:0": {
+    "likelihood_h_a": "64/1215",
+    "likelihood_h_b": "4/1215",
+    "posterior_h_a": "8/9"
+  },
+  "evaluation-040:R:1:primary:0": {
+    "likelihood_h_a": "64/1215",
+    "likelihood_h_b": "4/1215",
+    "posterior_h_a": "8/9"
+  },
+  "evaluation-040:R:1:table:0": {
+    "likelihood_h_a": "64/1215",
+    "likelihood_h_b": "4/1215",
+    "posterior_h_a": "8/9"
+  },
+  "evaluation-040:S:0:extraction:0": {
+    "likelihood_h_a": "16/243",
+    "likelihood_h_b": "2/243",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-040:S:0:primary:0": {
+    "likelihood_h_a": "16/243",
+    "likelihood_h_b": "2/243",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-040:S:0:table:0": {
+    "likelihood_h_a": "16/243",
+    "likelihood_h_b": "2/243",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-040:S:1:extraction:0": {
+    "likelihood_h_a": "16/243",
+    "likelihood_h_b": "2/243",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-040:S:1:primary:0": {
+    "likelihood_h_a": "16/243",
+    "likelihood_h_b": "2/243",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-040:S:1:table:0": {
+    "likelihood_h_a": "16/243",
+    "likelihood_h_b": "2/243",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-041:F:0:extraction:0": {
+    "likelihood_h_a": "6/25",
+    "likelihood_h_b": "6/25",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-041:F:0:primary:0": {
+    "likelihood_h_a": "6/25",
+    "likelihood_h_b": "6/25",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-041:F:0:table:0": {
+    "likelihood_h_a": "6/25",
+    "likelihood_h_b": "6/25",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-041:F:1:extraction:0": {
+    "likelihood_h_a": "6/25",
+    "likelihood_h_b": "6/25",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-041:F:1:primary:0": {
+    "likelihood_h_a": "6/25",
+    "likelihood_h_b": "6/25",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-041:F:1:table:0": {
+    "likelihood_h_a": "6/25",
+    "likelihood_h_b": "6/25",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-041:R:0:extraction:0": {
+    "likelihood_h_a": "3/50",
+    "likelihood_h_b": "3/50",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-041:R:0:primary:0": {
+    "likelihood_h_a": "3/50",
+    "likelihood_h_b": "3/50",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-041:R:0:table:0": {
+    "likelihood_h_a": "3/50",
+    "likelihood_h_b": "3/50",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-041:R:1:extraction:0": {
+    "likelihood_h_a": "3/50",
+    "likelihood_h_b": "3/50",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-041:R:1:primary:0": {
+    "likelihood_h_a": "3/50",
+    "likelihood_h_b": "3/50",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-041:R:1:table:0": {
+    "likelihood_h_a": "3/50",
+    "likelihood_h_b": "3/50",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-041:S:0:extraction:0": {
+    "likelihood_h_a": "6/25",
+    "likelihood_h_b": "6/25",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-041:S:0:primary:0": {
+    "likelihood_h_a": "6/25",
+    "likelihood_h_b": "6/25",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-041:S:0:table:0": {
+    "likelihood_h_a": "6/25",
+    "likelihood_h_b": "6/25",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-041:S:1:extraction:0": {
+    "likelihood_h_a": "6/25",
+    "likelihood_h_b": "6/25",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-041:S:1:primary:0": {
+    "likelihood_h_a": "6/25",
+    "likelihood_h_b": "6/25",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-041:S:1:table:0": {
+    "likelihood_h_a": "6/25",
+    "likelihood_h_b": "6/25",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-042:F:0:extraction:0": {
+    "likelihood_h_a": "9/64",
+    "likelihood_h_b": "3/64",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-042:F:0:primary:0": {
+    "likelihood_h_a": "9/64",
+    "likelihood_h_b": "3/64",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-042:F:0:table:0": {
+    "likelihood_h_a": "9/64",
+    "likelihood_h_b": "3/64",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-042:F:1:extraction:0": {
+    "likelihood_h_a": "9/64",
+    "likelihood_h_b": "3/64",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-042:F:1:primary:0": {
+    "likelihood_h_a": "9/64",
+    "likelihood_h_b": "3/64",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-042:F:1:table:0": {
+    "likelihood_h_a": "9/64",
+    "likelihood_h_b": "3/64",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-042:R:0:extraction:0": {
+    "likelihood_h_a": "3/64",
+    "likelihood_h_b": "1/32",
+    "posterior_h_a": "3/7"
+  },
+  "evaluation-042:R:0:primary:0": {
+    "likelihood_h_a": "3/64",
+    "likelihood_h_b": "1/32",
+    "posterior_h_a": "3/7"
+  },
+  "evaluation-042:R:0:table:0": {
+    "likelihood_h_a": "3/64",
+    "likelihood_h_b": "1/32",
+    "posterior_h_a": "3/7"
+  },
+  "evaluation-042:R:1:extraction:0": {
+    "likelihood_h_a": "3/64",
+    "likelihood_h_b": "1/32",
+    "posterior_h_a": "3/7"
+  },
+  "evaluation-042:R:1:primary:0": {
+    "likelihood_h_a": "3/64",
+    "likelihood_h_b": "1/32",
+    "posterior_h_a": "3/7"
+  },
+  "evaluation-042:R:1:table:0": {
+    "likelihood_h_a": "3/64",
+    "likelihood_h_b": "1/32",
+    "posterior_h_a": "3/7"
+  },
+  "evaluation-042:S:0:extraction:0": {
+    "likelihood_h_a": "9/64",
+    "likelihood_h_b": "3/64",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-042:S:0:primary:0": {
+    "likelihood_h_a": "9/64",
+    "likelihood_h_b": "3/64",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-042:S:0:table:0": {
+    "likelihood_h_a": "9/64",
+    "likelihood_h_b": "3/64",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-042:S:1:extraction:0": {
+    "likelihood_h_a": "9/64",
+    "likelihood_h_b": "3/64",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-042:S:1:primary:0": {
+    "likelihood_h_a": "9/64",
+    "likelihood_h_b": "3/64",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-042:S:1:table:0": {
+    "likelihood_h_a": "9/64",
+    "likelihood_h_b": "3/64",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-043:F:0:extraction:0": {
+    "likelihood_h_a": "27/125",
+    "likelihood_h_b": "8/125",
+    "posterior_h_a": "27/43"
+  },
+  "evaluation-043:F:0:primary:0": {
+    "likelihood_h_a": "27/125",
+    "likelihood_h_b": "8/125",
+    "posterior_h_a": "27/43"
+  },
+  "evaluation-043:F:0:table:0": {
+    "likelihood_h_a": "27/125",
+    "likelihood_h_b": "8/125",
+    "posterior_h_a": "27/43"
+  },
+  "evaluation-043:F:1:extraction:0": {
+    "likelihood_h_a": "27/125",
+    "likelihood_h_b": "8/125",
+    "posterior_h_a": "27/43"
+  },
+  "evaluation-043:F:1:primary:0": {
+    "likelihood_h_a": "27/125",
+    "likelihood_h_b": "8/125",
+    "posterior_h_a": "27/43"
+  },
+  "evaluation-043:F:1:table:0": {
+    "likelihood_h_a": "27/125",
+    "likelihood_h_b": "8/125",
+    "posterior_h_a": "27/43"
+  },
+  "evaluation-043:R:0:extraction:0": {
+    "likelihood_h_a": "81/500",
+    "likelihood_h_b": "2/125",
+    "posterior_h_a": "81/97"
+  },
+  "evaluation-043:R:0:primary:0": {
+    "likelihood_h_a": "81/500",
+    "likelihood_h_b": "2/125",
+    "posterior_h_a": "81/97"
+  },
+  "evaluation-043:R:0:table:0": {
+    "likelihood_h_a": "81/500",
+    "likelihood_h_b": "2/125",
+    "posterior_h_a": "81/97"
+  },
+  "evaluation-043:R:1:extraction:0": {
+    "likelihood_h_a": "81/500",
+    "likelihood_h_b": "2/125",
+    "posterior_h_a": "81/97"
+  },
+  "evaluation-043:R:1:primary:0": {
+    "likelihood_h_a": "81/500",
+    "likelihood_h_b": "2/125",
+    "posterior_h_a": "81/97"
+  },
+  "evaluation-043:R:1:table:0": {
+    "likelihood_h_a": "81/500",
+    "likelihood_h_b": "2/125",
+    "posterior_h_a": "81/97"
+  },
+  "evaluation-043:S:0:extraction:0": {
+    "likelihood_h_a": "27/125",
+    "likelihood_h_b": "8/125",
+    "posterior_h_a": "27/43"
+  },
+  "evaluation-043:S:0:primary:0": {
+    "likelihood_h_a": "27/125",
+    "likelihood_h_b": "8/125",
+    "posterior_h_a": "27/43"
+  },
+  "evaluation-043:S:0:table:0": {
+    "likelihood_h_a": "27/125",
+    "likelihood_h_b": "8/125",
+    "posterior_h_a": "27/43"
+  },
+  "evaluation-043:S:1:extraction:0": {
+    "likelihood_h_a": "27/125",
+    "likelihood_h_b": "8/125",
+    "posterior_h_a": "27/43"
+  },
+  "evaluation-043:S:1:primary:0": {
+    "likelihood_h_a": "27/125",
+    "likelihood_h_b": "8/125",
+    "posterior_h_a": "27/43"
+  },
+  "evaluation-043:S:1:table:0": {
+    "likelihood_h_a": "27/125",
+    "likelihood_h_b": "8/125",
+    "posterior_h_a": "27/43"
+  },
+  "evaluation-044:F:0:extraction:0": {
+    "likelihood_h_a": "54/625",
+    "likelihood_h_b": "24/625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-044:F:0:primary:0": {
+    "likelihood_h_a": "54/625",
+    "likelihood_h_b": "24/625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-044:F:0:table:0": {
+    "likelihood_h_a": "54/625",
+    "likelihood_h_b": "24/625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-044:F:1:extraction:0": {
+    "likelihood_h_a": "54/625",
+    "likelihood_h_b": "24/625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-044:F:1:primary:0": {
+    "likelihood_h_a": "54/625",
+    "likelihood_h_b": "24/625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-044:F:1:table:0": {
+    "likelihood_h_a": "54/625",
+    "likelihood_h_b": "24/625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-044:R:0:extraction:0": {
+    "likelihood_h_a": "18/625",
+    "likelihood_h_b": "8/625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-044:R:0:primary:0": {
+    "likelihood_h_a": "18/625",
+    "likelihood_h_b": "8/625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-044:R:0:table:0": {
+    "likelihood_h_a": "18/625",
+    "likelihood_h_b": "8/625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-044:R:1:extraction:0": {
+    "likelihood_h_a": "18/625",
+    "likelihood_h_b": "8/625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-044:R:1:primary:0": {
+    "likelihood_h_a": "18/625",
+    "likelihood_h_b": "8/625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-044:R:1:table:0": {
+    "likelihood_h_a": "18/625",
+    "likelihood_h_b": "8/625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-044:S:0:extraction:0": {
+    "likelihood_h_a": "54/625",
+    "likelihood_h_b": "24/625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-044:S:0:primary:0": {
+    "likelihood_h_a": "54/625",
+    "likelihood_h_b": "24/625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-044:S:0:table:0": {
+    "likelihood_h_a": "54/625",
+    "likelihood_h_b": "24/625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-044:S:1:extraction:0": {
+    "likelihood_h_a": "54/625",
+    "likelihood_h_b": "24/625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-044:S:1:primary:0": {
+    "likelihood_h_a": "54/625",
+    "likelihood_h_b": "24/625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-044:S:1:table:0": {
+    "likelihood_h_a": "54/625",
+    "likelihood_h_b": "24/625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-045:F:0:extraction:0": {
+    "likelihood_h_a": "8/729",
+    "likelihood_h_b": "8/729",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-045:F:0:primary:0": {
+    "likelihood_h_a": "8/729",
+    "likelihood_h_b": "8/729",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-045:F:0:table:0": {
+    "likelihood_h_a": "8/729",
+    "likelihood_h_b": "8/729",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-045:F:1:extraction:0": {
+    "likelihood_h_a": "8/729",
+    "likelihood_h_b": "8/729",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-045:F:1:primary:0": {
+    "likelihood_h_a": "8/729",
+    "likelihood_h_b": "8/729",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-045:F:1:table:0": {
+    "likelihood_h_a": "8/729",
+    "likelihood_h_b": "8/729",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-045:R:0:extraction:0": {
+    "likelihood_h_a": "16/3645",
+    "likelihood_h_b": "32/3645",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-045:R:0:primary:0": {
+    "likelihood_h_a": "16/3645",
+    "likelihood_h_b": "32/3645",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-045:R:0:table:0": {
+    "likelihood_h_a": "16/3645",
+    "likelihood_h_b": "32/3645",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-045:R:1:extraction:0": {
+    "likelihood_h_a": "16/3645",
+    "likelihood_h_b": "32/3645",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-045:R:1:primary:0": {
+    "likelihood_h_a": "16/3645",
+    "likelihood_h_b": "32/3645",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-045:R:1:table:0": {
+    "likelihood_h_a": "16/3645",
+    "likelihood_h_b": "32/3645",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-045:S:0:extraction:0": {
+    "likelihood_h_a": "8/729",
+    "likelihood_h_b": "8/729",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-045:S:0:primary:0": {
+    "likelihood_h_a": "8/729",
+    "likelihood_h_b": "8/729",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-045:S:0:table:0": {
+    "likelihood_h_a": "8/729",
+    "likelihood_h_b": "8/729",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-045:S:1:extraction:0": {
+    "likelihood_h_a": "8/729",
+    "likelihood_h_b": "8/729",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-045:S:1:primary:0": {
+    "likelihood_h_a": "8/729",
+    "likelihood_h_b": "8/729",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-045:S:1:table:0": {
+    "likelihood_h_a": "8/729",
+    "likelihood_h_b": "8/729",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-046:F:0:extraction:0": {
+    "likelihood_h_a": "3/64",
+    "likelihood_h_b": "9/64",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-046:F:0:primary:0": {
+    "likelihood_h_a": "3/64",
+    "likelihood_h_b": "9/64",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-046:F:0:table:0": {
+    "likelihood_h_a": "3/64",
+    "likelihood_h_b": "9/64",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-046:F:1:extraction:0": {
+    "likelihood_h_a": "3/64",
+    "likelihood_h_b": "9/64",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-046:F:1:primary:0": {
+    "likelihood_h_a": "3/64",
+    "likelihood_h_b": "9/64",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-046:F:1:table:0": {
+    "likelihood_h_a": "3/64",
+    "likelihood_h_b": "9/64",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-046:R:0:extraction:0": {
+    "likelihood_h_a": "3/80",
+    "likelihood_h_b": "9/160",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-046:R:0:primary:0": {
+    "likelihood_h_a": "3/80",
+    "likelihood_h_b": "9/160",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-046:R:0:table:0": {
+    "likelihood_h_a": "3/80",
+    "likelihood_h_b": "9/160",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-046:R:1:extraction:0": {
+    "likelihood_h_a": "3/80",
+    "likelihood_h_b": "9/160",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-046:R:1:primary:0": {
+    "likelihood_h_a": "3/80",
+    "likelihood_h_b": "9/160",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-046:R:1:table:0": {
+    "likelihood_h_a": "3/80",
+    "likelihood_h_b": "9/160",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-046:S:0:extraction:0": {
+    "likelihood_h_a": "3/64",
+    "likelihood_h_b": "9/64",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-046:S:0:primary:0": {
+    "likelihood_h_a": "3/64",
+    "likelihood_h_b": "9/64",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-046:S:0:table:0": {
+    "likelihood_h_a": "3/64",
+    "likelihood_h_b": "9/64",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-046:S:1:extraction:0": {
+    "likelihood_h_a": "3/64",
+    "likelihood_h_b": "9/64",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-046:S:1:primary:0": {
+    "likelihood_h_a": "3/64",
+    "likelihood_h_b": "9/64",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-046:S:1:table:0": {
+    "likelihood_h_a": "3/64",
+    "likelihood_h_b": "9/64",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-047:F:0:extraction:0": {
+    "likelihood_h_a": "3/16",
+    "likelihood_h_b": "3/16",
+    "posterior_h_a": "1/3"
+  },
+  "evaluation-047:F:0:primary:0": {
+    "likelihood_h_a": "3/16",
+    "likelihood_h_b": "3/16",
+    "posterior_h_a": "1/3"
+  },
+  "evaluation-047:F:0:table:0": {
+    "likelihood_h_a": "3/16",
+    "likelihood_h_b": "3/16",
+    "posterior_h_a": "1/3"
+  },
+  "evaluation-047:F:1:extraction:0": {
+    "likelihood_h_a": "3/16",
+    "likelihood_h_b": "3/16",
+    "posterior_h_a": "1/3"
+  },
+  "evaluation-047:F:1:primary:0": {
+    "likelihood_h_a": "3/16",
+    "likelihood_h_b": "3/16",
+    "posterior_h_a": "1/3"
+  },
+  "evaluation-047:F:1:table:0": {
+    "likelihood_h_a": "3/16",
+    "likelihood_h_b": "3/16",
+    "posterior_h_a": "1/3"
+  },
+  "evaluation-047:R:0:extraction:0": {
+    "likelihood_h_a": "3/40",
+    "likelihood_h_b": "3/40",
+    "posterior_h_a": "1/3"
+  },
+  "evaluation-047:R:0:primary:0": {
+    "likelihood_h_a": "3/40",
+    "likelihood_h_b": "3/40",
+    "posterior_h_a": "1/3"
+  },
+  "evaluation-047:R:0:table:0": {
+    "likelihood_h_a": "3/40",
+    "likelihood_h_b": "3/40",
+    "posterior_h_a": "1/3"
+  },
+  "evaluation-047:R:1:extraction:0": {
+    "likelihood_h_a": "3/40",
+    "likelihood_h_b": "3/40",
+    "posterior_h_a": "1/3"
+  },
+  "evaluation-047:R:1:primary:0": {
+    "likelihood_h_a": "3/40",
+    "likelihood_h_b": "3/40",
+    "posterior_h_a": "1/3"
+  },
+  "evaluation-047:R:1:table:0": {
+    "likelihood_h_a": "3/40",
+    "likelihood_h_b": "3/40",
+    "posterior_h_a": "1/3"
+  },
+  "evaluation-047:S:0:extraction:0": {
+    "likelihood_h_a": "3/16",
+    "likelihood_h_b": "3/16",
+    "posterior_h_a": "1/3"
+  },
+  "evaluation-047:S:0:primary:0": {
+    "likelihood_h_a": "3/16",
+    "likelihood_h_b": "3/16",
+    "posterior_h_a": "1/3"
+  },
+  "evaluation-047:S:0:table:0": {
+    "likelihood_h_a": "3/16",
+    "likelihood_h_b": "3/16",
+    "posterior_h_a": "1/3"
+  },
+  "evaluation-047:S:1:extraction:0": {
+    "likelihood_h_a": "3/16",
+    "likelihood_h_b": "3/16",
+    "posterior_h_a": "1/3"
+  },
+  "evaluation-047:S:1:primary:0": {
+    "likelihood_h_a": "3/16",
+    "likelihood_h_b": "3/16",
+    "posterior_h_a": "1/3"
+  },
+  "evaluation-047:S:1:table:0": {
+    "likelihood_h_a": "3/16",
+    "likelihood_h_b": "3/16",
+    "posterior_h_a": "1/3"
+  },
+  "evaluation-048:F:0:extraction:0": {
+    "likelihood_h_a": "3/64",
+    "likelihood_h_b": "9/64",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-048:F:0:primary:0": {
+    "likelihood_h_a": "3/64",
+    "likelihood_h_b": "9/64",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-048:F:0:table:0": {
+    "likelihood_h_a": "3/64",
+    "likelihood_h_b": "9/64",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-048:F:1:extraction:0": {
+    "likelihood_h_a": "3/64",
+    "likelihood_h_b": "9/64",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-048:F:1:primary:0": {
+    "likelihood_h_a": "3/64",
+    "likelihood_h_b": "9/64",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-048:F:1:table:0": {
+    "likelihood_h_a": "3/64",
+    "likelihood_h_b": "9/64",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-048:R:0:extraction:0": {
+    "likelihood_h_a": "3/160",
+    "likelihood_h_b": "9/80",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-048:R:0:primary:0": {
+    "likelihood_h_a": "3/160",
+    "likelihood_h_b": "9/80",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-048:R:0:table:0": {
+    "likelihood_h_a": "3/160",
+    "likelihood_h_b": "9/80",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-048:R:1:extraction:0": {
+    "likelihood_h_a": "3/160",
+    "likelihood_h_b": "9/80",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-048:R:1:primary:0": {
+    "likelihood_h_a": "3/160",
+    "likelihood_h_b": "9/80",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-048:R:1:table:0": {
+    "likelihood_h_a": "3/160",
+    "likelihood_h_b": "9/80",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-048:S:0:extraction:0": {
+    "likelihood_h_a": "3/64",
+    "likelihood_h_b": "9/64",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-048:S:0:primary:0": {
+    "likelihood_h_a": "3/64",
+    "likelihood_h_b": "9/64",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-048:S:0:table:0": {
+    "likelihood_h_a": "3/64",
+    "likelihood_h_b": "9/64",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-048:S:1:extraction:0": {
+    "likelihood_h_a": "3/64",
+    "likelihood_h_b": "9/64",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-048:S:1:primary:0": {
+    "likelihood_h_a": "3/64",
+    "likelihood_h_b": "9/64",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-048:S:1:table:0": {
+    "likelihood_h_a": "3/64",
+    "likelihood_h_b": "9/64",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-049:F:0:extraction:0": {
+    "likelihood_h_a": "9/1024",
+    "likelihood_h_b": "27/1024",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-049:F:0:primary:0": {
+    "likelihood_h_a": "9/1024",
+    "likelihood_h_b": "27/1024",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-049:F:0:table:0": {
+    "likelihood_h_a": "9/1024",
+    "likelihood_h_b": "27/1024",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-049:F:1:extraction:0": {
+    "likelihood_h_a": "9/1024",
+    "likelihood_h_b": "27/1024",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-049:F:1:primary:0": {
+    "likelihood_h_a": "9/1024",
+    "likelihood_h_b": "27/1024",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-049:F:1:table:0": {
+    "likelihood_h_a": "9/1024",
+    "likelihood_h_b": "27/1024",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-049:R:0:extraction:0": {
+    "likelihood_h_a": "3/512",
+    "likelihood_h_b": "9/1024",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-049:R:0:primary:0": {
+    "likelihood_h_a": "3/512",
+    "likelihood_h_b": "9/1024",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-049:R:0:table:0": {
+    "likelihood_h_a": "3/512",
+    "likelihood_h_b": "9/1024",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-049:R:1:extraction:0": {
+    "likelihood_h_a": "3/512",
+    "likelihood_h_b": "9/1024",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-049:R:1:primary:0": {
+    "likelihood_h_a": "3/512",
+    "likelihood_h_b": "9/1024",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-049:R:1:table:0": {
+    "likelihood_h_a": "3/512",
+    "likelihood_h_b": "9/1024",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-049:S:0:extraction:0": {
+    "likelihood_h_a": "9/1024",
+    "likelihood_h_b": "27/1024",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-049:S:0:primary:0": {
+    "likelihood_h_a": "9/1024",
+    "likelihood_h_b": "27/1024",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-049:S:0:table:0": {
+    "likelihood_h_a": "9/1024",
+    "likelihood_h_b": "27/1024",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-049:S:1:extraction:0": {
+    "likelihood_h_a": "9/1024",
+    "likelihood_h_b": "27/1024",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-049:S:1:primary:0": {
+    "likelihood_h_a": "9/1024",
+    "likelihood_h_b": "27/1024",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-049:S:1:table:0": {
+    "likelihood_h_a": "9/1024",
+    "likelihood_h_b": "27/1024",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-050:F:0:extraction:0": {
+    "likelihood_h_a": "72/3125",
+    "likelihood_h_b": "108/3125",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-050:F:0:primary:0": {
+    "likelihood_h_a": "72/3125",
+    "likelihood_h_b": "108/3125",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-050:F:0:table:0": {
+    "likelihood_h_a": "72/3125",
+    "likelihood_h_b": "108/3125",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-050:F:1:extraction:0": {
+    "likelihood_h_a": "72/3125",
+    "likelihood_h_b": "108/3125",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-050:F:1:primary:0": {
+    "likelihood_h_a": "72/3125",
+    "likelihood_h_b": "108/3125",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-050:F:1:table:0": {
+    "likelihood_h_a": "72/3125",
+    "likelihood_h_b": "108/3125",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-050:R:0:extraction:0": {
+    "likelihood_h_a": "144/15625",
+    "likelihood_h_b": "216/15625",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-050:R:0:primary:0": {
+    "likelihood_h_a": "144/15625",
+    "likelihood_h_b": "216/15625",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-050:R:0:table:0": {
+    "likelihood_h_a": "144/15625",
+    "likelihood_h_b": "216/15625",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-050:R:1:extraction:0": {
+    "likelihood_h_a": "144/15625",
+    "likelihood_h_b": "216/15625",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-050:R:1:primary:0": {
+    "likelihood_h_a": "144/15625",
+    "likelihood_h_b": "216/15625",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-050:R:1:table:0": {
+    "likelihood_h_a": "144/15625",
+    "likelihood_h_b": "216/15625",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-050:S:0:extraction:0": {
+    "likelihood_h_a": "72/3125",
+    "likelihood_h_b": "108/3125",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-050:S:0:primary:0": {
+    "likelihood_h_a": "72/3125",
+    "likelihood_h_b": "108/3125",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-050:S:0:table:0": {
+    "likelihood_h_a": "72/3125",
+    "likelihood_h_b": "108/3125",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-050:S:1:extraction:0": {
+    "likelihood_h_a": "72/3125",
+    "likelihood_h_b": "108/3125",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-050:S:1:primary:0": {
+    "likelihood_h_a": "72/3125",
+    "likelihood_h_b": "108/3125",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-050:S:1:table:0": {
+    "likelihood_h_a": "72/3125",
+    "likelihood_h_b": "108/3125",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-051:F:0:extraction:0": {
+    "likelihood_h_a": "1/4",
+    "likelihood_h_b": "3/4",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-051:F:0:primary:0": {
+    "likelihood_h_a": "1/4",
+    "likelihood_h_b": "3/4",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-051:F:0:table:0": {
+    "likelihood_h_a": "1/4",
+    "likelihood_h_b": "3/4",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-051:F:1:extraction:0": {
+    "likelihood_h_a": "1/4",
+    "likelihood_h_b": "3/4",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-051:F:1:primary:0": {
+    "likelihood_h_a": "1/4",
+    "likelihood_h_b": "3/4",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-051:F:1:table:0": {
+    "likelihood_h_a": "1/4",
+    "likelihood_h_b": "3/4",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-051:R:0:extraction:0": {
+    "likelihood_h_a": "1/12",
+    "likelihood_h_b": "1/2",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-051:R:0:primary:0": {
+    "likelihood_h_a": "1/12",
+    "likelihood_h_b": "1/2",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-051:R:0:table:0": {
+    "likelihood_h_a": "1/12",
+    "likelihood_h_b": "1/2",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-051:R:1:extraction:0": {
+    "likelihood_h_a": "1/12",
+    "likelihood_h_b": "1/2",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-051:R:1:primary:0": {
+    "likelihood_h_a": "1/12",
+    "likelihood_h_b": "1/2",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-051:R:1:table:0": {
+    "likelihood_h_a": "1/12",
+    "likelihood_h_b": "1/2",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-051:S:0:extraction:0": {
+    "likelihood_h_a": "1/4",
+    "likelihood_h_b": "3/4",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-051:S:0:primary:0": {
+    "likelihood_h_a": "1/4",
+    "likelihood_h_b": "3/4",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-051:S:0:table:0": {
+    "likelihood_h_a": "1/4",
+    "likelihood_h_b": "3/4",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-051:S:1:extraction:0": {
+    "likelihood_h_a": "1/4",
+    "likelihood_h_b": "3/4",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-051:S:1:primary:0": {
+    "likelihood_h_a": "1/4",
+    "likelihood_h_b": "3/4",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-051:S:1:table:0": {
+    "likelihood_h_a": "1/4",
+    "likelihood_h_b": "3/4",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-052:F:0:extraction:0": {
+    "likelihood_h_a": "324/15625",
+    "likelihood_h_b": "144/15625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-052:F:0:primary:0": {
+    "likelihood_h_a": "324/15625",
+    "likelihood_h_b": "144/15625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-052:F:0:table:0": {
+    "likelihood_h_a": "324/15625",
+    "likelihood_h_b": "144/15625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-052:F:1:extraction:0": {
+    "likelihood_h_a": "324/15625",
+    "likelihood_h_b": "144/15625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-052:F:1:primary:0": {
+    "likelihood_h_a": "324/15625",
+    "likelihood_h_b": "144/15625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-052:F:1:table:0": {
+    "likelihood_h_a": "324/15625",
+    "likelihood_h_b": "144/15625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-052:R:0:extraction:0": {
+    "likelihood_h_a": "216/15625",
+    "likelihood_h_b": "48/15625",
+    "posterior_h_a": "9/10"
+  },
+  "evaluation-052:R:0:primary:0": {
+    "likelihood_h_a": "216/15625",
+    "likelihood_h_b": "48/15625",
+    "posterior_h_a": "9/10"
+  },
+  "evaluation-052:R:0:table:0": {
+    "likelihood_h_a": "216/15625",
+    "likelihood_h_b": "48/15625",
+    "posterior_h_a": "9/10"
+  },
+  "evaluation-052:R:1:extraction:0": {
+    "likelihood_h_a": "216/15625",
+    "likelihood_h_b": "48/15625",
+    "posterior_h_a": "9/10"
+  },
+  "evaluation-052:R:1:primary:0": {
+    "likelihood_h_a": "216/15625",
+    "likelihood_h_b": "48/15625",
+    "posterior_h_a": "9/10"
+  },
+  "evaluation-052:R:1:table:0": {
+    "likelihood_h_a": "216/15625",
+    "likelihood_h_b": "48/15625",
+    "posterior_h_a": "9/10"
+  },
+  "evaluation-052:S:0:extraction:0": {
+    "likelihood_h_a": "324/15625",
+    "likelihood_h_b": "144/15625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-052:S:0:primary:0": {
+    "likelihood_h_a": "324/15625",
+    "likelihood_h_b": "144/15625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-052:S:0:table:0": {
+    "likelihood_h_a": "324/15625",
+    "likelihood_h_b": "144/15625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-052:S:1:extraction:0": {
+    "likelihood_h_a": "324/15625",
+    "likelihood_h_b": "144/15625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-052:S:1:primary:0": {
+    "likelihood_h_a": "324/15625",
+    "likelihood_h_b": "144/15625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-052:S:1:table:0": {
+    "likelihood_h_a": "324/15625",
+    "likelihood_h_b": "144/15625",
+    "posterior_h_a": "9/11"
+  },
+  "evaluation-053:F:0:extraction:0": {
+    "likelihood_h_a": "9/1024",
+    "likelihood_h_b": "27/1024",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-053:F:0:primary:0": {
+    "likelihood_h_a": "9/1024",
+    "likelihood_h_b": "27/1024",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-053:F:0:table:0": {
+    "likelihood_h_a": "9/1024",
+    "likelihood_h_b": "27/1024",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-053:F:1:extraction:0": {
+    "likelihood_h_a": "9/1024",
+    "likelihood_h_b": "27/1024",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-053:F:1:primary:0": {
+    "likelihood_h_a": "9/1024",
+    "likelihood_h_b": "27/1024",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-053:F:1:table:0": {
+    "likelihood_h_a": "9/1024",
+    "likelihood_h_b": "27/1024",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-053:R:0:extraction:0": {
+    "likelihood_h_a": "3/1024",
+    "likelihood_h_b": "9/1024",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-053:R:0:primary:0": {
+    "likelihood_h_a": "3/1024",
+    "likelihood_h_b": "9/1024",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-053:R:0:table:0": {
+    "likelihood_h_a": "3/1024",
+    "likelihood_h_b": "9/1024",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-053:R:1:extraction:0": {
+    "likelihood_h_a": "3/1024",
+    "likelihood_h_b": "9/1024",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-053:R:1:primary:0": {
+    "likelihood_h_a": "3/1024",
+    "likelihood_h_b": "9/1024",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-053:R:1:table:0": {
+    "likelihood_h_a": "3/1024",
+    "likelihood_h_b": "9/1024",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-053:S:0:extraction:0": {
+    "likelihood_h_a": "9/1024",
+    "likelihood_h_b": "27/1024",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-053:S:0:primary:0": {
+    "likelihood_h_a": "9/1024",
+    "likelihood_h_b": "27/1024",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-053:S:0:table:0": {
+    "likelihood_h_a": "9/1024",
+    "likelihood_h_b": "27/1024",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-053:S:1:extraction:0": {
+    "likelihood_h_a": "9/1024",
+    "likelihood_h_b": "27/1024",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-053:S:1:primary:0": {
+    "likelihood_h_a": "9/1024",
+    "likelihood_h_b": "27/1024",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-053:S:1:table:0": {
+    "likelihood_h_a": "9/1024",
+    "likelihood_h_b": "27/1024",
+    "posterior_h_a": "1/7"
+  },
+  "evaluation-054:F:0:extraction:0": {
+    "likelihood_h_a": "2/5",
+    "likelihood_h_b": "3/5",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-054:F:0:primary:0": {
+    "likelihood_h_a": "2/5",
+    "likelihood_h_b": "3/5",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-054:F:0:table:0": {
+    "likelihood_h_a": "2/5",
+    "likelihood_h_b": "3/5",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-054:F:1:extraction:0": {
+    "likelihood_h_a": "2/5",
+    "likelihood_h_b": "3/5",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-054:F:1:primary:0": {
+    "likelihood_h_a": "2/5",
+    "likelihood_h_b": "3/5",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-054:F:1:table:0": {
+    "likelihood_h_a": "2/5",
+    "likelihood_h_b": "3/5",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-054:R:0:extraction:0": {
+    "likelihood_h_a": "1/10",
+    "likelihood_h_b": "9/20",
+    "posterior_h_a": "1/10"
+  },
+  "evaluation-054:R:0:primary:0": {
+    "likelihood_h_a": "1/10",
+    "likelihood_h_b": "9/20",
+    "posterior_h_a": "1/10"
+  },
+  "evaluation-054:R:0:table:0": {
+    "likelihood_h_a": "1/10",
+    "likelihood_h_b": "9/20",
+    "posterior_h_a": "1/10"
+  },
+  "evaluation-054:R:1:extraction:0": {
+    "likelihood_h_a": "1/10",
+    "likelihood_h_b": "9/20",
+    "posterior_h_a": "1/10"
+  },
+  "evaluation-054:R:1:primary:0": {
+    "likelihood_h_a": "1/10",
+    "likelihood_h_b": "9/20",
+    "posterior_h_a": "1/10"
+  },
+  "evaluation-054:R:1:table:0": {
+    "likelihood_h_a": "1/10",
+    "likelihood_h_b": "9/20",
+    "posterior_h_a": "1/10"
+  },
+  "evaluation-054:S:0:extraction:0": {
+    "likelihood_h_a": "2/5",
+    "likelihood_h_b": "3/5",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-054:S:0:primary:0": {
+    "likelihood_h_a": "2/5",
+    "likelihood_h_b": "3/5",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-054:S:0:table:0": {
+    "likelihood_h_a": "2/5",
+    "likelihood_h_b": "3/5",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-054:S:1:extraction:0": {
+    "likelihood_h_a": "2/5",
+    "likelihood_h_b": "3/5",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-054:S:1:primary:0": {
+    "likelihood_h_a": "2/5",
+    "likelihood_h_b": "3/5",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-054:S:1:table:0": {
+    "likelihood_h_a": "2/5",
+    "likelihood_h_b": "3/5",
+    "posterior_h_a": "1/4"
+  },
+  "evaluation-055:F:0:extraction:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-055:F:0:primary:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-055:F:0:table:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-055:F:1:extraction:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-055:F:1:primary:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-055:F:1:table:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-055:R:0:extraction:0": {
+    "likelihood_h_a": "4/9",
+    "likelihood_h_b": "1/9",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-055:R:0:primary:0": {
+    "likelihood_h_a": "4/9",
+    "likelihood_h_b": "1/9",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-055:R:0:table:0": {
+    "likelihood_h_a": "4/9",
+    "likelihood_h_b": "1/9",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-055:R:1:extraction:0": {
+    "likelihood_h_a": "4/9",
+    "likelihood_h_b": "1/9",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-055:R:1:primary:0": {
+    "likelihood_h_a": "4/9",
+    "likelihood_h_b": "1/9",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-055:R:1:table:0": {
+    "likelihood_h_a": "4/9",
+    "likelihood_h_b": "1/9",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-055:S:0:extraction:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-055:S:0:primary:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-055:S:0:table:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-055:S:1:extraction:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-055:S:1:primary:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-055:S:1:table:0": {
+    "likelihood_h_a": "2/3",
+    "likelihood_h_b": "1/3",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-056:F:0:extraction:0": {
+    "likelihood_h_a": "12/125",
+    "likelihood_h_b": "18/125",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-056:F:0:primary:0": {
+    "likelihood_h_a": "12/125",
+    "likelihood_h_b": "18/125",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-056:F:0:table:0": {
+    "likelihood_h_a": "12/125",
+    "likelihood_h_b": "18/125",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-056:F:1:extraction:0": {
+    "likelihood_h_a": "12/125",
+    "likelihood_h_b": "18/125",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-056:F:1:primary:0": {
+    "likelihood_h_a": "12/125",
+    "likelihood_h_b": "18/125",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-056:F:1:table:0": {
+    "likelihood_h_a": "12/125",
+    "likelihood_h_b": "18/125",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-056:R:0:extraction:0": {
+    "likelihood_h_a": "4/125",
+    "likelihood_h_b": "6/125",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-056:R:0:primary:0": {
+    "likelihood_h_a": "4/125",
+    "likelihood_h_b": "6/125",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-056:R:0:table:0": {
+    "likelihood_h_a": "4/125",
+    "likelihood_h_b": "6/125",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-056:R:1:extraction:0": {
+    "likelihood_h_a": "4/125",
+    "likelihood_h_b": "6/125",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-056:R:1:primary:0": {
+    "likelihood_h_a": "4/125",
+    "likelihood_h_b": "6/125",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-056:R:1:table:0": {
+    "likelihood_h_a": "4/125",
+    "likelihood_h_b": "6/125",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-056:S:0:extraction:0": {
+    "likelihood_h_a": "12/125",
+    "likelihood_h_b": "18/125",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-056:S:0:primary:0": {
+    "likelihood_h_a": "12/125",
+    "likelihood_h_b": "18/125",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-056:S:0:table:0": {
+    "likelihood_h_a": "12/125",
+    "likelihood_h_b": "18/125",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-056:S:1:extraction:0": {
+    "likelihood_h_a": "12/125",
+    "likelihood_h_b": "18/125",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-056:S:1:primary:0": {
+    "likelihood_h_a": "12/125",
+    "likelihood_h_b": "18/125",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-056:S:1:table:0": {
+    "likelihood_h_a": "12/125",
+    "likelihood_h_b": "18/125",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-057:F:0:extraction:0": {
+    "likelihood_h_a": "4/25",
+    "likelihood_h_b": "9/25",
+    "posterior_h_a": "8/17"
+  },
+  "evaluation-057:F:0:primary:0": {
+    "likelihood_h_a": "4/25",
+    "likelihood_h_b": "9/25",
+    "posterior_h_a": "8/17"
+  },
+  "evaluation-057:F:0:table:0": {
+    "likelihood_h_a": "4/25",
+    "likelihood_h_b": "9/25",
+    "posterior_h_a": "8/17"
+  },
+  "evaluation-057:F:1:extraction:0": {
+    "likelihood_h_a": "4/25",
+    "likelihood_h_b": "9/25",
+    "posterior_h_a": "8/17"
+  },
+  "evaluation-057:F:1:primary:0": {
+    "likelihood_h_a": "4/25",
+    "likelihood_h_b": "9/25",
+    "posterior_h_a": "8/17"
+  },
+  "evaluation-057:F:1:table:0": {
+    "likelihood_h_a": "4/25",
+    "likelihood_h_b": "9/25",
+    "posterior_h_a": "8/17"
+  },
+  "evaluation-057:R:0:extraction:0": {
+    "likelihood_h_a": "4/75",
+    "likelihood_h_b": "6/25",
+    "posterior_h_a": "4/13"
+  },
+  "evaluation-057:R:0:primary:0": {
+    "likelihood_h_a": "4/75",
+    "likelihood_h_b": "6/25",
+    "posterior_h_a": "4/13"
+  },
+  "evaluation-057:R:0:table:0": {
+    "likelihood_h_a": "4/75",
+    "likelihood_h_b": "6/25",
+    "posterior_h_a": "4/13"
+  },
+  "evaluation-057:R:1:extraction:0": {
+    "likelihood_h_a": "4/75",
+    "likelihood_h_b": "6/25",
+    "posterior_h_a": "4/13"
+  },
+  "evaluation-057:R:1:primary:0": {
+    "likelihood_h_a": "4/75",
+    "likelihood_h_b": "6/25",
+    "posterior_h_a": "4/13"
+  },
+  "evaluation-057:R:1:table:0": {
+    "likelihood_h_a": "4/75",
+    "likelihood_h_b": "6/25",
+    "posterior_h_a": "4/13"
+  },
+  "evaluation-057:S:0:extraction:0": {
+    "likelihood_h_a": "4/25",
+    "likelihood_h_b": "9/25",
+    "posterior_h_a": "8/17"
+  },
+  "evaluation-057:S:0:primary:0": {
+    "likelihood_h_a": "4/25",
+    "likelihood_h_b": "9/25",
+    "posterior_h_a": "8/17"
+  },
+  "evaluation-057:S:0:table:0": {
+    "likelihood_h_a": "4/25",
+    "likelihood_h_b": "9/25",
+    "posterior_h_a": "8/17"
+  },
+  "evaluation-057:S:1:extraction:0": {
+    "likelihood_h_a": "4/25",
+    "likelihood_h_b": "9/25",
+    "posterior_h_a": "8/17"
+  },
+  "evaluation-057:S:1:primary:0": {
+    "likelihood_h_a": "4/25",
+    "likelihood_h_b": "9/25",
+    "posterior_h_a": "8/17"
+  },
+  "evaluation-057:S:1:table:0": {
+    "likelihood_h_a": "4/25",
+    "likelihood_h_b": "9/25",
+    "posterior_h_a": "8/17"
+  },
+  "evaluation-058:F:0:extraction:0": {
+    "likelihood_h_a": "2/5",
+    "likelihood_h_b": "3/5",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-058:F:0:primary:0": {
+    "likelihood_h_a": "2/5",
+    "likelihood_h_b": "3/5",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-058:F:0:table:0": {
+    "likelihood_h_a": "2/5",
+    "likelihood_h_b": "3/5",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-058:F:1:extraction:0": {
+    "likelihood_h_a": "2/5",
+    "likelihood_h_b": "3/5",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-058:F:1:primary:0": {
+    "likelihood_h_a": "2/5",
+    "likelihood_h_b": "3/5",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-058:F:1:table:0": {
+    "likelihood_h_a": "2/5",
+    "likelihood_h_b": "3/5",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-058:R:0:extraction:0": {
+    "likelihood_h_a": "4/15",
+    "likelihood_h_b": "1/5",
+    "posterior_h_a": "8/11"
+  },
+  "evaluation-058:R:0:primary:0": {
+    "likelihood_h_a": "4/15",
+    "likelihood_h_b": "1/5",
+    "posterior_h_a": "8/11"
+  },
+  "evaluation-058:R:0:table:0": {
+    "likelihood_h_a": "4/15",
+    "likelihood_h_b": "1/5",
+    "posterior_h_a": "8/11"
+  },
+  "evaluation-058:R:1:extraction:0": {
+    "likelihood_h_a": "4/15",
+    "likelihood_h_b": "1/5",
+    "posterior_h_a": "8/11"
+  },
+  "evaluation-058:R:1:primary:0": {
+    "likelihood_h_a": "4/15",
+    "likelihood_h_b": "1/5",
+    "posterior_h_a": "8/11"
+  },
+  "evaluation-058:R:1:table:0": {
+    "likelihood_h_a": "4/15",
+    "likelihood_h_b": "1/5",
+    "posterior_h_a": "8/11"
+  },
+  "evaluation-058:S:0:extraction:0": {
+    "likelihood_h_a": "2/5",
+    "likelihood_h_b": "3/5",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-058:S:0:primary:0": {
+    "likelihood_h_a": "2/5",
+    "likelihood_h_b": "3/5",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-058:S:0:table:0": {
+    "likelihood_h_a": "2/5",
+    "likelihood_h_b": "3/5",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-058:S:1:extraction:0": {
+    "likelihood_h_a": "2/5",
+    "likelihood_h_b": "3/5",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-058:S:1:primary:0": {
+    "likelihood_h_a": "2/5",
+    "likelihood_h_b": "3/5",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-058:S:1:table:0": {
+    "likelihood_h_a": "2/5",
+    "likelihood_h_b": "3/5",
+    "posterior_h_a": "4/7"
+  },
+  "evaluation-059:F:0:extraction:0": {
+    "likelihood_h_a": "1/3",
+    "likelihood_h_b": "2/3",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-059:F:0:primary:0": {
+    "likelihood_h_a": "1/3",
+    "likelihood_h_b": "2/3",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-059:F:0:table:0": {
+    "likelihood_h_a": "1/3",
+    "likelihood_h_b": "2/3",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-059:F:1:extraction:0": {
+    "likelihood_h_a": "1/3",
+    "likelihood_h_b": "2/3",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-059:F:1:primary:0": {
+    "likelihood_h_a": "1/3",
+    "likelihood_h_b": "2/3",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-059:F:1:table:0": {
+    "likelihood_h_a": "1/3",
+    "likelihood_h_b": "2/3",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-059:R:0:extraction:0": {
+    "likelihood_h_a": "2/15",
+    "likelihood_h_b": "4/15",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-059:R:0:primary:0": {
+    "likelihood_h_a": "2/15",
+    "likelihood_h_b": "4/15",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-059:R:0:table:0": {
+    "likelihood_h_a": "2/15",
+    "likelihood_h_b": "4/15",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-059:R:1:extraction:0": {
+    "likelihood_h_a": "2/15",
+    "likelihood_h_b": "4/15",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-059:R:1:primary:0": {
+    "likelihood_h_a": "2/15",
+    "likelihood_h_b": "4/15",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-059:R:1:table:0": {
+    "likelihood_h_a": "2/15",
+    "likelihood_h_b": "4/15",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-059:S:0:extraction:0": {
+    "likelihood_h_a": "1/3",
+    "likelihood_h_b": "2/3",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-059:S:0:primary:0": {
+    "likelihood_h_a": "1/3",
+    "likelihood_h_b": "2/3",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-059:S:0:table:0": {
+    "likelihood_h_a": "1/3",
+    "likelihood_h_b": "2/3",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-059:S:1:extraction:0": {
+    "likelihood_h_a": "1/3",
+    "likelihood_h_b": "2/3",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-059:S:1:primary:0": {
+    "likelihood_h_a": "1/3",
+    "likelihood_h_b": "2/3",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-059:S:1:table:0": {
+    "likelihood_h_a": "1/3",
+    "likelihood_h_b": "2/3",
+    "posterior_h_a": "1/5"
+  },
+  "evaluation-060:F:0:extraction:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-060:F:0:primary:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-060:F:0:table:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-060:F:1:extraction:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-060:F:1:primary:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-060:F:1:table:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-060:R:0:extraction:0": {
+    "likelihood_h_a": "3/16",
+    "likelihood_h_b": "3/16",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-060:R:0:primary:0": {
+    "likelihood_h_a": "3/16",
+    "likelihood_h_b": "3/16",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-060:R:0:table:0": {
+    "likelihood_h_a": "3/16",
+    "likelihood_h_b": "3/16",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-060:R:1:extraction:0": {
+    "likelihood_h_a": "3/16",
+    "likelihood_h_b": "3/16",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-060:R:1:primary:0": {
+    "likelihood_h_a": "3/16",
+    "likelihood_h_b": "3/16",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-060:R:1:table:0": {
+    "likelihood_h_a": "3/16",
+    "likelihood_h_b": "3/16",
+    "posterior_h_a": "1/2"
+  },
+  "evaluation-060:S:0:extraction:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-060:S:0:primary:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-060:S:0:table:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-060:S:1:extraction:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-060:S:1:primary:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-060:S:1:table:0": {
+    "likelihood_h_a": "3/4",
+    "likelihood_h_b": "1/4",
+    "posterior_h_a": "3/4"
+  },
+  "evaluation-061:F:0:extraction:0": {
+    "likelihood_h_a": "9/256",
+    "likelihood_h_b": "9/256",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-061:F:0:primary:0": {
+    "likelihood_h_a": "9/256",
+    "likelihood_h_b": "9/256",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-061:F:0:table:0": {
+    "likelihood_h_a": "9/256",
+    "likelihood_h_b": "9/256",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-061:F:1:extraction:0": {
+    "likelihood_h_a": "9/256",
+    "likelihood_h_b": "9/256",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-061:F:1:primary:0": {
+    "likelihood_h_a": "9/256",
+    "likelihood_h_b": "9/256",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-061:F:1:table:0": {
+    "likelihood_h_a": "9/256",
+    "likelihood_h_b": "9/256",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-061:R:0:extraction:0": {
+    "likelihood_h_a": "9/320",
+    "likelihood_h_b": "9/640",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-061:R:0:primary:0": {
+    "likelihood_h_a": "9/320",
+    "likelihood_h_b": "9/640",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-061:R:0:table:0": {
+    "likelihood_h_a": "9/320",
+    "likelihood_h_b": "9/640",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-061:R:1:extraction:0": {
+    "likelihood_h_a": "9/320",
+    "likelihood_h_b": "9/640",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-061:R:1:primary:0": {
+    "likelihood_h_a": "9/320",
+    "likelihood_h_b": "9/640",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-061:R:1:table:0": {
+    "likelihood_h_a": "9/320",
+    "likelihood_h_b": "9/640",
+    "posterior_h_a": "4/5"
+  },
+  "evaluation-061:S:0:extraction:0": {
+    "likelihood_h_a": "9/256",
+    "likelihood_h_b": "9/256",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-061:S:0:primary:0": {
+    "likelihood_h_a": "9/256",
+    "likelihood_h_b": "9/256",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-061:S:0:table:0": {
+    "likelihood_h_a": "9/256",
+    "likelihood_h_b": "9/256",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-061:S:1:extraction:0": {
+    "likelihood_h_a": "9/256",
+    "likelihood_h_b": "9/256",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-061:S:1:primary:0": {
+    "likelihood_h_a": "9/256",
+    "likelihood_h_b": "9/256",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-061:S:1:table:0": {
+    "likelihood_h_a": "9/256",
+    "likelihood_h_b": "9/256",
+    "posterior_h_a": "2/3"
+  },
+  "evaluation-062:F:0:extraction:0": {
+    "likelihood_h_a": "3/5",
+    "likelihood_h_b": "2/5",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-062:F:0:primary:0": {
+    "likelihood_h_a": "3/5",
+    "likelihood_h_b": "2/5",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-062:F:0:table:0": {
+    "likelihood_h_a": "3/5",
+    "likelihood_h_b": "2/5",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-062:F:1:extraction:0": {
+    "likelihood_h_a": "3/5",
+    "likelihood_h_b": "2/5",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-062:F:1:primary:0": {
+    "likelihood_h_a": "3/5",
+    "likelihood_h_b": "2/5",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-062:F:1:table:0": {
+    "likelihood_h_a": "3/5",
+    "likelihood_h_b": "2/5",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-062:R:0:extraction:0": {
+    "likelihood_h_a": "6/25",
+    "likelihood_h_b": "4/25",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-062:R:0:primary:0": {
+    "likelihood_h_a": "6/25",
+    "likelihood_h_b": "4/25",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-062:R:0:table:0": {
+    "likelihood_h_a": "6/25",
+    "likelihood_h_b": "4/25",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-062:R:1:extraction:0": {
+    "likelihood_h_a": "6/25",
+    "likelihood_h_b": "4/25",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-062:R:1:primary:0": {
+    "likelihood_h_a": "6/25",
+    "likelihood_h_b": "4/25",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-062:R:1:table:0": {
+    "likelihood_h_a": "6/25",
+    "likelihood_h_b": "4/25",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-062:S:0:extraction:0": {
+    "likelihood_h_a": "3/5",
+    "likelihood_h_b": "2/5",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-062:S:0:primary:0": {
+    "likelihood_h_a": "3/5",
+    "likelihood_h_b": "2/5",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-062:S:0:table:0": {
+    "likelihood_h_a": "3/5",
+    "likelihood_h_b": "2/5",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-062:S:1:extraction:0": {
+    "likelihood_h_a": "3/5",
+    "likelihood_h_b": "2/5",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-062:S:1:primary:0": {
+    "likelihood_h_a": "3/5",
+    "likelihood_h_b": "2/5",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-062:S:1:table:0": {
+    "likelihood_h_a": "3/5",
+    "likelihood_h_b": "2/5",
+    "posterior_h_a": "3/5"
+  },
+  "evaluation-063:F:0:extraction:0": {
+    "likelihood_h_a": "1/4",
+    "likelihood_h_b": "3/4",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-063:F:0:primary:0": {
+    "likelihood_h_a": "1/4",
+    "likelihood_h_b": "3/4",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-063:F:0:table:0": {
+    "likelihood_h_a": "1/4",
+    "likelihood_h_b": "3/4",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-063:F:1:extraction:0": {
+    "likelihood_h_a": "1/4",
+    "likelihood_h_b": "3/4",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-063:F:1:primary:0": {
+    "likelihood_h_a": "1/4",
+    "likelihood_h_b": "3/4",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-063:F:1:table:0": {
+    "likelihood_h_a": "1/4",
+    "likelihood_h_b": "3/4",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-063:R:0:extraction:0": {
+    "likelihood_h_a": "1/16",
+    "likelihood_h_b": "9/16",
+    "posterior_h_a": "2/11"
+  },
+  "evaluation-063:R:0:primary:0": {
+    "likelihood_h_a": "1/16",
+    "likelihood_h_b": "9/16",
+    "posterior_h_a": "2/11"
+  },
+  "evaluation-063:R:0:table:0": {
+    "likelihood_h_a": "1/16",
+    "likelihood_h_b": "9/16",
+    "posterior_h_a": "2/11"
+  },
+  "evaluation-063:R:1:extraction:0": {
+    "likelihood_h_a": "1/16",
+    "likelihood_h_b": "9/16",
+    "posterior_h_a": "2/11"
+  },
+  "evaluation-063:R:1:primary:0": {
+    "likelihood_h_a": "1/16",
+    "likelihood_h_b": "9/16",
+    "posterior_h_a": "2/11"
+  },
+  "evaluation-063:R:1:table:0": {
+    "likelihood_h_a": "1/16",
+    "likelihood_h_b": "9/16",
+    "posterior_h_a": "2/11"
+  },
+  "evaluation-063:S:0:extraction:0": {
+    "likelihood_h_a": "1/4",
+    "likelihood_h_b": "3/4",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-063:S:0:primary:0": {
+    "likelihood_h_a": "1/4",
+    "likelihood_h_b": "3/4",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-063:S:0:table:0": {
+    "likelihood_h_a": "1/4",
+    "likelihood_h_b": "3/4",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-063:S:1:extraction:0": {
+    "likelihood_h_a": "1/4",
+    "likelihood_h_b": "3/4",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-063:S:1:primary:0": {
+    "likelihood_h_a": "1/4",
+    "likelihood_h_b": "3/4",
+    "posterior_h_a": "2/5"
+  },
+  "evaluation-063:S:1:table:0": {
+    "likelihood_h_a": "1/4",
+    "likelihood_h_b": "3/4",
+    "posterior_h_a": "2/5"
+  }
+}
