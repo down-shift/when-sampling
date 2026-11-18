@@ -1,0 +1,482 @@
+[
+  {
+    "condition": "S",
+    "id": "development-000:S:0:primary:1",
+    "kind": "primary",
+    "prompt": "Two hypotheses are H_A and H_B. P(H_A)=1/2; P(H_B)=1-P(H_A). Given H_A, each toss has head probability 3/5; given H_B it is 2/5. Tosses are independent conditional on the hypothesis. The experimenter stops as soon as 4 heads or 2 tails have occurred, or after 6 tosses, whichever comes first. The observer receives the complete ordered terminal record HHTT, of length 4. Given everything the observer was told and observed, return only JSON {\"posterior_h_a\": <number between 0 and 1>}.",
+    "prompt_hash": "0cebf454cd94a12583041f5953bd660dccdba6b152cf0370be293f88afe5a8ba",
+    "repeat": 1,
+    "variant": 0,
+    "world": "development-000"
+  },
+  {
+    "condition": "R",
+    "id": "development-000:R:0:extraction:0",
+    "kind": "extraction",
+    "prompt": "Two hypotheses are H_A and H_B. P(H_A)=1/2; P(H_B)=1-P(H_A). Given H_A, each toss has head probability 3/5; given H_B it is 2/5. Tosses are independent conditional on the hypothesis. The experimenter commits to exactly 4 tosses. An apparatus knows the hidden hypothesis and independently forwards the complete record with probability 1/4 under H_A or 3/4 under H_B. There is exactly one attempt: no resampling, replacement, retries or search. Without forwarding there is no report. The observer received the forwarded complete ordered record HHTT. Return only JSON {\"likelihood_h_a\": <number between 0 and 1>, \"likelihood_h_b\": <number between 0 and 1>} giving the probability of the complete observation conditional on each hypothesis.",
+    "prompt_hash": "527500e22934c4bfd842ac1fdf953dcd37d5dc0e05b4f080c7123ca034f97cb4",
+    "repeat": 0,
+    "variant": 0,
+    "world": "development-000"
+  },
+  {
+    "condition": "S",
+    "id": "development-001:S:1:extraction:0",
+    "kind": "extraction",
+    "prompt": "Consider the following specified probability model. Two hypotheses are H_A and H_B. P(H_A)=1/2; P(H_B)=1-P(H_A). Given H_A, each toss has head probability 1/4; given H_B it is 3/4. Tosses are independent conditional on the hypothesis. The observation protocol is as follows. The experimenter stops as soon as 4 heads or 1 tails have occurred, or after 8 tosses, whichever comes first. The observer receives the complete ordered terminal record T, of length 1. Return only JSON {\"likelihood_h_a\": <number between 0 and 1>, \"likelihood_h_b\": <number between 0 and 1>} giving the probability of the complete observation conditional on each hypothesis.",
+    "prompt_hash": "b31d581ff113d7219482c87615070591142a202c16f04d53283c4c8ec0247cdd",
+    "repeat": 0,
+    "variant": 1,
+    "world": "development-001"
+  },
+  {
+    "condition": "F",
+    "id": "development-001:F:1:primary:1",
+    "kind": "primary",
+    "prompt": "Consider the following specified probability model. Two hypotheses are H_A and H_B. P(H_A)=1/2; P(H_B)=1-P(H_A). Given H_A, each toss has head probability 1/4; given H_B it is 3/4. Tosses are independent conditional on the hypothesis. The observation protocol is as follows. Before any outcomes, the experimenter commits to exactly 1 tosses independently of the hypothesis and outcomes. The complete ordered record is T. Given everything the observer was told and observed, return only JSON {\"posterior_h_a\": <number between 0 and 1>}.",
+    "prompt_hash": "672b1e3e301324cfc6473131bef6f8ce43d626db9079272ab7edbb7f35d855a1",
+    "repeat": 1,
+    "variant": 1,
+    "world": "development-001"
+  },
+  {
+    "condition": "R",
+    "id": "development-001:R:1:primary:0",
+    "kind": "primary",
+    "prompt": "Consider the following specified probability model. Two hypotheses are H_A and H_B. P(H_A)=1/2; P(H_B)=1-P(H_A). Given H_A, each toss has head probability 1/4; given H_B it is 3/4. Tosses are independent conditional on the hypothesis. The observation protocol is as follows. The experimenter commits to exactly 1 tosses. An apparatus knows the hidden hypothesis and independently forwards the complete record with probability 3/4 under H_A or 1/4 under H_B. There is exactly one attempt: no resampling, replacement, retries or search. Without forwarding there is no report. The observer received the forwarded complete ordered record T. Given everything the observer was told and observed, return only JSON {\"posterior_h_a\": <number between 0 and 1>}.",
+    "prompt_hash": "7891971f58bc6060440cd1a87cec6bfb7cccefafc5fa38971ce43e15d754e0b4",
+    "repeat": 0,
+    "variant": 1,
+    "world": "development-001"
+  },
+  {
+    "condition": "S",
+    "id": "development-000:S:0:table:0",
+    "kind": "table",
+    "prompt": "P(H_A)=1/2; P(H_B)=1-P(H_A). The complete observation has likelihood 36/625 under H_A and 36/625 under H_B. Given everything the observer was told and observed, return only JSON {\"posterior_h_a\": <number between 0 and 1>}.",
+    "prompt_hash": "69c7ceb4a6cfcd8addf98057c96652d9384ca13fb249ef21a0c9ea9a4c5b3b2b",
+    "repeat": 0,
+    "variant": 0,
+    "world": "development-000"
+  },
+  {
+    "condition": "R",
+    "id": "development-000:R:0:primary:1",
+    "kind": "primary",
+    "prompt": "Two hypotheses are H_A and H_B. P(H_A)=1/2; P(H_B)=1-P(H_A). Given H_A, each toss has head probability 3/5; given H_B it is 2/5. Tosses are independent conditional on the hypothesis. The experimenter commits to exactly 4 tosses. An apparatus knows the hidden hypothesis and independently forwards the complete record with probability 1/4 under H_A or 3/4 under H_B. There is exactly one attempt: no resampling, replacement, retries or search. Without forwarding there is no report. The observer received the forwarded complete ordered record HHTT. Given everything the observer was told and observed, return only JSON {\"posterior_h_a\": <number between 0 and 1>}.",
+    "prompt_hash": "565412256494cda663e7d2a8fc1f4e8b1a7b8d04636d4dc900a033ed5eecd0b2",
+    "repeat": 1,
+    "variant": 0,
+    "world": "development-000"
+  },
+  {
+    "condition": "R",
+    "id": "development-001:R:0:table:0",
+    "kind": "table",
+    "prompt": "P(H_A)=1/2; P(H_B)=1-P(H_A). The complete observation has likelihood 9/16 under H_A and 1/16 under H_B. For a forwarded report these likelihoods include both generating the record and forwarding it. Given everything the observer was told and observed, return only JSON {\"posterior_h_a\": <number between 0 and 1>}.",
+    "prompt_hash": "d8ae21c822ffd4f481e3705076bc3731fd155f68e7c4e7b27f8375c30cab2a10",
+    "repeat": 0,
+    "variant": 0,
+    "world": "development-001"
+  },
+  {
+    "condition": "F",
+    "id": "development-001:F:0:primary:0",
+    "kind": "primary",
+    "prompt": "Two hypotheses are H_A and H_B. P(H_A)=1/2; P(H_B)=1-P(H_A). Given H_A, each toss has head probability 1/4; given H_B it is 3/4. Tosses are independent conditional on the hypothesis. Before any outcomes, the experimenter commits to exactly 1 tosses independently of the hypothesis and outcomes. The complete ordered record is T. Given everything the observer was told and observed, return only JSON {\"posterior_h_a\": <number between 0 and 1>}.",
+    "prompt_hash": "47c82d1d36dcabdf33053afe88d639eaf4a0069245fe254180e1bb9ab5f88c71",
+    "repeat": 0,
+    "variant": 0,
+    "world": "development-001"
+  },
+  {
+    "condition": "F",
+    "id": "development-000:F:0:primary:1",
+    "kind": "primary",
+    "prompt": "Two hypotheses are H_A and H_B. P(H_A)=1/2; P(H_B)=1-P(H_A). Given H_A, each toss has head probability 3/5; given H_B it is 2/5. Tosses are independent conditional on the hypothesis. Before any outcomes, the experimenter commits to exactly 4 tosses independently of the hypothesis and outcomes. The complete ordered record is HHTT. Given everything the observer was told and observed, return only JSON {\"posterior_h_a\": <number between 0 and 1>}.",
+    "prompt_hash": "a40891c7ed72c02cc9a7f5effa407d03b45e3d9d9ed6c42a1c6a5142809d77a2",
+    "repeat": 1,
+    "variant": 0,
+    "world": "development-000"
+  },
+  {
+    "condition": "R",
+    "id": "development-000:R:1:primary:0",
+    "kind": "primary",
+    "prompt": "Consider the following specified probability model. Two hypotheses are H_A and H_B. P(H_A)=1/2; P(H_B)=1-P(H_A). Given H_A, each toss has head probability 3/5; given H_B it is 2/5. Tosses are independent conditional on the hypothesis. The observation protocol is as follows. The experimenter commits to exactly 4 tosses. An apparatus knows the hidden hypothesis and independently forwards the complete record with probability 1/4 under H_A or 3/4 under H_B. There is exactly one attempt: no resampling, replacement, retries or search. Without forwarding there is no report. The observer received the forwarded complete ordered record HHTT. Given everything the observer was told and observed, return only JSON {\"posterior_h_a\": <number between 0 and 1>}.",
+    "prompt_hash": "203df70f018f94e10022b8c767e7d4bfdc04f159d5ce8925d807c7446c64c8f6",
+    "repeat": 0,
+    "variant": 1,
+    "world": "development-000"
+  },
+  {
+    "condition": "F",
+    "id": "development-000:F:1:primary:0",
+    "kind": "primary",
+    "prompt": "Consider the following specified probability model. Two hypotheses are H_A and H_B. P(H_A)=1/2; P(H_B)=1-P(H_A). Given H_A, each toss has head probability 3/5; given H_B it is 2/5. Tosses are independent conditional on the hypothesis. The observation protocol is as follows. Before any outcomes, the experimenter commits to exactly 4 tosses independently of the hypothesis and outcomes. The complete ordered record is HHTT. Given everything the observer was told and observed, return only JSON {\"posterior_h_a\": <number between 0 and 1>}.",
+    "prompt_hash": "363f28f7d7de3726a49813599378413dca47fd3278f78b7b91c510b57b7c8c51",
+    "repeat": 0,
+    "variant": 1,
+    "world": "development-000"
+  },
+  {
+    "condition": "S",
+    "id": "development-001:S:1:primary:0",
+    "kind": "primary",
+    "prompt": "Consider the following specified probability model. Two hypotheses are H_A and H_B. P(H_A)=1/2; P(H_B)=1-P(H_A). Given H_A, each toss has head probability 1/4; given H_B it is 3/4. Tosses are independent conditional on the hypothesis. The observation protocol is as follows. The experimenter stops as soon as 4 heads or 1 tails have occurred, or after 8 tosses, whichever comes first. The observer receives the complete ordered terminal record T, of length 1. Given everything the observer was told and observed, return only JSON {\"posterior_h_a\": <number between 0 and 1>}.",
+    "prompt_hash": "9cb76e1bbe84f14fae5d99eebb396383bc67eee3d989036c4550632a8440da32",
+    "repeat": 0,
+    "variant": 1,
+    "world": "development-001"
+  },
+  {
+    "condition": "S",
+    "id": "development-000:S:1:extraction:0",
+    "kind": "extraction",
+    "prompt": "Consider the following specified probability model. Two hypotheses are H_A and H_B. P(H_A)=1/2; P(H_B)=1-P(H_A). Given H_A, each toss has head probability 3/5; given H_B it is 2/5. Tosses are independent conditional on the hypothesis. The observation protocol is as follows. The experimenter stops as soon as 4 heads or 2 tails have occurred, or after 6 tosses, whichever comes first. The observer receives the complete ordered terminal record HHTT, of length 4. Return only JSON {\"likelihood_h_a\": <number between 0 and 1>, \"likelihood_h_b\": <number between 0 and 1>} giving the probability of the complete observation conditional on each hypothesis.",
+    "prompt_hash": "f574d73a51e9161496262884e4e8f25706ceb500260089349397eeda082fbc5c",
+    "repeat": 0,
+    "variant": 1,
+    "world": "development-000"
+  },
+  {
+    "condition": "F",
+    "id": "development-000:F:1:primary:1",
+    "kind": "primary",
+    "prompt": "Consider the following specified probability model. Two hypotheses are H_A and H_B. P(H_A)=1/2; P(H_B)=1-P(H_A). Given H_A, each toss has head probability 3/5; given H_B it is 2/5. Tosses are independent conditional on the hypothesis. The observation protocol is as follows. Before any outcomes, the experimenter commits to exactly 4 tosses independently of the hypothesis and outcomes. The complete ordered record is HHTT. Given everything the observer was told and observed, return only JSON {\"posterior_h_a\": <number between 0 and 1>}.",
+    "prompt_hash": "363f28f7d7de3726a49813599378413dca47fd3278f78b7b91c510b57b7c8c51",
+    "repeat": 1,
+    "variant": 1,
+    "world": "development-000"
+  },
+  {
+    "condition": "F",
+    "id": "development-000:F:1:table:0",
+    "kind": "table",
+    "prompt": "Use this likelihood table. P(H_A)=1/2; P(H_B)=1-P(H_A). The complete observation has likelihood 36/625 under H_A and 36/625 under H_B. Given everything the observer was told and observed, return only JSON {\"posterior_h_a\": <number between 0 and 1>}.",
+    "prompt_hash": "c3313ba284d3abb22385bb8c35d2b2c35ea6600b99046067bdbff65dac377ef7",
+    "repeat": 0,
+    "variant": 1,
+    "world": "development-000"
+  },
+  {
+    "condition": "S",
+    "id": "development-000:S:1:primary:0",
+    "kind": "primary",
+    "prompt": "Consider the following specified probability model. Two hypotheses are H_A and H_B. P(H_A)=1/2; P(H_B)=1-P(H_A). Given H_A, each toss has head probability 3/5; given H_B it is 2/5. Tosses are independent conditional on the hypothesis. The observation protocol is as follows. The experimenter stops as soon as 4 heads or 2 tails have occurred, or after 6 tosses, whichever comes first. The observer receives the complete ordered terminal record HHTT, of length 4. Given everything the observer was told and observed, return only JSON {\"posterior_h_a\": <number between 0 and 1>}.",
+    "prompt_hash": "1d934996ecd4ac6383dcfa42e87648c627243bb970a361cdf1cc20ba37a39c90",
+    "repeat": 0,
+    "variant": 1,
+    "world": "development-000"
+  },
+  {
+    "condition": "R",
+    "id": "development-001:R:1:table:0",
+    "kind": "table",
+    "prompt": "Use this likelihood table. P(H_A)=1/2; P(H_B)=1-P(H_A). The complete observation has likelihood 9/16 under H_A and 1/16 under H_B. For a forwarded report these likelihoods include both generating the record and forwarding it. Given everything the observer was told and observed, return only JSON {\"posterior_h_a\": <number between 0 and 1>}.",
+    "prompt_hash": "ffd0cba1c33b876d95133bc258e78831b6a7d492fd65802352947027c5912a02",
+    "repeat": 0,
+    "variant": 1,
+    "world": "development-001"
+  },
+  {
+    "condition": "R",
+    "id": "development-001:R:1:primary:1",
+    "kind": "primary",
+    "prompt": "Consider the following specified probability model. Two hypotheses are H_A and H_B. P(H_A)=1/2; P(H_B)=1-P(H_A). Given H_A, each toss has head probability 1/4; given H_B it is 3/4. Tosses are independent conditional on the hypothesis. The observation protocol is as follows. The experimenter commits to exactly 1 tosses. An apparatus knows the hidden hypothesis and independently forwards the complete record with probability 3/4 under H_A or 1/4 under H_B. There is exactly one attempt: no resampling, replacement, retries or search. Without forwarding there is no report. The observer received the forwarded complete ordered record T. Given everything the observer was told and observed, return only JSON {\"posterior_h_a\": <number between 0 and 1>}.",
+    "prompt_hash": "7891971f58bc6060440cd1a87cec6bfb7cccefafc5fa38971ce43e15d754e0b4",
+    "repeat": 1,
+    "variant": 1,
+    "world": "development-001"
+  },
+  {
+    "condition": "S",
+    "id": "development-001:S:0:primary:0",
+    "kind": "primary",
+    "prompt": "Two hypotheses are H_A and H_B. P(H_A)=1/2; P(H_B)=1-P(H_A). Given H_A, each toss has head probability 1/4; given H_B it is 3/4. Tosses are independent conditional on the hypothesis. The experimenter stops as soon as 4 heads or 1 tails have occurred, or after 8 tosses, whichever comes first. The observer receives the complete ordered terminal record T, of length 1. Given everything the observer was told and observed, return only JSON {\"posterior_h_a\": <number between 0 and 1>}.",
+    "prompt_hash": "fad4fbb162c1d03e8962cc1997fd7448bf80c3a8fb089dac0621c9bab2560b49",
+    "repeat": 0,
+    "variant": 0,
+    "world": "development-001"
+  },
+  {
+    "condition": "R",
+    "id": "development-001:R:0:extraction:0",
+    "kind": "extraction",
+    "prompt": "Two hypotheses are H_A and H_B. P(H_A)=1/2; P(H_B)=1-P(H_A). Given H_A, each toss has head probability 1/4; given H_B it is 3/4. Tosses are independent conditional on the hypothesis. The experimenter commits to exactly 1 tosses. An apparatus knows the hidden hypothesis and independently forwards the complete record with probability 3/4 under H_A or 1/4 under H_B. There is exactly one attempt: no resampling, replacement, retries or search. Without forwarding there is no report. The observer received the forwarded complete ordered record T. Return only JSON {\"likelihood_h_a\": <number between 0 and 1>, \"likelihood_h_b\": <number between 0 and 1>} giving the probability of the complete observation conditional on each hypothesis.",
+    "prompt_hash": "dd58f6916490472082fa7b74d07654eab6fe778f872e6974dec9048f7848c081",
+    "repeat": 0,
+    "variant": 0,
+    "world": "development-001"
+  },
+  {
+    "condition": "S",
+    "id": "development-001:S:0:extraction:0",
+    "kind": "extraction",
+    "prompt": "Two hypotheses are H_A and H_B. P(H_A)=1/2; P(H_B)=1-P(H_A). Given H_A, each toss has head probability 1/4; given H_B it is 3/4. Tosses are independent conditional on the hypothesis. The experimenter stops as soon as 4 heads or 1 tails have occurred, or after 8 tosses, whichever comes first. The observer receives the complete ordered terminal record T, of length 1. Return only JSON {\"likelihood_h_a\": <number between 0 and 1>, \"likelihood_h_b\": <number between 0 and 1>} giving the probability of the complete observation conditional on each hypothesis.",
+    "prompt_hash": "fa2b167fb3baa9b8a57cd012fc4a20f2360bfe7973fabef5635874bfc0d13871",
+    "repeat": 0,
+    "variant": 0,
+    "world": "development-001"
+  },
+  {
+    "condition": "S",
+    "id": "development-000:S:1:table:0",
+    "kind": "table",
+    "prompt": "Use this likelihood table. P(H_A)=1/2; P(H_B)=1-P(H_A). The complete observation has likelihood 36/625 under H_A and 36/625 under H_B. Given everything the observer was told and observed, return only JSON {\"posterior_h_a\": <number between 0 and 1>}.",
+    "prompt_hash": "c3313ba284d3abb22385bb8c35d2b2c35ea6600b99046067bdbff65dac377ef7",
+    "repeat": 0,
+    "variant": 1,
+    "world": "development-000"
+  },
+  {
+    "condition": "R",
+    "id": "development-000:R:1:primary:1",
+    "kind": "primary",
+    "prompt": "Consider the following specified probability model. Two hypotheses are H_A and H_B. P(H_A)=1/2; P(H_B)=1-P(H_A). Given H_A, each toss has head probability 3/5; given H_B it is 2/5. Tosses are independent conditional on the hypothesis. The observation protocol is as follows. The experimenter commits to exactly 4 tosses. An apparatus knows the hidden hypothesis and independently forwards the complete record with probability 1/4 under H_A or 3/4 under H_B. There is exactly one attempt: no resampling, replacement, retries or search. Without forwarding there is no report. The observer received the forwarded complete ordered record HHTT. Given everything the observer was told and observed, return only JSON {\"posterior_h_a\": <number between 0 and 1>}.",
+    "prompt_hash": "203df70f018f94e10022b8c767e7d4bfdc04f159d5ce8925d807c7446c64c8f6",
+    "repeat": 1,
+    "variant": 1,
+    "world": "development-000"
+  },
+  {
+    "condition": "R",
+    "id": "development-000:R:1:table:0",
+    "kind": "table",
+    "prompt": "Use this likelihood table. P(H_A)=1/2; P(H_B)=1-P(H_A). The complete observation has likelihood 9/625 under H_A and 27/625 under H_B. For a forwarded report these likelihoods include both generating the record and forwarding it. Given everything the observer was told and observed, return only JSON {\"posterior_h_a\": <number between 0 and 1>}.",
+    "prompt_hash": "37ad9f1bcf4fb29529e89d8570181dbd4e1a2c2ad23e4e8b93082d20122ba16b",
+    "repeat": 0,
+    "variant": 1,
+    "world": "development-000"
+  },
+  {
+    "condition": "R",
+    "id": "development-001:R:0:primary:1",
+    "kind": "primary",
+    "prompt": "Two hypotheses are H_A and H_B. P(H_A)=1/2; P(H_B)=1-P(H_A). Given H_A, each toss has head probability 1/4; given H_B it is 3/4. Tosses are independent conditional on the hypothesis. The experimenter commits to exactly 1 tosses. An apparatus knows the hidden hypothesis and independently forwards the complete record with probability 3/4 under H_A or 1/4 under H_B. There is exactly one attempt: no resampling, replacement, retries or search. Without forwarding there is no report. The observer received the forwarded complete ordered record T. Given everything the observer was told and observed, return only JSON {\"posterior_h_a\": <number between 0 and 1>}.",
+    "prompt_hash": "89726a58843ecde3b98e5cfd49d8377686c5d169b3d98be1fd46238af0ae5d24",
+    "repeat": 1,
+    "variant": 0,
+    "world": "development-001"
+  },
+  {
+    "condition": "R",
+    "id": "development-000:R:0:primary:0",
+    "kind": "primary",
+    "prompt": "Two hypotheses are H_A and H_B. P(H_A)=1/2; P(H_B)=1-P(H_A). Given H_A, each toss has head probability 3/5; given H_B it is 2/5. Tosses are independent conditional on the hypothesis. The experimenter commits to exactly 4 tosses. An apparatus knows the hidden hypothesis and independently forwards the complete record with probability 1/4 under H_A or 3/4 under H_B. There is exactly one attempt: no resampling, replacement, retries or search. Without forwarding there is no report. The observer received the forwarded complete ordered record HHTT. Given everything the observer was told and observed, return only JSON {\"posterior_h_a\": <number between 0 and 1>}.",
+    "prompt_hash": "565412256494cda663e7d2a8fc1f4e8b1a7b8d04636d4dc900a033ed5eecd0b2",
+    "repeat": 0,
+    "variant": 0,
+    "world": "development-000"
+  },
+  {
+    "condition": "R",
+    "id": "development-001:R:0:primary:0",
+    "kind": "primary",
+    "prompt": "Two hypotheses are H_A and H_B. P(H_A)=1/2; P(H_B)=1-P(H_A). Given H_A, each toss has head probability 1/4; given H_B it is 3/4. Tosses are independent conditional on the hypothesis. The experimenter commits to exactly 1 tosses. An apparatus knows the hidden hypothesis and independently forwards the complete record with probability 3/4 under H_A or 1/4 under H_B. There is exactly one attempt: no resampling, replacement, retries or search. Without forwarding there is no report. The observer received the forwarded complete ordered record T. Given everything the observer was told and observed, return only JSON {\"posterior_h_a\": <number between 0 and 1>}.",
+    "prompt_hash": "89726a58843ecde3b98e5cfd49d8377686c5d169b3d98be1fd46238af0ae5d24",
+    "repeat": 0,
+    "variant": 0,
+    "world": "development-001"
+  },
+  {
+    "condition": "F",
+    "id": "development-001:F:0:extraction:0",
+    "kind": "extraction",
+    "prompt": "Two hypotheses are H_A and H_B. P(H_A)=1/2; P(H_B)=1-P(H_A). Given H_A, each toss has head probability 1/4; given H_B it is 3/4. Tosses are independent conditional on the hypothesis. Before any outcomes, the experimenter commits to exactly 1 tosses independently of the hypothesis and outcomes. The complete ordered record is T. Return only JSON {\"likelihood_h_a\": <number between 0 and 1>, \"likelihood_h_b\": <number between 0 and 1>} giving the probability of the complete observation conditional on each hypothesis.",
+    "prompt_hash": "187b90f5e91f9630c0a0ee8f6fea7ada0557594e8b231000151ffbdfdca30f65",
+    "repeat": 0,
+    "variant": 0,
+    "world": "development-001"
+  },
+  {
+    "condition": "F",
+    "id": "development-000:F:0:primary:0",
+    "kind": "primary",
+    "prompt": "Two hypotheses are H_A and H_B. P(H_A)=1/2; P(H_B)=1-P(H_A). Given H_A, each toss has head probability 3/5; given H_B it is 2/5. Tosses are independent conditional on the hypothesis. Before any outcomes, the experimenter commits to exactly 4 tosses independently of the hypothesis and outcomes. The complete ordered record is HHTT. Given everything the observer was told and observed, return only JSON {\"posterior_h_a\": <number between 0 and 1>}.",
+    "prompt_hash": "a40891c7ed72c02cc9a7f5effa407d03b45e3d9d9ed6c42a1c6a5142809d77a2",
+    "repeat": 0,
+    "variant": 0,
+    "world": "development-000"
+  },
+  {
+    "condition": "R",
+    "id": "development-001:R:1:extraction:0",
+    "kind": "extraction",
+    "prompt": "Consider the following specified probability model. Two hypotheses are H_A and H_B. P(H_A)=1/2; P(H_B)=1-P(H_A). Given H_A, each toss has head probability 1/4; given H_B it is 3/4. Tosses are independent conditional on the hypothesis. The observation protocol is as follows. The experimenter commits to exactly 1 tosses. An apparatus knows the hidden hypothesis and independently forwards the complete record with probability 3/4 under H_A or 1/4 under H_B. There is exactly one attempt: no resampling, replacement, retries or search. Without forwarding there is no report. The observer received the forwarded complete ordered record T. Return only JSON {\"likelihood_h_a\": <number between 0 and 1>, \"likelihood_h_b\": <number between 0 and 1>} giving the probability of the complete observation conditional on each hypothesis.",
+    "prompt_hash": "32aa2633f32450bbf047c83520ec32d1e168b4cae6944cdf5292b49640fc6282",
+    "repeat": 0,
+    "variant": 1,
+    "world": "development-001"
+  },
+  {
+    "condition": "F",
+    "id": "development-000:F:1:extraction:0",
+    "kind": "extraction",
+    "prompt": "Consider the following specified probability model. Two hypotheses are H_A and H_B. P(H_A)=1/2; P(H_B)=1-P(H_A). Given H_A, each toss has head probability 3/5; given H_B it is 2/5. Tosses are independent conditional on the hypothesis. The observation protocol is as follows. Before any outcomes, the experimenter commits to exactly 4 tosses independently of the hypothesis and outcomes. The complete ordered record is HHTT. Return only JSON {\"likelihood_h_a\": <number between 0 and 1>, \"likelihood_h_b\": <number between 0 and 1>} giving the probability of the complete observation conditional on each hypothesis.",
+    "prompt_hash": "dedc7b86ee268ce2a57f865a05b4a2a27bd332016ce6fad21e4d633d9cc2b383",
+    "repeat": 0,
+    "variant": 1,
+    "world": "development-000"
+  },
+  {
+    "condition": "S",
+    "id": "development-000:S:1:primary:1",
+    "kind": "primary",
+    "prompt": "Consider the following specified probability model. Two hypotheses are H_A and H_B. P(H_A)=1/2; P(H_B)=1-P(H_A). Given H_A, each toss has head probability 3/5; given H_B it is 2/5. Tosses are independent conditional on the hypothesis. The observation protocol is as follows. The experimenter stops as soon as 4 heads or 2 tails have occurred, or after 6 tosses, whichever comes first. The observer receives the complete ordered terminal record HHTT, of length 4. Given everything the observer was told and observed, return only JSON {\"posterior_h_a\": <number between 0 and 1>}.",
+    "prompt_hash": "1d934996ecd4ac6383dcfa42e87648c627243bb970a361cdf1cc20ba37a39c90",
+    "repeat": 1,
+    "variant": 1,
+    "world": "development-000"
+  },
+  {
+    "condition": "F",
+    "id": "development-000:F:0:extraction:0",
+    "kind": "extraction",
+    "prompt": "Two hypotheses are H_A and H_B. P(H_A)=1/2; P(H_B)=1-P(H_A). Given H_A, each toss has head probability 3/5; given H_B it is 2/5. Tosses are independent conditional on the hypothesis. Before any outcomes, the experimenter commits to exactly 4 tosses independently of the hypothesis and outcomes. The complete ordered record is HHTT. Return only JSON {\"likelihood_h_a\": <number between 0 and 1>, \"likelihood_h_b\": <number between 0 and 1>} giving the probability of the complete observation conditional on each hypothesis.",
+    "prompt_hash": "ab6d45d813f098512a9ba910b952d1ec24b24fb87228b5cba5a60057f5af9cec",
+    "repeat": 0,
+    "variant": 0,
+    "world": "development-000"
+  },
+  {
+    "condition": "S",
+    "id": "development-001:S:1:table:0",
+    "kind": "table",
+    "prompt": "Use this likelihood table. P(H_A)=1/2; P(H_B)=1-P(H_A). The complete observation has likelihood 3/4 under H_A and 1/4 under H_B. Given everything the observer was told and observed, return only JSON {\"posterior_h_a\": <number between 0 and 1>}.",
+    "prompt_hash": "2db40d0fa893c71c8b6d5657c3bfadfcd8525de93d120f6e78d444aa9f8063ac",
+    "repeat": 0,
+    "variant": 1,
+    "world": "development-001"
+  },
+  {
+    "condition": "F",
+    "id": "development-001:F:1:extraction:0",
+    "kind": "extraction",
+    "prompt": "Consider the following specified probability model. Two hypotheses are H_A and H_B. P(H_A)=1/2; P(H_B)=1-P(H_A). Given H_A, each toss has head probability 1/4; given H_B it is 3/4. Tosses are independent conditional on the hypothesis. The observation protocol is as follows. Before any outcomes, the experimenter commits to exactly 1 tosses independently of the hypothesis and outcomes. The complete ordered record is T. Return only JSON {\"likelihood_h_a\": <number between 0 and 1>, \"likelihood_h_b\": <number between 0 and 1>} giving the probability of the complete observation conditional on each hypothesis.",
+    "prompt_hash": "af7c872722a997aa77f13f90d8485de9f4916151edb0f4b0a021fc0c7aebd9ee",
+    "repeat": 0,
+    "variant": 1,
+    "world": "development-001"
+  },
+  {
+    "condition": "F",
+    "id": "development-001:F:1:table:0",
+    "kind": "table",
+    "prompt": "Use this likelihood table. P(H_A)=1/2; P(H_B)=1-P(H_A). The complete observation has likelihood 3/4 under H_A and 1/4 under H_B. Given everything the observer was told and observed, return only JSON {\"posterior_h_a\": <number between 0 and 1>}.",
+    "prompt_hash": "2db40d0fa893c71c8b6d5657c3bfadfcd8525de93d120f6e78d444aa9f8063ac",
+    "repeat": 0,
+    "variant": 1,
+    "world": "development-001"
+  },
+  {
+    "condition": "S",
+    "id": "development-000:S:0:extraction:0",
+    "kind": "extraction",
+    "prompt": "Two hypotheses are H_A and H_B. P(H_A)=1/2; P(H_B)=1-P(H_A). Given H_A, each toss has head probability 3/5; given H_B it is 2/5. Tosses are independent conditional on the hypothesis. The experimenter stops as soon as 4 heads or 2 tails have occurred, or after 6 tosses, whichever comes first. The observer receives the complete ordered terminal record HHTT, of length 4. Return only JSON {\"likelihood_h_a\": <number between 0 and 1>, \"likelihood_h_b\": <number between 0 and 1>} giving the probability of the complete observation conditional on each hypothesis.",
+    "prompt_hash": "633a86359698cde6ce745fd5ef44c785b78791f128f4f09536bb710f42f78a17",
+    "repeat": 0,
+    "variant": 0,
+    "world": "development-000"
+  },
+  {
+    "condition": "F",
+    "id": "development-001:F:0:primary:1",
+    "kind": "primary",
+    "prompt": "Two hypotheses are H_A and H_B. P(H_A)=1/2; P(H_B)=1-P(H_A). Given H_A, each toss has head probability 1/4; given H_B it is 3/4. Tosses are independent conditional on the hypothesis. Before any outcomes, the experimenter commits to exactly 1 tosses independently of the hypothesis and outcomes. The complete ordered record is T. Given everything the observer was told and observed, return only JSON {\"posterior_h_a\": <number between 0 and 1>}.",
+    "prompt_hash": "47c82d1d36dcabdf33053afe88d639eaf4a0069245fe254180e1bb9ab5f88c71",
+    "repeat": 1,
+    "variant": 0,
+    "world": "development-001"
+  },
+  {
+    "condition": "R",
+    "id": "development-000:R:1:extraction:0",
+    "kind": "extraction",
+    "prompt": "Consider the following specified probability model. Two hypotheses are H_A and H_B. P(H_A)=1/2; P(H_B)=1-P(H_A). Given H_A, each toss has head probability 3/5; given H_B it is 2/5. Tosses are independent conditional on the hypothesis. The observation protocol is as follows. The experimenter commits to exactly 4 tosses. An apparatus knows the hidden hypothesis and independently forwards the complete record with probability 1/4 under H_A or 3/4 under H_B. There is exactly one attempt: no resampling, replacement, retries or search. Without forwarding there is no report. The observer received the forwarded complete ordered record HHTT. Return only JSON {\"likelihood_h_a\": <number between 0 and 1>, \"likelihood_h_b\": <number between 0 and 1>} giving the probability of the complete observation conditional on each hypothesis.",
+    "prompt_hash": "f767ec5de8c97f4eaa726361e808919e471444ed7fd7683b7fb84277714b193a",
+    "repeat": 0,
+    "variant": 1,
+    "world": "development-000"
+  },
+  {
+    "condition": "S",
+    "id": "development-000:S:0:primary:0",
+    "kind": "primary",
+    "prompt": "Two hypotheses are H_A and H_B. P(H_A)=1/2; P(H_B)=1-P(H_A). Given H_A, each toss has head probability 3/5; given H_B it is 2/5. Tosses are independent conditional on the hypothesis. The experimenter stops as soon as 4 heads or 2 tails have occurred, or after 6 tosses, whichever comes first. The observer receives the complete ordered terminal record HHTT, of length 4. Given everything the observer was told and observed, return only JSON {\"posterior_h_a\": <number between 0 and 1>}.",
+    "prompt_hash": "0cebf454cd94a12583041f5953bd660dccdba6b152cf0370be293f88afe5a8ba",
+    "repeat": 0,
+    "variant": 0,
+    "world": "development-000"
+  },
+  {
+    "condition": "F",
+    "id": "development-001:F:0:table:0",
+    "kind": "table",
+    "prompt": "P(H_A)=1/2; P(H_B)=1-P(H_A). The complete observation has likelihood 3/4 under H_A and 1/4 under H_B. Given everything the observer was told and observed, return only JSON {\"posterior_h_a\": <number between 0 and 1>}.",
+    "prompt_hash": "ca3a0417143a26df8a01b91e406e6a9f9b1c314d44ee452d0254a3c2f65db518",
+    "repeat": 0,
+    "variant": 0,
+    "world": "development-001"
+  },
+  {
+    "condition": "S",
+    "id": "development-001:S:0:primary:1",
+    "kind": "primary",
+    "prompt": "Two hypotheses are H_A and H_B. P(H_A)=1/2; P(H_B)=1-P(H_A). Given H_A, each toss has head probability 1/4; given H_B it is 3/4. Tosses are independent conditional on the hypothesis. The experimenter stops as soon as 4 heads or 1 tails have occurred, or after 8 tosses, whichever comes first. The observer receives the complete ordered terminal record T, of length 1. Given everything the observer was told and observed, return only JSON {\"posterior_h_a\": <number between 0 and 1>}.",
+    "prompt_hash": "fad4fbb162c1d03e8962cc1997fd7448bf80c3a8fb089dac0621c9bab2560b49",
+    "repeat": 1,
+    "variant": 0,
+    "world": "development-001"
+  },
+  {
+    "condition": "S",
+    "id": "development-001:S:0:table:0",
+    "kind": "table",
+    "prompt": "P(H_A)=1/2; P(H_B)=1-P(H_A). The complete observation has likelihood 3/4 under H_A and 1/4 under H_B. Given everything the observer was told and observed, return only JSON {\"posterior_h_a\": <number between 0 and 1>}.",
+    "prompt_hash": "ca3a0417143a26df8a01b91e406e6a9f9b1c314d44ee452d0254a3c2f65db518",
+    "repeat": 0,
+    "variant": 0,
+    "world": "development-001"
+  },
+  {
+    "condition": "F",
+    "id": "development-000:F:0:table:0",
+    "kind": "table",
+    "prompt": "P(H_A)=1/2; P(H_B)=1-P(H_A). The complete observation has likelihood 36/625 under H_A and 36/625 under H_B. Given everything the observer was told and observed, return only JSON {\"posterior_h_a\": <number between 0 and 1>}.",
+    "prompt_hash": "69c7ceb4a6cfcd8addf98057c96652d9384ca13fb249ef21a0c9ea9a4c5b3b2b",
+    "repeat": 0,
+    "variant": 0,
+    "world": "development-000"
+  },
+  {
+    "condition": "F",
+    "id": "development-001:F:1:primary:0",
+    "kind": "primary",
+    "prompt": "Consider the following specified probability model. Two hypotheses are H_A and H_B. P(H_A)=1/2; P(H_B)=1-P(H_A). Given H_A, each toss has head probability 1/4; given H_B it is 3/4. Tosses are independent conditional on the hypothesis. The observation protocol is as follows. Before any outcomes, the experimenter commits to exactly 1 tosses independently of the hypothesis and outcomes. The complete ordered record is T. Given everything the observer was told and observed, return only JSON {\"posterior_h_a\": <number between 0 and 1>}.",
+    "prompt_hash": "672b1e3e301324cfc6473131bef6f8ce43d626db9079272ab7edbb7f35d855a1",
+    "repeat": 0,
+    "variant": 1,
+    "world": "development-001"
+  },
+  {
+    "condition": "R",
+    "id": "development-000:R:0:table:0",
+    "kind": "table",
+    "prompt": "P(H_A)=1/2; P(H_B)=1-P(H_A). The complete observation has likelihood 9/625 under H_A and 27/625 under H_B. For a forwarded report these likelihoods include both generating the record and forwarding it. Given everything the observer was told and observed, return only JSON {\"posterior_h_a\": <number between 0 and 1>}.",
+    "prompt_hash": "4432cf2ca14c8ab68bb127934718b736c5fae7b3ca9f67fb38bc5839f64f4569",
+    "repeat": 0,
+    "variant": 0,
+    "world": "development-000"
+  },
+  {
+    "condition": "S",
+    "id": "development-001:S:1:primary:1",
+    "kind": "primary",
+    "prompt": "Consider the following specified probability model. Two hypotheses are H_A and H_B. P(H_A)=1/2; P(H_B)=1-P(H_A). Given H_A, each toss has head probability 1/4; given H_B it is 3/4. Tosses are independent conditional on the hypothesis. The observation protocol is as follows. The experimenter stops as soon as 4 heads or 1 tails have occurred, or after 8 tosses, whichever comes first. The observer receives the complete ordered terminal record T, of length 1. Given everything the observer was told and observed, return only JSON {\"posterior_h_a\": <number between 0 and 1>}.",
+    "prompt_hash": "9cb76e1bbe84f14fae5d99eebb396383bc67eee3d989036c4550632a8440da32",
+    "repeat": 1,
+    "variant": 1,
+    "world": "development-001"
+  }
+]

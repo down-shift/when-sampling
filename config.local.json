@@ -11,6 +11,6 @@
   "timeout": 120,
   "retry_limit": 2,
   "concurrency": 1,
-  "max_output_tokens": 128,
+  "max_output_tokens": 512,
   "max_requests": 48
 }

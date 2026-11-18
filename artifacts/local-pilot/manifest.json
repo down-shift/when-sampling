@@ -1,0 +1,35 @@
+{
+  "config": {
+    "adapter": "http",
+    "api_key_env": null,
+    "concurrency": 1,
+    "decoding": {
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "temperature": 0,
+      "top_p": 1
+    },
+    "endpoint": "http://127.0.0.1:8000/v1/chat/completions",
+    "max_output_tokens": 128,
+    "max_requests": 48,
+    "model": "Qwen/Qwen3-4B",
+    "retry_limit": 2,
+    "timeout": 120
+  },
+  "identity": {
+    "config_hash": "0aae7cf90244a4a7b1f68762a0339e729c22629a194ea44a9d7bbe9ba0269cf4",
+    "dataset_hash": "dc3ea97e1efbc4e5ac11aafc0c8a82bccbdecb1789a0353f254035411187d407",
+    "live": true,
+    "order_seed": 31415,
+    "protocol_hash": "e67f4ea7b422d621a5d4da606fd297824fd4e00784025f02e8f558de7cccfb1f",
+    "repeat_worlds": 2,
+    "requests_hash": "9a4e9b10f251e8999f466ceedff8fb48b198a8e7cf8df0ce80f1669a52055620",
+    "source_hash": "d9bee1c0797b7d024eb4e8bd2b27eb1ab7f91b7251c29166dc9ce27f35e95bd4",
+    "split": "development",
+    "world_limit": 2
+  },
+  "revision": "56a6c87c9da7ec9ddf44e41560a1edc7633dd400",
+  "started": "2026-11-18T11:34:25.887211+00:00",
+  "synthetic": false
+}

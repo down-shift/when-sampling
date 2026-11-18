@@ -23,6 +23,19 @@ class ScientificChecks(unittest.TestCase):
         self.assertEqual(parse(raw('{}','length'),'primary')[0],'truncation')
         self.assertEqual(parse({'choices':[{'message':{'refusal':'no'}}]},'primary')[0],'refusal')
 
+    def test_fenced_json_parser(self):
+        content = '```json\n{"posterior_h_a":0.5}\n```'
+        for text, finish, expected in [
+            (content, 'stop', ('ok', {'posterior_h_a': 0.5})),
+            (content, 'length', ('truncation', None)),
+            ('Answer:\n' + content, 'stop', ('malformed_json', None)),
+            (content + '\n' + content, 'stop', ('malformed_json', None)),
+            (content.replace('0.5', 'NaN'), 'stop', ('malformed_json', None)),
+        ]:
+            with self.subTest(text=text, finish=finish):
+                raw = {'choices': [{'finish_reason': finish, 'message': {'content': text}}]}
+                self.assertEqual(parse(raw, 'primary'), expected)
+
     def test_mock_resume_and_analysis(self):
         data=generate(2,2)
         reqs,answers=requests(data,'development',1)
@@ -103,7 +116,7 @@ class LocalServingChecks(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory, patch('urllib.request.urlopen',side_effect=fake):
             run(reqs[:1],answers,config,directory,{},True)
         self.assertEqual(seen[0]['chat_template_kwargs'],{'enable_thinking':False})
-        self.assertEqual(seen[0]['max_tokens'],128)
+        self.assertEqual(seen[0]['max_tokens'],512)
         self.assertEqual(seen[0]['temperature'],0)
 
     def test_decoding_cannot_replace_message(self):

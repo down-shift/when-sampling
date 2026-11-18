@@ -4,6 +4,7 @@ import json
 import math
 import os
 import random
+import re
 import subprocess
 import threading
 import time
@@ -31,6 +32,11 @@ def parse(raw, kind):
     if choice.get('finish_reason') == 'length':
         return 'truncation', None
     content = message.get('content')
+    if isinstance(content, str):
+        fenced = re.fullmatch(r'\s*```(?:json)?[ \t]*\r?\n(.*?)\r?\n[ \t]*```\s*',
+                              content, flags=re.DOTALL)
+        if fenced:
+            content = fenced.group(1)
     def unique(pairs):
         d = {}
         for k,v in pairs:

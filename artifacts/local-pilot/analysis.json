@@ -1,0 +1,54 @@
+{
+  "answers_hash": "31b82c81f690e0ce011ae548a5597098d72ee4cd0f72cf90774a6a2f494aeff4",
+  "metrics": {},
+  "repeat_world_ranges": {},
+  "settings": {
+    "bootstrap": 2000,
+    "extraction_tolerance": 1e-06,
+    "paraphrases_required": 2,
+    "seed": 4242
+  },
+  "status_counts": {
+    "extraction:F": {
+      "malformed_json": 4,
+      "total": 4
+    },
+    "extraction:R": {
+      "malformed_json": 2,
+      "total": 4,
+      "truncation": 2
+    },
+    "extraction:S": {
+      "total": 4,
+      "truncation": 4
+    },
+    "primary:F": {
+      "malformed_json": 4,
+      "total": 8,
+      "truncation": 4
+    },
+    "primary:R": {
+      "malformed_json": 4,
+      "total": 8,
+      "truncation": 4
+    },
+    "primary:S": {
+      "total": 8,
+      "truncation": 8
+    },
+    "table:F": {
+      "malformed_json": 4,
+      "total": 4
+    },
+    "table:R": {
+      "malformed_json": 4,
+      "total": 4
+    },
+    "table:S": {
+      "malformed_json": 4,
+      "total": 4
+    }
+  },
+  "synthetic": false,
+  "world_values": {}
+}
