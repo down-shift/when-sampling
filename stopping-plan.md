@@ -49,9 +49,9 @@ The live evaluation command requires a matching live development run with at mos
 
 ## Qwen3-8B development follow-up
 
-The thinking-mode 4B run passed the validity threshold but scored 0/8 on the SAME controls. Test the same 48 development requests with the official Qwen3-8B checkpoint in bfloat16. The configuration preserves thinking, the JSON schema, and the 8,192-token completion limit. Four concurrent requests let vLLM batch decoding. Compare elapsed time from the runner logs and keep the control and validity thresholds above.
+The thinking-mode 4B run passed the validity threshold but scored 0/8 on the SAME controls. Test the same 48 development requests with the official Qwen3-8B checkpoint with BitsAndBytes INT4 quantization at load time. The configuration preserves thinking, the JSON schema, and the 8,192-token completion limit. Four concurrent requests let vLLM batch decoding. Compare elapsed time from the runner logs and keep the control and validity thresholds above.
 
-Start the server using the command in `config.stopping.8b.json`, then run:
+Install BitsAndBytes in the vLLM environment with `uv pip install --python .venv-vllm/bin/python "bitsandbytes>=0.49.2"`. Start the server using the command in `config.stopping.8b.json`, then run:
 
 ```sh
 uv run --no-sync python -m sampling.stopping run --split development --config config.stopping.8b.json --live --output artifacts/stopping-local/live-development-8b

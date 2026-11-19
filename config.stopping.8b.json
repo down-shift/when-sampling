@@ -5,7 +5,7 @@
   "checkpoint": {
     "model_revision": "b968826",
     "tokenizer_revision": "b968826",
-    "server_command": "SAMPLING_MODEL=Qwen/Qwen3-8B SAMPLING_MAX_MODEL_LEN=9216 SAMPLING_MAX_NUM_SEQS=4 bash scripts/serve-local.sh --revision b968826 --tokenizer-revision b968826 --reasoning-parser qwen3"
+    "server_command": "SAMPLING_MODEL=Qwen/Qwen3-8B SAMPLING_DTYPE=bfloat16 SAMPLING_MAX_MODEL_LEN=9216 SAMPLING_MAX_NUM_SEQS=4 bash scripts/serve-local.sh --revision b968826 --tokenizer-revision b968826 --reasoning-parser qwen3 --quantization bitsandbytes"
   },
   "api_key_env": null,
   "schema_constrained": true,
