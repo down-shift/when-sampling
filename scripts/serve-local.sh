@@ -9,7 +9,7 @@ serve_sampling_model() {
     fi
     "$sampling_vllm" serve "$sampling_model" \
         --host 127.0.0.1 --port 8000 \
-        --dtype bfloat16 --max-model-len "${SAMPLING_MAX_MODEL_LEN:-4096}" \
+        --dtype "${SAMPLING_DTYPE:-bfloat16}" --max-model-len "${SAMPLING_MAX_MODEL_LEN:-4096}" \
         --gpu-memory-utilization 0.85 --max-num-seqs "${SAMPLING_MAX_NUM_SEQS:-2}" \
         --generation-config vllm "$@"
 }

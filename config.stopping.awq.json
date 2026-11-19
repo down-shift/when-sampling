@@ -5,7 +5,7 @@
   "checkpoint": {
     "model_revision": "4da05a8",
     "tokenizer_revision": "4da05a8",
-    "server_command": "SAMPLING_MODEL=Qwen/Qwen3-8B-AWQ SAMPLING_MAX_MODEL_LEN=9216 SAMPLING_MAX_NUM_SEQS=4 bash scripts/serve-local.sh --revision 4da05a8 --tokenizer-revision 4da05a8 --reasoning-parser qwen3 --quantization awq"
+    "server_command": "SAMPLING_MODEL=Qwen/Qwen3-8B-AWQ SAMPLING_MAX_MODEL_LEN=9216 SAMPLING_MAX_NUM_SEQS=4 SAMPLING_DTYPE=float16 bash scripts/serve-local.sh --revision 4da05a8 --tokenizer-revision 4da05a8 --reasoning-parser qwen3 --quantization awq"
   },
   "api_key_env": null,
   "schema_constrained": true,

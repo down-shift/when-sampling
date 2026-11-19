@@ -20,7 +20,7 @@ WORKED = dict(pa='3/4', pb='1/4', visible='H', ids='KLMN', order=[0, 1, 2, 3])
 LOCAL = Path('artifacts/stopping-local')
 PLAN = Path('stopping-plan.md')
 LIVE_CONFIG = Path('config.stopping.json')
-AWQ_DEVELOPMENT_CONFIG = Path('config.stopping.awq.json')
+DEVELOPMENT_8B_CONFIG = Path('config.stopping.8b.json')
 DEVELOPMENT_RUN = LOCAL / 'live-development-thinking'
 
 
@@ -377,7 +377,7 @@ def main():
         pinned = json.loads(LIVE_CONFIG.read_text())
         allowed = [pinned]
         if args.split == 'development':
-            allowed.append(json.loads(AWQ_DEVELOPMENT_CONFIG.read_text()))
+            allowed.append(json.loads(DEVELOPMENT_8B_CONFIG.read_text()))
         if config not in allowed:
             parser.error('live runs require a pinned configuration for this split')
         if args.split == 'evaluation' and not args.dry_run:

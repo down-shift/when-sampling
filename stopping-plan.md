@@ -47,14 +47,14 @@ uv run --no-sync python -m sampling.stopping run --split development --config co
 
 The live evaluation command requires a matching live development run with at most one invalid response in each format and all eight controls correct in each class. If development passes, review this plan and use the hash printed by the evaluation dry run. If development fails, stop tuning this checkpoint for the pilot and test a stronger checkpoint on development only.
 
-## INT4 development follow-up
+## Qwen3-8B development follow-up
 
-The thinking-mode 4B run passed the validity threshold but scored 0/8 on the SAME controls. Test the same 48 development requests with the official Qwen3-8B-AWQ INT4 checkpoint. The configuration preserves thinking, the JSON schema, and the 8,192-token completion limit. Four concurrent requests let vLLM batch decoding. Compare elapsed time from the runner logs and keep the control and validity thresholds above.
+The thinking-mode 4B run passed the validity threshold but scored 0/8 on the SAME controls. Test the same 48 development requests with the official Qwen3-8B checkpoint in bfloat16. The configuration preserves thinking, the JSON schema, and the 8,192-token completion limit. Four concurrent requests let vLLM batch decoding. Compare elapsed time from the runner logs and keep the control and validity thresholds above.
 
-Start the server using the command in `config.stopping.awq.json`, then run:
+Start the server using the command in `config.stopping.8b.json`, then run:
 
 ```sh
-uv run --no-sync python -m sampling.stopping run --split development --config config.stopping.awq.json --live --output artifacts/stopping-local/live-development-8b-awq
+uv run --no-sync python -m sampling.stopping run --split development --config config.stopping.8b.json --live --output artifacts/stopping-local/live-development-8b
 ```
 
 This configuration budgets 48 requests and is development only. Review the result before selecting a configuration for held-out evaluation.
