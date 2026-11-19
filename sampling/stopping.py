@@ -20,6 +20,7 @@ WORKED = dict(pa='3/4', pb='1/4', visible='H', ids='KLMN', order=[0, 1, 2, 3])
 LOCAL = Path('artifacts/stopping-local')
 PLAN = Path('stopping-plan.md')
 LIVE_CONFIG = Path('config.stopping.json')
+AWQ_DEVELOPMENT_CONFIG = Path('config.stopping.awq.json')
 DEVELOPMENT_RUN = LOCAL / 'live-development-thinking'
 
 
@@ -365,7 +366,7 @@ def main():
     cases = splits[args.split]
     requests, answers = build(cases)
     config = json.loads(args.config.read_text())
-    checkpoint = json.loads(LIVE_CONFIG.read_text())['checkpoint']
+    checkpoint = config.get('checkpoint')
     plan_hash = digest(PLAN.read_text())
     context = dict(dataset_hash=digest(splits), split=args.split, seeds=SEEDS,
                    plan_hash=plan_hash, checkpoint=checkpoint if args.live else None)
@@ -374,8 +375,11 @@ def main():
         parser.error('adapter or request cap does not match this run')
     if args.live:
         pinned = json.loads(LIVE_CONFIG.read_text())
-        if config != pinned:
-            parser.error('live runs use the pinned stopping configuration')
+        allowed = [pinned]
+        if args.split == 'development':
+            allowed.append(json.loads(AWQ_DEVELOPMENT_CONFIG.read_text()))
+        if config not in allowed:
+            parser.error('live runs require a pinned configuration for this split')
         if args.split == 'evaluation' and not args.dry_run:
             if args.reviewed_plan_hash != plan_hash:
                 parser.error('live evaluation requires the reviewed plan hash from the dry run')
